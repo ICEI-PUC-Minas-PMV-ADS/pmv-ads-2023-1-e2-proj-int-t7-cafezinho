@@ -24,17 +24,18 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 ## Histórias de Usuários
 
-
-Com base na análise das personas foram identificadas as seguintes histórias de usuário:
-
 | EU COMO... `PERSONA`    | QUERO/PRECISO ... `FUNCIONALIDADE`                 | PARA ... `MOTIVO/VALOR`                              |
 |-------------------------|----------------------------------------------------|------------------------------------------------------|
 | Estudante universitário | Acompanhar meus investimentos                      | Não ter problemas financeiros no futuro              |
 | Estudante universitário | Acompanhar meus rendimentos                        | Poder planejar a aquisição de bens materiais         |
 | Mãe e trabalhadora      | Registrar meus investimentos                       | Poder planejar uma viagem com meus filhos            |
-| Mãe e trabalhadora      | Ter o rendimento em tempo real dos meus investimentos | Poder tomar descisões de compra/venda de ativos      |
+| Mãe e trabalhadora      | Ter o rendimento em tempo real dos meus investimentos | Poder tomar descisões de compra/venda de ativos   |
 | Aposentada              | Visualizar meu patrimônio                          | Poder decidir qual o destino da minha próxima viagem |
 | Aposentada              | Visualizar meus resgates                           | Poder investir melhor em outro(s) ativo(s)           |
+| Empresária              | Gerenciar o dinheiro investido                     | Saber quanto estou recebendo           |
+| Empresária              | Saber onde investir                                | Devolver para a minha empresa          |
+| CEO                     | Coordenar meus investimentos                       | Investir conscientemente               |
+| CEO                     | Saber o meu valor total investido                  | Gerenciar melhor minhas fontes de renda|
 
 
 ## Requisitos
