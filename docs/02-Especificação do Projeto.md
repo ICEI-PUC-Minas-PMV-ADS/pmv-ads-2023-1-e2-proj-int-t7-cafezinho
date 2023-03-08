@@ -46,30 +46,26 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-01| Permitir ao usuário realizar o cadastro na plataforma. | ALTA | 
+|RF-02| Permitir lançamentos de arrecadação e/ou dispêndio.   | ALTA |
+|RF-03| Permitir a exclusão e/ou alteração de um lançamento.   | ALTA |
+|RF-04| Criação de um dashboard principal com as movimentações do mês atual.   | ALTA |
+|RF-05| Criação de categorias para organização de recebimentos e consumos.   | ALTA |
+|RF-06| Listar ativos do mercado financeiro.   | ALTA |
+|RF-07| Apresentação dos resultados financeiros com recursos visuais (grágicos).  | MÉDIA |
+|RF-08| Simulação de rendimentos de aplicações do usuário indexada a algum dos ativos financeiros do mercado.   | BAIXA |
+|RF-09| Incluir informações sobre os principais ativos do mercado financeiro (principais ações da B3, criptomoedas, Selic, etc).   | BAIXA |
+
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-01| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku)  | ALTA | 
+|RNF-02| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) |  ALTA | 
+|RNF-03| O site deve ter bom nível de contraste entre os elementos da tela em conformidade. |  ALTA |
+|RNF-04| O site deve ser desenvolvido com layout simples, organizado e intuitivo. |  ALTA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -77,15 +73,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|RE-01| O projeto deve ser entregue até o final do semestre |
+|RE-02| A equipe do projeto não poderá subcontratar o desenvolvimento do projeto.        |
 
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
