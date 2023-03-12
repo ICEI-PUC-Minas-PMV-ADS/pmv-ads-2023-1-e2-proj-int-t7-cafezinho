@@ -10,18 +10,6 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
-
 ## Histórias de Usuários
 
 | EU COMO... `PERSONA`    | QUERO/PRECISO ... `FUNCIONALIDADE`                 | PARA ... `MOTIVO/VALOR`                              |
@@ -56,7 +44,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-08| Simulação de rendimentos de aplicações do usuário indexada a algum dos ativos financeiros do mercado.   | BAIXA |
 |RF-09| Incluir informações sobre os principais ativos do mercado financeiro (principais ações da B3, criptomoedas, Selic, etc).   | BAIXA |
 
-
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
@@ -66,7 +53,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-03| O site deve ter bom nível de contraste entre os elementos da tela em conformidade. |  ALTA |
 |RNF-04| O site deve ser desenvolvido com layout simples, organizado e intuitivo. |  ALTA |
 
-
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
@@ -75,7 +61,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |RE-01| O projeto deve ser entregue até o final do semestre |
 |RE-02| A equipe do projeto não poderá subcontratar o desenvolvimento do projeto.        |
-
 
 ## Diagrama de Casos de Uso
 
