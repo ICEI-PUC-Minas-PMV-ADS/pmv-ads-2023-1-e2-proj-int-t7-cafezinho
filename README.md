@@ -1,23 +1,24 @@
-# TÍTULO DO PROJETO
+# Cafezinho
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`  
+`Projeto: Desenvolvimento de uma Aplicação Interativa`  
+`Eixo 2`
 
-`DISCIPLINA`
-
-`SEMESTRE`
-
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Aplicação para gerenciamneto de carteira de investimentos em ações e criptomoedas.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Amanda de Almeida Silva
+* Diego Ruas Toledo
+* Flavio Martins da Cruz
+* Lucas Delmasquio Silva
+* Mateus Borges Martins da Silva
+* Pedro Henrique Pinto de Lacerda
+* Ronald Justiniano Costa
 
 ## Orientador
 
-* Nome completo do professor 1
+* Luciana de Nardin
 
 ## Instruções de utilização
 
