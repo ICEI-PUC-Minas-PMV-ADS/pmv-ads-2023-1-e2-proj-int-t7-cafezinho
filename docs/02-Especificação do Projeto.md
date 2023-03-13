@@ -47,14 +47,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-01| Permitir ao usuário realizar o cadastro na plataforma. | ALTA | 
-|RF-02| Permitir lançamentos de arrecadação e/ou dispêndio.   | ALTA |
-|RF-03| Permitir a exclusão e/ou alteração de um lançamento.   | ALTA |
-|RF-04| Criação de um dashboard principal com as movimentações do mês atual.   | ALTA |
-|RF-05| Criação de categorias para organização de recebimentos e consumos.   | ALTA |
-|RF-06| Listar ativos do mercado financeiro.   | ALTA |
-|RF-07| Apresentação dos resultados financeiros com recursos visuais (grágicos).  | MÉDIA |
-|RF-08| Simulação de rendimentos de aplicações do usuário indexada a algum dos ativos financeiros do mercado.   | BAIXA |
-|RF-09| Incluir informações sobre os principais ativos do mercado financeiro (principais ações da B3, criptomoedas, Selic, etc).   | BAIXA |
+|RF-02| Permitir a busca por nomes e tipos de ativos.   | ALTA |
+|RF-03| Registrar a compra e venda de ativos.   | ALTA |
+|RF-04| Dashboard principal com recurso visual, identificando por tipos de ativos   | ALTA |
+|RF-05| Geração de relatórios para acompanhamento dos ativos em carteira.   | MÉDIA |
+|RF-06| Geração de relatório para acompanhamento dos ativos em carteira.   | MÉDIA |
+|RF-07| Geração de relatório de patrimônio total, investido ou liquidado.  | MÉDIA |
+|RF-08| Permitir o acompanhamento do valor dos ativos.   | BAIXA |
 
 
 ### Requisitos não Funcionais
