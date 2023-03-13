@@ -8,7 +8,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
--João, 22 anos: estudante universitário que gosta de esportes, finanças e tecnologia. Ele é uma pessoa extrovertida. João está sempre procurando maneiras de se manter atualizado com as últimas tendências tecnológicas e de esportes, e está sempre buscando novas experiências e aventuras.
+- <img src="[https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t2-seguranca_informacao/blob/main/docs/img/persona2.png?raw=true" width="500](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/blob/main/docs/img/persona%201%20jo%C3%A3o.jpg?raw=true)" />João, 22 anos: estudante universitário que gosta de esportes, finanças e tecnologia. Ele é uma pessoa extrovertida. João está sempre procurando maneiras de se manter atualizado com as últimas tendências tecnológicas e de esportes, e está sempre buscando novas experiências e aventuras.
 
 -Bárbara, 35 anos: mãe de dois filhos, que trabalha em tempo integral como professora em uma universidade. Ela é uma pessoa ocupada, mas organizada e eficiente, que valoriza o equilíbrio entre sua vida profissional e a vida pessoal. Bárbara adora sair com sua família e amigos nos finais de semana, ela está se interessando pelo mercado financeiro preocupa em manter-se atualizada.
 
@@ -45,11 +45,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-01| Permitir ao usuário realizar o cadastro na plataforma. | ALTA | 
 |RF-02| Permitir a busca por nomes e tipos de ativos.   | ALTA |
 |RF-03| Registrar a compra e venda de ativos.   | ALTA |
-|RF-04| Dashboard principal com recurso visual, identificando por tipos de ativos.   | ALTA |
+|RF-04| Dashboard principal com recurso visual, identificando por tipos de ativos   | ALTA |
 |RF-05| Geração de relatórios para acompanhamento dos ativos em carteira.   | MÉDIA |
-|RF-06| Geração de relatório para acompanhamento da variação percentual dos ativos em carteira.   | MÉDIA |
-|RF-07| Geração de relatório de patrimônio total, investido e/ou liquidado.  | MÉDIA |
-|RF-08| Permitir o acompanhamento da cotação dos ativos.   | BAIXA |
+|RF-06| Geração de relatório para acompanhamento dos ativos em carteira.   | MÉDIA |
+|RF-07| Geração de relatório de patrimônio total, investido ou liquidado.  | MÉDIA |
+|RF-08| Permitir o acompanhamento do valor dos ativos.   | BAIXA |
 
 ### Requisitos não Funcionais
 
