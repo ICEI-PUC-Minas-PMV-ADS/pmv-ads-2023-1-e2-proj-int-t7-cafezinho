@@ -1,46 +1,42 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A organização financeira tem sido um tema de enorme relevância para o ser humano, uma vez que, o principal problema econômico com o qual as sociedades e indivíduos se deparam é a alocação ótima de recursos escassos para necessidades cada vez maiores. Essa necessidade se intensificou à medida que as trocas entre as pessoas passaram a acontecer de formas cada vez mais complexas. 
+
+A exemplo disso tem-se a popularização dos mercados de capitais, que atuam como mecanismos de captação de recursos de agentes poupadores e os disponibilizam para agentes que desejam empregar tais recursos em atividades produtivas (SELAN, 2014).  
+
+No Brasil, observa-se recentemente um crescimento da cultura de investimento em bolsas de valores - particularmente no mercado de ações - entre a população em geral de forma mais acentuada, uma vez que, predominava o tabu de que se tratava de investimento de alto risco e consequentemente, acessível apenas a grandes investidores (WISNIEWSKI, 2011). 
+
+Em que pese esse crescimento, surge com ele as dificuldades, não só relacionadas à complexidade inerente ao mercado, como também a diversidade de meios de investimento e de controle patrimonial por parte dos indivíduos. Partindo dessas premissas, observa-se a necessidade de ferramentas mais simples de gerenciamento de ativos de mercado, que possam auxiliar as pessoas na melhor alocação de seus recursos. 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+A dificuldade que os indivíduos enfrentam em consolidar informações a respeito de suas carteiras de investimentos na bolsa de valores em ações e criptomoedas em um único lugar. 
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+### Geral 	 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+O objetivo geral desse trabalho é construir uma ferramenta que possibilite o usuário ter controle de seus investimentos no mercado de capitais. 
+
+### Específicos
+
+* Permitir consolidar em uma só plataforma as informações do usuário a respeito de seus investimentos em ações e criptomoedas; 
+* Apresentar dados sobre preços das ações e cotação de criptomoedas; 
+* Demonstrar o resultado das operações realizadas pelo do usuário em determinado intervalo temporal; 
+* Trazer recursos visuais (gráficos) com os principais resultados do usuário; 
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O mercado de investimentos no Brasil vem crescendo cada vez mais, e com isso, muitas pessoas estão entrando na bolsa de valores para investir em ações e criptomoedas. No entanto, muitas dessas pessoas não possuem conhecimento e habilidade suficientes para gerir suas operações de forma eficiente, o que pode levar a prejuízos financeiros. 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+De acordo com a bolsa de valores brasileiras, a B3, percebe-se nos últimos anos um aumento significativo na participação de pessoas físicas como investidoras, passando de 814 mil em 2018 para 3,2 milhões em 2020, ano da eclosão da pandemia de COVID-19. Essa tendência se manteve e o dado mais recente divulgado pela bolsa, mostra que o número de investidores individuais em novembro de 2022 estava na marca de 4,6 milhões de pessoas.  
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Com o aumento do número de investidores, há também um estímulo para o surgimento de novas corretoras e outros tipos de operadores que atuam como intermediários entre os indivíduos e o mercado, a exemplo das Fintechs e dos bancos digitais (PESSIN, 2021). 
+
+Mesmo diante desse cenário, percebe-se uma escassez de ferramentas que consolidem informações dos a respeito dos diversos investimentos dos indivíduos na bolsa, o que dificulta o acompanhamento de suas operações e a análise de seu desempenho. 
+
+É nesse contexto que surge a necessidade da criação de uma aplicação que possa oferecer aos usuários ferramentas que os permitam lidar com os desafios encontrados nessa área. O presente projeto justifica-se por ser uma opção simples e direta para o gerenciamento da carteira de investimento dos usuários, trazendo informações relevantes a respeito das suas operações bem como recursos visuais, como gráficos, para auxiliá-los nas tomadas de decisões. 
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O público-alvo são investidores individuais entre 18 e 60 anos, que queiram ter em uma única plataforma, informações consolidadas a respeito de seus investimentos no mercado de capitais em ações e criptomoedas. 
