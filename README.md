@@ -8,17 +8,17 @@ Aplicação para gerenciamneto de carteira de investimentos em ações e criptom
 
 ## Integrantes
 
-* Amanda de Almeida Silva
-* Diego Ruas Toledo
-* Flavio Martins da Cruz
-* Lucas Delmasquio Silva
-* Mateus Borges Martins da Silva
-* Pedro Henrique Pinto de Lacerda
-* Ronald Justiniano Costa
+* [Amanda de Almeida Silva](https://www.linkedin.com/in/amanda-de-almeida-36aa45253)
+* [Diego Ruas Toledo](https://www.linkedin.com/in/diego-ruas-toledo-720b96238/)
+* [Flavio Martins da Cruz](https://www.linkedin.com/in/flaviomartinscruz/)
+* [Lucas Delmasquio Silva](https://www.linkedin.com/in/lucas-silva-8254611b3/)
+* [Mateus Borges Martins da Silva](https://www.linkedin.com/in/mateus-mborges/)
+* [Pedro Henrique Pinto de Lacerda](https://www.linkedin.com/in/pedro-henrique-pinto-de-lacerda-979ba21a8/)
+* [Ronald Justiniano Costa](https://www.linkedin.com/in/ronald-justiniano/)
 
 ## Orientador
 
-* Luciana de Nardin
+* [Luciana de Nardin](https://www.linkedin.com/in/luciana-de-nardin-3b175a209/)
 
 ## Instruções de utilização
 
