@@ -1,10 +1,7 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A escolha do problema foi definida por meio de discussões e estudos realizados pelos membros da equipe.  
+Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
 ## Personas
 
@@ -71,8 +68,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+O diagrama de casos de uso contempla as principais ligações entre os atores e os casos de uso, além de permitir identificar os requisitos funcionais apresentados anteriormente.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
+![Diagrama de uso](./img/Diagrama-caso-uso.png "Diagrama do sistema")
 
-![Diagrama de uso](./img/Diagrama-de-uso.png "Diagrama do sistema")
+Foi utilizada a ferramenta [Lucidchart](https://www.lucidchart.com/) para elaborar o diagrama de casos de uso.
