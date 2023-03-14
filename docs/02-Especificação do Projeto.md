@@ -13,7 +13,6 @@ Os detalhes levantados nesse processo foram consolidados na forma de personas e 
 
 -Felipe, 50 anos: pai, CEO de um startup no ramo de tecnologia está indo muito tempo nos negócios. Ele é uma pessoa com muitos anos de experiência. Felipe se preocupa com o bem-estar de sua equipe e valoriza a comunicação aberta e honesta. Ele também gosta de aprender sobre investimentos nas horas vagas e costuma praticar atividades físicas e esportes com sua família. 
 
--Beatriz, 60 anos: aposentada, que agora se dedica a viajar pelo mundo e explorar novas culturas. Ela é uma pessoa curiosa e aventureira, que adora aprender novas coisas e experimentar novas experiências. Beatriz também se preocupa com a sustentabilidade e a conservação ambiental, e gosta de viajar de forma consciente e responsável. Ela também é uma pessoa social e gosta de fazer amizades onde quer que vá.
 
 ## Histórias de Usuários
 
