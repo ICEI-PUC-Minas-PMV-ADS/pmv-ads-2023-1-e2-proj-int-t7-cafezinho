@@ -43,10 +43,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-02| Permitir a busca por nomes e tipos de ativos.   | ALTA |
 |RF-03| Registrar a compra e venda de ativos.   | ALTA |
 |RF-04| Dashboard principal com recurso visual, identificando por tipos de ativos   | ALTA |
-|RF-05| Geração de relatórios para acompanhamento dos ativos em carteira.   | MÉDIA |
-|RF-06| Geração de relatório para acompanhamento dos ativos em carteira.   | MÉDIA |
-|RF-07| Geração de relatório de patrimônio total, investido ou liquidado.  | MÉDIA |
-|RF-08| Permitir o acompanhamento do valor dos ativos.   | BAIXA |
+|RF-05| Geração de relatórios para acompanhamento dos ativos em carteira.    | MÉDIA |
+|RF-06| Geração de relatório para acompanhamento da variação percentual dos ativos em carteira.    | MÉDIA |
+|RF-07| Geração de relatório de patrimônio total, investido e/ou liquidado.    | MÉDIA |
+|RF-08| Permitir o acompanhamento da cotação dos ativos.     | BAIXA |
 
 ### Requisitos não Funcionais
 
