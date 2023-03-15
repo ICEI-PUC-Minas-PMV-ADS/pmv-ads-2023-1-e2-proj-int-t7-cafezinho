@@ -30,10 +30,6 @@ Os detalhes levantados nesse processo foram consolidados na forma de personas e 
 | CEO                     | Para saber a valorização patrimonial ao longo dos meses.| Saber a cotação dos ativos para saber onde investir|
 | CEO                     | Visualizar meus resgates                           | Poder investir melhor em outro(s) ativo(s)      |
 
-
-| Aposentada              | Visualizar meu patrimônio                          | Para decidir quanto eu posso retirar para a proxima viagem |
-| Aposentada              | Visualizar meus resgates                           | Poder investir melhor em outro(s) ativo(s)|
-
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
