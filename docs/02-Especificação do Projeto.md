@@ -19,16 +19,16 @@ Os detalhes levantados nesse processo foram consolidados na forma de personas e 
 |-------------------------|----------------------------------------------------|------------------------------------------------------|
 | Estudante universitário | Acompanhar meus investimentos                      | Não ter problemas financeiros no futuro              |
 | Estudante universitário | Acompanhar a variação percentual dos ativos em carteira | Poder planejar a aquisição de bens materiais    |
-| Estudante universitário | | |
+| Estudante universitário | Visualizar meus ativos                                   | Poder decidir quais papeis adquirir no futuro  |
 | Mãe e trabalhadora      | Registrar meus investimentos                       | Poder planejar uma viagem com meus filhos            |
 | Mãe e trabalhadora      | Ter a cotação em tempo real dos meus ativos.       | Poder tomar descisões de compra/venda de ativos      |
-| Mãe e trabalhadora      | | |
+| Mãe e trabalhadora      | Acompanhar meus investimentos                            | Visualizar minha reserva de emergência         |
 | Empresária              | Gerenciar o dinheiro investido                     | Saber quanto estou recebendo           |
 | Empresária              | Saber onde investir                                | Devolver para a minha empresa          |
-| Empresária              | | |
+| Empresária              | Visualizar meu patrimônio                          | Para decidir quanto eu posso retirar para a proxima viagem |
 | CEO                     | Coordenar meus investimentos                       | Investir conscientemente               |
 | CEO                     | Para saber a valorização patrimonial ao longo dos meses.| Saber a cotação dos ativos para saber onde investir|
-| CEO                     | | |
+| CEO                     | Visualizar meus resgates                           | Poder investir melhor em outro(s) ativo(s)      |
 
 
 | Aposentada              | Visualizar meu patrimônio                          | Para decidir quanto eu posso retirar para a proxima viagem |
