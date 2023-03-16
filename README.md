@@ -4,7 +4,7 @@
 `Projeto: Desenvolvimento de uma Aplicação Interativa`  
 `Eixo 2`
 
-Aplicação para gerenciamneto de carteira de investimentos em ações e criptomoedas.
+Aplicação para gerenciamento de carteira de investimentos em ações e criptomoedas.
 
 ## Integrantes
 
