@@ -5,13 +5,13 @@ Os detalhes levantados nesse processo foram consolidados na forma de personas e 
 
 ## Personas
 
--João, 22 anos: estudante universitário que gosta de esportes, finanças e tecnologia. Ele é uma pessoa extrovertida. João está sempre procurando maneiras de se manter atualizado com as últimas tendências tecnológicas e de esportes, e está sempre buscando novas experiências e aventuras.
+`João`, 22 anos, estudante universitário que gosta de esportes, finanças e tecnologia. Ele é uma pessoa extrovertida. João está sempre procurando maneiras de se manter atualizado com as últimas tendências tecnológicas e de esportes, e está sempre buscando novas experiências e aventuras.
 
--Bárbara, 35 anos: mãe de dois filhos, que trabalha em tempo integral como professora em uma universidade. Ela é uma pessoa ocupada, mas organizada e eficiente, que valoriza o equilíbrio entre sua vida profissional e a vida pessoal. Bárbara adora sair com sua família e amigos nos finais de semana, ela está se interessando pelo mercado financeiro preocupa em manter-se atualizada.
+`Bárbara`, 35 anos, mãe de dois filhos, que trabalha em tempo integral como professora em uma universidade. Ela é uma pessoa ocupada, mas organizada e eficiente, que valoriza o equilíbrio entre sua vida profissional e a vida pessoal. Bárbara adora sair com sua família e amigos nos finais de semana, ela está se interessando pelo mercado financeiro preocupa em manter-se atualizada.
 
--Helena, 44 anos: empresária e empreendedora, que fundou sua própria empresa de tecnologia. Ela é uma pessoa motivada e determinada, que trabalha duro para alcançar seus objetivos. Helena está sempre procurando novas oportunidades de negócios e busca sempre se adaptar às mudanças do mercado. Ela também valoriza a saúde e o bem-estar, e gosta de praticar atividades físicas.
+`Helena`, 44 anos, empresária e empreendedora, que fundou sua própria empresa de tecnologia. Ela é uma pessoa motivada e determinada, que trabalha duro para alcançar seus objetivos. Helena está sempre procurando novas oportunidades de negócios e busca sempre se adaptar às mudanças do mercado. Ela também valoriza a saúde e o bem-estar, e gosta de praticar atividades físicas.
 
--Felipe, 50 anos: pai, CEO de um startup no ramo de tecnologia está indo muito tempo nos negócios. Ele é uma pessoa com muitos anos de experiência. Felipe se preocupa com o bem-estar de sua equipe e valoriza a comunicação aberta e honesta. Ele também gosta de aprender sobre investimentos nas horas vagas e costuma praticar atividades físicas e esportes com sua família. 
+`Felipe`, 50 anos, pai, CEO de um startup no ramo de tecnologia está indo muito tempo nos negócios. Ele é uma pessoa com muitos anos de experiência. Felipe se preocupa com o bem-estar de sua equipe e valoriza a comunicação aberta e honesta. Ele também gosta de aprender sobre investimentos nas horas vagas e costuma praticar atividades físicas e esportes com sua família. 
 
 ## Histórias de Usuários
 
@@ -21,18 +21,18 @@ Os detalhes levantados nesse processo foram consolidados na forma de personas e 
 | Estudante universitário | Acompanhar a variação percentual dos ativos em carteira | Poder planejar a aquisição de bens materiais    |
 | Estudante universitário | Visualizar meus ativos                                   | Poder decidir quais papeis adquirir no futuro  |
 | Mãe e trabalhadora      | Registrar meus investimentos                       | Poder planejar uma viagem com meus filhos            |
-| Mãe e trabalhadora      | Ter a cotação em tempo real dos meus ativos.       | Poder tomar descisões de compra/venda de ativos      |
+| Mãe e trabalhadora      | Ter a cotação em tempo real dos meus ativos       | Poder tomar descisões de compra/venda de ativos      |
 | Mãe e trabalhadora      | Acompanhar meus investimentos                            | Visualizar minha reserva de emergência         |
 | Empresária              | Gerenciar o dinheiro investido                     | Saber quanto estou recebendo           |
 | Empresária              | Saber onde investir                                | Devolver para a minha empresa          |
 | Empresária              | Visualizar meu patrimônio                          | Para decidir quanto eu posso retirar para a proxima viagem |
 | CEO                     | Coordenar meus investimentos                       | Investir conscientemente               |
-| CEO                     | Para saber a valorização patrimonial ao longo dos meses.| Saber a cotação dos ativos para saber onde investir|
+| CEO                     | Para saber a valorização patrimonial ao longo dos meses| Saber a cotação dos ativos para saber onde investir|
 | CEO                     | Visualizar meus resgates                           | Poder investir melhor em outro(s) ativo(s)      |
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+As tabelas que se seguem apresentam os requisitos funcionais e não funcionais, que detalham o escopo do projeto.
 
 ### Requisitos Funcionais
 
