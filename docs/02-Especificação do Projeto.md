@@ -38,20 +38,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais, 
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01| Permitir ao usuário realizar o cadastro na plataforma. | ALTA | 
+|RF-01| Permitir ao usuário realizar o cadastro na plataforma. (CRUD1-Pessoa) | ALTA |**
 |RF-02| Permitir ao usuário realizar o login na plataforma. | ALTA |
 |RF-03| Realizar a validação de credenciais do usuário. | ALTA | 
 |RF-04| Permitir que o usuário possa solicitar a recuperação de senha. | ALTA |
 |RF-05| Permitir a busca por nomes e tipos de ativos.   | ALTA |
-|RF-06| Registrar a compra e venda de ativos.   | ALTA |
-|RF-07| Realiza a autenticação das movimentações em carteira do usuário. | ALTA |
-|RF-08| Realizar o processamento das informações solicitadas pelo usuário. | ALTA |
-|RF-09| Apresentar dashboard principal com recurso visual, identificando por tipos de ativos. | ALTA |
-|RF-10| Gerar relatório para acompanhamento dos ativos em carteira. | MÉDIA |
-|RF-11| Gerar relatório para acompanhamento da variação percentual dos ativos em carteira. | MÉDIA |
-|RF-12| Gerar relatório de patrimônio total, investido e/ou liquidado. | MÉDIA |
-|RF-13| Gerar relatório de preço médio e valorização/desvalorização médio, de um ativo da carteira do usuário. | MÉDIA |
-|RF-14| Gerar relatório para acompanhamento da cotação dos ativos em tempo real. | BAIXA |
+|RF-06| Permitir que o usuário gerencie sua carteira de investimentos. (Nova regra do negócio.)   | ALTA |**
+|RF-07| Registrar a compra e venda de ativos. (CRUD2-Investimentos)   | ALTA |**
+|RF-08| Realiza a autenticação das movimentações em carteira do usuário. | ALTA |
+|RF-09| Realizar o processamento das informações solicitadas pelo usuário. | ALTA |
+|RF-10| Apresentar dashboard principal com recurso visual, identificando por tipos de ativos. | ALTA |
+|RF-11| Gerar relatório para acompanhamento dos ativos em carteira. | MÉDIA |
+|RF-12| Gerar relatório para acompanhamento da variação percentual dos ativos em carteira. | MÉDIA |
+|RF-13| Gerar relatório de patrimônio total, investido e/ou liquidado. | MÉDIA |
+|RF-14| Gerar relatório de preço médio e valorização/desvalorização médio, de um ativo da carteira do usuário. | MÉDIA |
+|RF-15| Gerar relatório para acompanhamento da cotação dos ativos em tempo real. | BAIXA |
 
 ### Requisitos não Funcionais
 
