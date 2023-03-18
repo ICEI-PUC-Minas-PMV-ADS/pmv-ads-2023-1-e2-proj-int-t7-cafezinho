@@ -38,7 +38,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais, 
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01| Permitir ao usuário realizar o cadastro na plataforma. | ALTA |
+|RF-01| Permitir ao usuário gerenciar seu na plataforma. | ALTA |
 |RF-02| Permitir ao usuário realizar o login na plataforma. | ALTA |
 |RF-03| Realizar a validação de credenciais do usuário. | ALTA | 
 |RF-04| Permitir que o usuário possa solicitar a recuperação de senha. | ALTA |
