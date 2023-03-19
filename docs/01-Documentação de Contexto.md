@@ -29,7 +29,7 @@ O objetivo geral desse trabalho é construir uma ferramenta que possibilite o us
 
 O mercado de investimentos no Brasil vem crescendo cada vez mais, e com isso, muitas pessoas estão entrando na bolsa de valores para investir em ações e criptomoedas. No entanto, muitas dessas pessoas não possuem conhecimento e habilidade suficientes para gerir suas operações de forma eficiente, o que pode levar a prejuízos financeiros. 
 
-De acordo com a bolsa de valores brasileiras, a B3, percebe-se nos últimos anos um aumento significativo na participação de pessoas físicas como investidoras, passando de 814 mil em 2018 para 3,2 milhões em 2020, ano da eclosão da pandemia de COVID-19. Essa tendência se manteve e o dado mais recente divulgado pela bolsa, mostra que o número de investidores individuais em novembro de 2022 estava na marca de 4,6 milhões de pessoas.  
+De acordo com a Bolsa de valores brasileiras - B3 (2022), percebe-se nos últimos anos um aumento significativo na participação de pessoas físicas como investidoras, passando de 814 mil em 2018 para 3,2 milhões em 2020, ano da eclosão da pandemia de COVID-19. Essa tendência se manteve e o dado mais recente divulgado pela bolsa, mostra que o número de investidores individuais em novembro de 2022 estava na marca de 4,6 milhões de pessoas.  
 
 Com o aumento do número de investidores, há também um estímulo para o surgimento de novas corretoras e outros tipos de operadores que atuam como intermediários entre os indivíduos e o mercado, a exemplo das Fintechs e dos bancos digitais (PESSIN, 2021). 
 
