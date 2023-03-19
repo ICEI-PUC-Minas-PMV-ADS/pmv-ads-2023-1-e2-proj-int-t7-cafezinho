@@ -44,15 +44,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais, 
 |RF-04| Permitir que o usuário possa solicitar a recuperação de senha. | ALTA |
 |RF-05| Permitir a busca por nomes e tipos de ativos. | ALTA |
 |RF-06| Permitir que o usuário gerencie sua carteira de investimentos. | ALTA |
-|RF-07| Registrar a compra e venda de ativos. | ALTA |
-|RF-08| Realizar o processamento das informações solicitadas pelo usuário. | ALTA |
-|RF-09| Apresentar dashboard principal com recurso visual, identificando por tipos de ativos. | ALTA |
-|RF-10| Gerar relatório para acompanhamento dos ativos em carteira. | MÉDIA |
-|RF-11| Gerar relatório para acompanhamento da variação percentual dos ativos em carteira. | MÉDIA |
-|RF-12| Gerar relatório de patrimônio total, investido e/ou liquidado. | MÉDIA |
-|RF-13| Gerar relatório de preço médio e valorização/desvalorização médio, de um ativo da carteira do usuário. | MÉDIA |
-|RF-14| Gerar relatório para acompanhamento da cotação dos ativos em tempo real. | BAIXA |
-|RF-15| Realizar a autenticação das movimentações em carteira do usuário. | BAIXA |
+|RF-07| Registrar a compra de ativos. | ALTA |
+|RF-08| Registrar a venda de ativos. | ALTA |
+|RF-09| Realizar o processamento das informações solicitadas pelo usuário. | ALTA |
+|RF-10| Apresentar dashboard principal com recurso visual, identificando por tipos de ativos. | ALTA |
+|RF-11| Gerar relatório para acompanhamento dos ativos em carteira. | MÉDIA |
+|RF-12| Gerar relatório para acompanhamento da variação percentual dos ativos em carteira. | MÉDIA |
+|RF-13| Gerar relatório de patrimônio total, investido e/ou liquidado. | MÉDIA |
+|RF-14| Gerar relatório de preço médio e valorização/desvalorização médio, de um ativo da carteira do usuário. | MÉDIA |
+|RF-15| Gerar relatório para acompanhamento da cotação dos ativos em tempo real. | BAIXA |
+
 
 ### Requisitos não Funcionais
 
