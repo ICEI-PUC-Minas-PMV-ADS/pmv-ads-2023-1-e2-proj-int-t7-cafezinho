@@ -24,7 +24,7 @@ Os detalhes levantados nesse processo foram consolidados na forma de personas e 
 | Mãe e trabalhadora      | Ter a cotação em tempo real dos meus ativos       | Poder tomar descisões de compra/venda de ativos      |
 | Mãe e trabalhadora      | Acompanhar meus investimentos de forma mais precisa                            | Futuramente aumentar minha reserva de emergência com a venda de ativos         |
 | Empresária              | Gerenciar o dinheiro investido                     | Saber quanto estou recebendo em cada operação de venda           |
-| Empresária              | Ter em uma única plataforma todos os meus investimentos em ações ecriptomoedas  | Devolver para a minha empresa          |
+| Empresária              | Ter em uma única plataforma todos os meus investimentos em ações ecriptomoedas  | Realizar um controle financeiro mais eficiente           |
 | Empresária              | Visualizar meu patrimônio                          | Para decidir quanto eu posso retirar para a proxima viagem |
 | CEO                     | Coordenar meus investimentos                       | Investir de forma a maximizar meus ganhos no mercado financeiro           |
 | CEO                     | Saber a cotação média dos ativos                   | Para saber a valorização patrimonial ao longo dos meses |
