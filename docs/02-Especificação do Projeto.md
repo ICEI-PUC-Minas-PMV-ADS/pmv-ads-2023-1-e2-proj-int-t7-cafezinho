@@ -28,7 +28,7 @@ Os detalhes levantados nesse processo foram consolidados na forma de personas e 
 | Empresária              | Visualizar meu patrimônio                          | Para decidir quanto eu posso retirar para a proxima viagem |
 | CEO                     | Coordenar meus investimentos                       | Investir de forma a maximizar meus ganhos no mercado financeiro           |
 | CEO                     | Saber a cotação média dos ativos                   | Para saber a valorização patrimonial ao longo dos meses |
-| CEO                     | Visualizar meus resgates                           | Poder investir melhor em outro(s) ativo(s)      |
+| CEO                     | Quantificar o que recebi com as operações em bolsa                           | Poder investir outro(s) ativo(s)      |
 
 ## Requisitos
 
