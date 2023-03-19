@@ -38,24 +38,33 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais, 
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01| Permitir ao usuário realizar o cadastro na plataforma. | ALTA | 
-|RF-02| Permitir a busca por nomes e tipos de ativos.   | ALTA |
-|RF-03| Registrar a compra e venda de ativos.   | ALTA |
-|RF-04| Apresentar dashboard principal com recurso visual, identificando por tipos de ativos.   | ALTA |
-|RF-05| Gerar relatório para acompanhamento dos ativos em carteira.    | MÉDIA |
-|RF-06| Gerar relatório para acompanhamento da variação percentual dos ativos em carteira.    | MÉDIA |
-|RF-07| Gerar relatório de patrimônio total, investido e/ou liquidado.    | MÉDIA |
-|RF-08| Gerar relatório de preço médio e valorização/desvalorização médio, de um ativo da carteira do usuário.| MÉDIA |
-|RF-09| Gerar relatório para acompanhamento da cotação dos ativos em tempo real.     | BAIXA |
+|RF-01| Permitir ao usuário gerenciar seu cadastro na plataforma. | ALTA |
+|RF-02| Permitir ao usuário realizar o login na plataforma. | ALTA |
+|RF-03| Realizar a validação de credenciais do usuário. | ALTA | 
+|RF-04| Permitir que o usuário possa solicitar a recuperação de senha. | ALTA |
+|RF-05| Permitir a busca por nomes e tipos de ativos. | ALTA |
+|RF-06| Permitir que o usuário gerencie sua carteira de investimentos. | ALTA |
+|RF-07| Registrar a compra e venda de ativos. | ALTA |
+|RF-08| Realizar o processamento das informações solicitadas pelo usuário. | ALTA |
+|RF-09| Apresentar dashboard principal com recurso visual, identificando por tipos de ativos. | ALTA |
+|RF-10| Gerar relatório para acompanhamento dos ativos em carteira. | MÉDIA |
+|RF-11| Gerar relatório para acompanhamento da variação percentual dos ativos em carteira. | MÉDIA |
+|RF-12| Gerar relatório de patrimônio total, investido e/ou liquidado. | MÉDIA |
+|RF-13| Gerar relatório de preço médio e valorização/desvalorização médio, de um ativo da carteira do usuário. | MÉDIA |
+|RF-14| Gerar relatório para acompanhamento da cotação dos ativos em tempo real. | BAIXA |
+|RF-15| Realizar a autenticação das movimentações em carteira do usuário. | BAIXA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-01| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku)  | ALTA | 
-|RNF-02| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) |  ALTA | 
-|RNF-03| O site deve ter bom nível de contraste entre os elementos da tela em conformidade. |  ALTA |
-|RNF-04| O site deve ser desenvolvido com layout simples, organizado e intuitivo. |  ALTA |
+|RNF-01| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku).  | ALTA | 
+|RNF-02| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | ALTA |
+|RNF-03| A aplicação deverá ser responsiva permitindo a visualização em diversos dispositivos de forma adequada. | ALTA |
+|RNF-04| O site deve ter bom nível de contraste entre os elementos da tela em conformidade. | ALTA |
+|RNF-05| O site deve ser desenvolvido com layout simples, organizado e intuitivo. | ALTA |
+|RNF-06| A aplicação deve se comunicar com o banco de dados SQL. | ALTA | 
+|RNF-07| A aplicação deve estár acessível e sem interrupções por pelo menos 95% do tempo, apresentando um tempo de inatividade mínimo. | ALTA | 
 
 ## Restrições
 
@@ -63,8 +72,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|RE-01| O projeto deve ser entregue até o final do semestre |
-|RE-02| A equipe do projeto não poderá subcontratar o desenvolvimento do projeto.        |
+|RE-01| O projeto deve ser entregue até o final do semestre. |
+|RE-02| A equipe do projeto não poderá subcontratar o desenvolvimento do projeto. |
 
 ## Diagrama de Casos de Uso
 
