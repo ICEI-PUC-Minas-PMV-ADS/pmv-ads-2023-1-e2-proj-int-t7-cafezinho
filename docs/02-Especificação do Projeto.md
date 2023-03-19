@@ -5,13 +5,13 @@ Os detalhes levantados nesse processo foram consolidados na forma de personas e 
 
 ## Personas
 
-`João`: 22 anos, estudante universitário que gosta de esportes, finanças e tecnologia. Ele é uma pessoa extrovertida. João está sempre procurando maneiras de se manter atualizado com as últimas tendências tecnológicas e de esportes, e está sempre buscando novas experiências e aventuras.
+`João`: Idade: 22 anos. Profissão: estudante universitário. Aplicativos: Instagram, Twitter, TikTok, Nubank. Frustrações: falta de uma plataforma moderna que lhe permita organizar seus investimentos. Hobbies: tendências tecnológicas e esportes. Motivações: maneiras de se manter atualizado com as últimas tendências tecnológicas e de esportes, e está sempre buscando novas experiências e aventuras.
 
-`Bárbara`: 35 anos, mãe de dois filhos, que trabalha em tempo integral como professora em uma universidade. Ela é uma pessoa ocupada, mas organizada e eficiente, que valoriza o equilíbrio entre sua vida profissional e a vida pessoal. Bárbara adora sair com sua família e amigos nos finais de semana, ela está se interessando pelo mercado financeiro preocupa em manter-se atualizada.
+`Bárbara`: Idade: 35 anos, mãe de dois filhos. Profissão: professora universitária. Aplicativos: Facebook, Instagram, ModalMais Investimentos. Frustrações: Dificuldade em se manter atualizada a respeito dos movimentos do mercado financeiro diariamente. Hobbies: sair com sua família e amigos nos finais de semana. Motivações: entender mais sobre o mercado financeiro e conseguir realizar melhores investimentos.
 
-`Helena`: 44 anos, empresária e empreendedora, que fundou sua própria empresa de tecnologia. Ela é uma pessoa motivada e determinada, que trabalha duro para alcançar seus objetivos. Helena está sempre procurando novas oportunidades de negócios e busca sempre se adaptar às mudanças do mercado. Ela também valoriza a saúde e o bem-estar, e gosta de praticar atividades físicas.
+`Helena`: Idade: 44 anos. Profissão: Empresária. Aplicativos: Instagram, XP Investimentos, Banco do Brasil, Google Finance. Frustrações: grande número de bancos, financeira e aplicativos dificultam a aferição de seu patrimônio investido de forma automatizada. Hobbies: atividades físicas, cuidar da saúde e bem-estar. Motivações: novas oportunidades de negócios para que consiga alavancar seus investimentos, tendo informações rápidas e precisas.
 
-`Felipe`: 50 anos, pai, CEO de um startup no ramo de tecnologia está indo muito tempo nos negócios. Ele é uma pessoa com muitos anos de experiência. Felipe se preocupa com o bem-estar de sua equipe e valoriza a comunicação aberta e honesta. Ele também gosta de aprender sobre investimentos nas horas vagas e costuma praticar atividades físicas e esportes com sua família. 
+`Felipe`: Idade: 53 anos, pai. Profissão: CEO de um startup no ramo de tecnologia. Aplicativos: Bradesco Conta, Cartão e Pix, Clear Corretora, Gmail. Frustrações: dificuldade em quantificar seu rendimento em carteira e cotação média dos ativos ao longo do tempo. Hobbies: de aprender sobre investimentos e praticar atividades físicas e esportes com sua família. Motivação: gerir melhor seu patrimônio para realizar investimentos mais lucrativos e poder passar mais tempo com sua família.
 
 ## Histórias de Usuários
 
