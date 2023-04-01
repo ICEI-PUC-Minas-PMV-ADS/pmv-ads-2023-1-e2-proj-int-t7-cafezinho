@@ -41,15 +41,15 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 
 A equipe está organizada da seguinte maneira:
 
-Scrum Master: Diego Ruas Toledo
-Product Owner: Lucas Delmasquio Silva
-Equipe de Desenvolvimento
-Amanda de Almeida Silva
-Mateus Borges Martins da Silva
-Ronald Justiniano Costa 
-Equipe de Design: 
-Flávio Martins da Cruz 
-Pedro Henrique Pinto de Lacerda
+- Scrum Master: Diego Ruas Toledo
+- Product Owner: Lucas Delmasquio Silva
+- Equipe de Desenvolvimento
+- Amanda de Almeida Silva
+- Mateus Borges Martins da Silva
+- Ronald Justiniano Costa 
+- Equipe de Design: 
+- Flávio Martins da Cruz 
+- Pedro Henrique Pinto de Lacerda
 
 ### Processo
 
@@ -65,12 +65,12 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 
 As ferramentas empregadas no projeto são:
 
-Git
-GitHub
-Visual Studio Code
-Microsoft Teams
-Whatsapp
-Discord
-Moqups app para de esquematização de telas (wireframing)
+- Git
+- GitHub
+- Visual Studio Code
+- Microsoft Teams
+- Whatsapp
+- Discord
+- Moqups app para de esquematização de telas (wireframing)
 
 O Visual Studio Code foi escolhido porque ele possui uma integração direta com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos o site moqups.com por melhor captar as necessidades da nossa solução.
