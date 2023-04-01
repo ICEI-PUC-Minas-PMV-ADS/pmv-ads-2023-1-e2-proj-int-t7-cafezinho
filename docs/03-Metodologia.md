@@ -24,7 +24,9 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
+A ferramenta utilizada para o versionamento do projeto foi o git e github. As alterações de documentaçã, features, correção de bugs e melhorias são feitas a partir da branch `dev` e só depois as alterações são feitas para main.
+
+. Discuta como a gerência de issues foi realizada.
 
 > **Links Úteis**:
 > - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
