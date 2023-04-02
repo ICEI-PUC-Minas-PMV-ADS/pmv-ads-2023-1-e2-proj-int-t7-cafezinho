@@ -1,15 +1,59 @@
 # Plano de Testes de Usabilidade
 
-Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
+## Objetivos do Teste de Usabilidade
 
-Um plano de teste de usabilidade deverá conter: o detalhamento dos objetivos (em função dos requisitos levantados/implementados), dos critérios que serão utilizados para a seleção dos participantes, dos procedimentos a serem adotados pelos condutores de teste (por exemplo: os testes serão presenciais ou remotos? o método será observação direta, medição ou avaliação?), das tarefas a serem executadas, dos dados a serem coletados (quantidade de cliques, número de erros, tempo etc.), a ordem de execução das tarefas e das etapas da sessão de teste, recursos demandados, métricas coletadas etc.
+O objetivo é avaliar a experiência geral do usuário com a aplicação, buscando analisar não somente a satisfação com o sistema, mas também a sua eficiência (esforço necessário para conclusão de uma tarefa) e eficácia (sucesso ou falha ao realizar uma tarefa) ao utilizar a aplicação.
 
-Para cada voluntário do teste, é fundamental coletar e apresentar todos os dados/métricas previamente definidos, mas não se esqueça: atendendo à LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível, que permita identificar o voluntário, deverá ser apresentado).
 
-As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
+## Método Utilizado
+O teste será realizado remotamente em uma versão da aplicação a ser desenvolvida. Serão selecionados três voluntários para participar dos testes de usabilidade, e ao concluir todo o roteiro de testes o participante irá preencher um questionário de satisfação.
+Para cada tarefa que será designada aos participantes do teste, será possível mensurar: 
 
-> **Links Úteis**:
-> - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
-> - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
-> - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+* Eficiência e memorização;
+* Erros;
+* Reminisciência;
+* Satisfação.
+
+
+Ao fim das tarefas o usuário deverá responder um questionário que irá classificar sua experiência com cada uma delas:
+
+`Classificando por dificuldade:` 
+
+| **Escala** | **Classificação** |
+| :---: | :--- |
+| 1 | Extremamente Difícil |
+| 2 | Muito Difícil |
+| 3 | Moderado |
+| 4 | Fácil |
+| 5 | Muito Fácil |
+
+`Classificando por satisfação:`
+
+| **Escala** | **Classificação** |
+| :---: | :--- |
+| 1 | Muito Insatisfeito |
+| 2 | Insatisfeito |
+| 3 | Neutro |
+| 4 | Satisfeito |
+| 5 | Muito Satisfeito |
+
+
+## Roteiro de Testes
+
+As tarefas a serem executadas pelos voluntários estão descritas no quadro abaixo:
+
+| **Tarefa 01** | **Critério de Êxito** | **O que será avaliado** |
+| :---: | :---: | :---: |
+|Cadastro de novo usuário | O cadastro é realizado com sucesso | Eficiência e memorização, erros |
+| **Tarefa 02** | **Critério de Êxito** | **O que será avaliado** |
+|Fazer o login no sistema | O usuário consegue fazer o login | Eficiência e memorização, erros |
+| **Tarefa 03** | **Critério de Êxito** | **O que será avaliado** |
+| Redefinir senha | O usuário consegue redefinir sua senha | Eficiência e memorização, erros |
+| **Tarefa 04** | **Critério de Êxito** | **O que será avaliado** |
+| Busca de ativos | O ativo buscado pelo usuário é encontrado pela aplicação | Eficiência e memorização, erros, reminisciência e satisfação|
+| **Tarefa 05** | **Critério de Êxito** | **O que será avaliado** |
+| Efetuar a compra de ativos | O usuário consegue efetivar a compra do ativo | Eficiência e memorização, erros, reminisciência e satisfação |
+| **Tarefa 06** | **Critério de Êxito** | **O que será avaliado** |
+| Efetuar a venda de ativos | O usuário consegue realizar a liquidação do ativo da sua carteira | Eficiência e memorização, erros, reminisciência e satisfação |
+| **Tarefa 07** | **Critério de Êxito** | **O que será avaliado** |
+| Gerar relatórios da carteira | O usuário consegue gerar o relatório solicitado | Eficiência e memorização, erros, reminisciência e satisfação |
