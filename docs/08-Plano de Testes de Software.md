@@ -1,6 +1,6 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+<span>Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
 Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
 
@@ -14,7 +14,6 @@ Por exemplo:
 | Objetivo do Teste | Verificar se o usuário consegue se cadastrar na aplicação. |
 | Passos | - Acessar o navegador; <br> - Informar o endereço do site ( .. ); <br> - Clicar em "Criar conta";  <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular,  senha e confirmação de senha); <br> - Aceitar os termos de uso; <br> - Clicar em "Registrar". |
 |Critério de Êxito | - O cadastro foi realizado com sucesso. |
-|Critério de Falha | - ?? |
 |  	|  	|
 | **Caso de Teste** | **CT-02 – Efetuar login** |
 | Requisito Associado | RF - 02 - Permitir ao usuário realizar o login na plataforma. |
@@ -40,35 +39,25 @@ Por exemplo:
 | **Caso de Teste** | **CT-05 – Registrar compra** |
 | Requisito Associado | RF - 07 - Registrar a compra de ativos. |
 | Objetivo do Teste | - Verificar se o usuário consegue realizar o cadastramento dos ativos na sua carteira. |
-| Passos | - ??. |
+| Passos | - Acessar o navegador; <br> - Informar o endereço do site ( .. ); <br> - Realizar o login;  <br> - Clicar em "Buscar ativos"; <br> - Clicar em "Efetuar compra do ativo". |
 |Critério de Êxito | - O ativo será registrado na carteira do usuário. |
 |Critério de Falha | - A aplicação não vai registrar o ativo e deve retornar uma mensagem de erro: "A ativo não foi registrado". |
 |  	|  	|
 | **Caso de Teste** | **CT-06 – Registrar venda** |
 | Requisito Associado | RF - 08 - Registrar a venda de ativos. |
 | Objetivo do Teste | - Verificar se o usuário consegue fazer a liquidação de um ativo da carteira. |
-| Passos | - ??. |
+| Passos | - Acessar o navegador; <br> - Informar o endereço do site ( .. ); <br> - Realizar o login;  <br> - Clicar em "Buscar ativos"; <br> - Clicar em "Efetuar venda do ativo". |
 |Critério de Êxito | - O ativo é liquidado da carteira . |
 |Critério de Falha | - O ativo não é liquidado, e a aplicação retorna uma mensagem de erro. |
 |  	|  	|
 | **Caso de Teste** | **CT-07 – Dashboard** |
 | Requisito Associado | RF - 10 - Apresentar dashboard principal com recurso visual, identificando por tipos de ativos. |
 | Objetivo do Teste | - Verificar se o dashboard apresenta as informações sobre a carteira do usuário. |
-| Passos | - ??. |
+| Passos | - Acessar o navegador; <br> - Informar o endereço do site ( .. ); <br> - Realizar o login;  <br> - Acessar dashboard principal da carteira. |
 |Critério de Êxito | - Informações importantes serão apresentadas para o usuário. |
 |  	|  	|
 | **Caso de Teste** | **CT-08 – Relatórios** |
 | Requisito Associado | RF - 11 - Gerar relatório para acompanhamento dos ativos em carteira. <br> RF - 12 - Gerar relatório para acompanhamento da variação percentual dos ativos em carteira. <br> RF - 13 - Gerar relatório de patrimônio total, investido e/ou liquidado. <br> RF - 14 - Gerar relatório de preço médio e valorização/desvalorização médio, de um ativo da carteira do usuário. |
 | Objetivo do Teste | - Verificar se a aplicação gera corretamente o relátorio solicitado pelo usuário. |
-| Passos | - ??. |
+| Passos | - Acessar o navegador; <br> - Informar o endereço do site ( .. ); <br> - Realizar o login;  <br> - Clicar em "Gerar relatório". |
 |Critério de Êxito | - O relatório será gerado. |
-
-
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)

@@ -2,10 +2,11 @@
 
 ## Objetivos do Teste de Usabilidade
 
-O objetivo é avaliar a experiência geral do usuário com a aplicação, buscando analisar não somente a satisfação com o sistema, mas também a sua eficiência (esforço necessário para conclusão de uma tarefa) e eficácia (sucesso ou falha ao realizar uma tarefa) ao utilizar a aplicação
+O objetivo é avaliar a experiência geral do usuário com a aplicação, buscando analisar não somente a satisfação com o sistema, mas também a sua eficiência (esforço necessário para conclusão de uma tarefa) e eficácia (sucesso ou falha ao realizar uma tarefa) ao utilizar a aplicação.
+
 
 ## Método Utilizado
-O teste será realizado remotamente em uma versão da aplicação a ser desenvolvida. Serão selecionados três voluntários para participar dos testes de usabilidade, e ao concluir todo o roteiro de testes, o participante irá preencher um questionário de satisfação.
+O teste será realizado remotamente em uma versão da aplicação a ser desenvolvida. Serão selecionados três voluntários para participar dos testes de usabilidade, e ao concluir todo o roteiro de testes o participante irá preencher um questionário de satisfação.
 Para cada tarefa que será designada aos participantes do teste, será possível mensurar: 
 
 * Eficiência e memorização;
