@@ -41,6 +41,7 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 A  equipe do cafezinho utiliza metodologias ágeis,  escolhendo o Scrum como base para definição do processo de desenvolvimento.
 A equipe está organizada da seguinte maneira:
+
 Scrum Master: Diego Ruas Toledo
 Product Owner: Ronald 
 Equipe de Desenvolvimento
