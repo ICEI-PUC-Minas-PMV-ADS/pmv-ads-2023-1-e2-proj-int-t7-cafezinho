@@ -40,16 +40,17 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 ### Divisão de Papéis
 
 A  equipe do cafezinho utiliza metodologias ágeis,  escolhendo o Scrum como base para definição do processo de desenvolvimento.
-A equipe está organizada da seguinte maneira:
 
-Scrum Master: Diego Ruas Toledo
-Product Owner: Ronald 
-Equipe de Desenvolvimento
-Pedro Henrique Pinto
-Lucas Delmasquio Silva
-Amanda de Almeida Silva
-Mateus Borges Martins da Silva
-Equipe de Design: Flávio Martins da Cruz
+
+A equipe está organizada da seguinte maneira: 
+* Scrum Master: Diego Ruas Toledo
+* Product Owner: Ronald Justino Costa 
+* Equipe de Desenvolvimento
+  * Pedro Henrique Pinto 
+  * Lucas Delmasquio Silva
+  * Amanda de Almeida Silva
+  * Mateus Borges Martins da Silva
+* Equipe de Design: Flávio Martins da Cruz
 
 O quadro kanban  que está sendo utilizado pode ser acessado através da URL(https://pucminasinfosec.atlassian.net/jira/software/projects/PB/boards/2) é apresentado, no estado atual:
 
