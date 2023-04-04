@@ -18,15 +18,16 @@ O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem internamen
 
 
 ## Wireframes
+![Tela de Login](https://user-images.githubusercontent.com/103453380/229940874-ad95f1cb-7d20-4199-a3d8-e318608f1adc.png)
+![Tela de Cadastro](https://user-images.githubusercontent.com/103453380/229940894-9c3111e0-b600-418c-84a7-cba2bf3a60e3.png)
+![Confirmação de Dados](https://user-images.githubusercontent.com/103453380/229940902-d11045b8-c7c0-4969-8ef5-25e74768726c.png)
+![Dashboard](https://user-images.githubusercontent.com/103453380/229940917-d8d47825-527c-4779-b2ac-35c5a95fefd4.png)
+![Registro de Compra](https://user-images.githubusercontent.com/103453380/229940926-649dab95-3b02-4cbf-9bbd-d88d9afc621a.png)
+![Registro de Venda](https://user-images.githubusercontent.com/103453380/229940932-1cc9cf8c-31d7-46b6-8823-49de6bbe49a2.png)
+![Relatorio dos Ativos](https://user-images.githubusercontent.com/103453380/229940942-734fef90-7e58-4d70-a1d0-28c9479f994a.png)
+![Sidebar](https://user-images.githubusercontent.com/103453380/229940947-821bb7b6-5842-4dd9-8f22-77c422c43e7d.png)
 
-![Tela de Login](https://user-images.githubusercontent.com/103453380/229630648-d9ed3fb3-dfd8-407a-a223-e8ea51cebb47.png)
-![Tela de Cadastro](https://user-images.githubusercontent.com/103453380/229630677-e52ce921-848b-495d-b213-66b0b4fd361a.png)
-![Confirmação de Dados](https://user-images.githubusercontent.com/103453380/229630802-dc269ccd-be17-4fdc-922c-c4e0b5b5ab6c.png)
-![Dashboard](https://user-images.githubusercontent.com/103453380/229631274-81ea9b86-6bb8-4bb2-8a49-06d81e21cb31.png)
-![Registrar Compra](https://user-images.githubusercontent.com/103453380/229631535-efdd4ae8-370f-4c6a-a2d9-5b93e462b322.png)
-![Registro de Venda](https://user-images.githubusercontent.com/103453380/229631548-66e47c48-7023-47a1-a792-29ce7d303f3a.png)
-![Registro de Ativos](https://user-images.githubusercontent.com/103453380/229631589-e6b1edd1-ed7e-4dd6-9107-c7ec96d6d337.png)
-![Sidebar](https://user-images.githubusercontent.com/103453380/229631605-d6b01394-a475-498a-a7a7-e52d58fa5f3f.png)
+
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
