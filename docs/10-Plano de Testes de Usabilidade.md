@@ -6,11 +6,13 @@ O objetivo é avaliar a experiência geral do usuário com a aplicação, buscan
 
 
 ## Método Utilizado
-O teste será realizado remotamente em uma versão da aplicação a ser desenvolvida. Serão selecionados três voluntários para participar dos testes de usabilidade, e ao concluir todo o roteiro de testes o participante irá preencher um questionário de satisfação.
+O teste será realizado remotamente em uma versão da aplicação a ser desenvolvida. Serão selecionados seis voluntários para participar dos testes de usabilidade e será coletado a idade de cada um deles. Ao concluir todo o roteiro de testes o participante irá preencher um questionário de satisfação.
+
 Para cada tarefa que será designada aos participantes do teste, será possível mensurar: 
 
-* Eficiência e memorização;
+* Eficiência;
 * Erros;
+* Recorrência de erros;
 * Reminisciência;
 * Satisfação.
 
@@ -42,18 +44,18 @@ Ao fim das tarefas o usuário deverá responder um questionário que irá classi
 
 As tarefas a serem executadas pelos voluntários estão descritas no quadro abaixo:
 
-| **Tarefa 01** | **Critério de Êxito** | **O que será avaliado** |
-| :---: | :---: | :---: |
-|Cadastro de novo usuário | O cadastro é realizado com sucesso | Eficiência e memorização, erros |
-| **Tarefa 02** | **Critério de Êxito** | **O que será avaliado** |
-|Fazer o login no sistema | O usuário consegue fazer o login | Eficiência e memorização, erros |
-| **Tarefa 03** | **Critério de Êxito** | **O que será avaliado** |
-| Redefinir senha | O usuário consegue redefinir sua senha | Eficiência e memorização, erros |
-| **Tarefa 04** | **Critério de Êxito** | **O que será avaliado** |
-| Busca de ativos | O ativo buscado pelo usuário é encontrado pela aplicação | Eficiência e memorização, erros, reminisciência e satisfação|
-| **Tarefa 05** | **Critério de Êxito** | **O que será avaliado** |
-| Efetuar a compra de ativos | O usuário consegue efetivar a compra do ativo | Eficiência e memorização, erros, reminisciência e satisfação |
-| **Tarefa 06** | **Critério de Êxito** | **O que será avaliado** |
-| Efetuar a venda de ativos | O usuário consegue realizar a liquidação do ativo da sua carteira | Eficiência e memorização, erros, reminisciência e satisfação |
-| **Tarefa 07** | **Critério de Êxito** | **O que será avaliado** |
-| Gerar relatórios da carteira | O usuário consegue gerar o relatório solicitado | Eficiência e memorização, erros, reminisciência e satisfação |
+| **Tarefa 01** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
+| :---: | :---: | :---: | :---: |
+|Cadastro de novo usuário | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Clicar em "Criar conta";  <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular,  senha e confirmação de senha); <br> - Aceitar os termos de uso; <br> - Clicar em "Registrar". | O cadastro é realizado com sucesso | Eficiência, erros, satisfação |
+| **Tarefa 02** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
+|Fazer o login no sistema | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Clicar em "Fazer login";  <br> - Preencher os dados cadastrados (e-mail e senha); <br> - Clicar em "Entrar". | O usuário consegue fazer o login | Eficiênciação, erros, satisfação |
+| **Tarefa 03** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
+| Redefinir senha | - Abrir o navegador;<br> - Acessar o navegador; <br> - Acessar a aplicação; <br> - Clicar em "Fazer login";  <br> - Clicar em "Esqueci minha senha"; <br> - Iniciar procedimento de autenticação; <br> - Informar e confirmar nova senha. | O usuário consegue redefinir sua senha | Eficiência, erros, satisfação |
+| **Tarefa 04** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
+| Busca de ativos | - Abrir o navegador;<br> - Acessar a aplicação; <br> - Realizar o login;  <br> - Clicar em "Buscar ativos"; <br> - Digitar o ativo procurado.| A aplicação vai retornar o ativo buscado pelo usuário. | Eficiência, erros, recorrência de erros, reminisciência e satisfação|
+| **Tarefa 05** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
+| Efetuar a compra de ativos | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Realizar o login;  <br> - Clicar em "Buscar ativos"; <br> - Clicar em "Efetuar compra do ativo". | O usuário consegue efetivar a compra do ativo | Eficiência, erros, recorrência de erros, reminisciência e satisfação |
+| **Tarefa 06** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
+| Efetuar a venda de ativos | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Realizar o login;  <br> - Acessar os ativos em carteira; <br> - Clicar em "Efetuar venda do ativo". | O usuário consegue realizar a liquidação do ativo da sua carteira | Eficiência, erros, recorrência de erros, reminisciência e satisfação |
+| **Tarefa 07** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
+| Gerar relatórios da carteira | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Realizar o login;  <br> - Clicar em "Gerar relatório". | O usuário consegue gerar o relatório solicitado | Eficiência, erros, recorrência de erros, reminisciência e satisfação |
