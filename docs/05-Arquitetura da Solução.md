@@ -18,14 +18,14 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
  
-![Projeto base de dados](./img/Projeto_base_dados.jpeg)
+![Projeto base de dados](./img/Projeto_base_dados.png)
 
 ## Tecnologias Utilizadas
 
 * HTML, CSS, JavaScript, C#;
 * Git, GitHub, Jira e Github Projects;
 * Visual Studio Code;
-* Microsoft Teams e Whatsapp;
+* Microsoft Teams, Whatsapp e Discord;
 * Moqups app.
 
 ## Hospedagem
