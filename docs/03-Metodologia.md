@@ -5,15 +5,14 @@ A metodologia contempla as definições de ferramental utilizado pela equipe tan
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
-[Jira](https://id.atlassian.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+[Git](https://git-scm.com/), sendo o [Github](https://github.com) utilizado para hospedagem do repositório.
 
 O projeto segue a seguinte convenção para o nome de branches:
 
 - `main`: versão estável já testada do software
 - `dev`: versão de desenvolvimento do software
 
-O projeto utiliza como ferramenta o Git e Github como repositório. Convencionou-se que os commits com alterações seriam feitas na branch `dev`, a partir de branches criadas pelos integrantes do grupo e só depois as alterações já em funcionamento na `dev` é feito o merge para a `main`. 
+Convencionou-se que os commits com alterações seriam feitas na branch `dev`, a partir de branches criadas pelos integrantes do grupo e só depois as alterações já em funcionamento na `dev` é feito o merge para a `main`. 
 
 ## Gerenciamento de Projeto
 
