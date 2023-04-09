@@ -13,14 +13,6 @@ O projeto segue a seguinte convenção para o nome de branches:
 - `main`: versão estável já testada do software
 - `dev`: versão de desenvolvimento do software
 
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
-
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
-
 O projeto utiliza como ferramenta o Git e Github como repositório. Convencionou-se que os commits com alterações seriam feitas na branch `dev`, a partir de branches criadas pelos integrantes do grupo e só depois as alterações já em funcionamento na `dev` é feito o merge para a `main`. 
 
 ## Gerenciamento de Projeto
@@ -42,7 +34,7 @@ A equipe está organizada da seguinte maneira:
 
 O quadro kanban  que está sendo utilizado pode ser acessado através da URL(https://pucminasinfosec.atlassian.net/jira/software/projects/PB/boards/2) é apresentado, no estado atual:
 
-<img scale=1.2 src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/blob/main/docs/img/jira.png"/>
+![Diagrama de uso](./img/jira.png "Diagrama do sistema")
 
 
 
