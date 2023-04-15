@@ -38,7 +38,7 @@ namespace src.Migrations
                         .HasColumnName("cep");
 
                     b.Property<DateTime>("DtNascimento")
-                        .HasColumnType("timestamp with time zone")
+                        .HasColumnType("timestamp without time zone")
                         .HasColumnName("dt_nascimento");
 
                     b.Property<string>("Email")
@@ -50,6 +50,15 @@ namespace src.Migrations
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("endereco");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("nome");
+
+                    b.Property<string>("Senha")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.HasKey("Cpf");
 

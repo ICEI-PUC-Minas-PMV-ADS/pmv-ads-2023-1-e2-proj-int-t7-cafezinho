@@ -1,6 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
+using BCrypt.Net;
 
 
 namespace src.Models
@@ -18,6 +19,9 @@ namespace src.Models
         [Required(ErrorMessage = "Campo Email é obrigatorio.")]
         [Column(name: "email")]
         public string Email { get; set; }
+        [Required(ErrorMessage = "Campo Nome é obrigatorio.")]
+        [Column(name: "nome")]
+        public string Nome { get; set; }
         [Required(ErrorMessage = "Campo Cep é obrigatorio.")]
         [Column(name: "cep")]
         public string Cep { get; set; }
@@ -37,10 +41,19 @@ namespace src.Models
         public string? CarteiraId { get; set; }
         
         
+        public string Senha
+        {
+            get => _senha;
+            set => _senha = BCrypt.Net.BCrypt.HashPassword(value);
+        }
         public void SetSenha(string senha)
         {
-            // aqui deve se criptografar a senha
-            this._senha = senha; 
+            this._senha = BCrypt.Net.BCrypt.HashPassword(senha);
+        }
+
+        public string GetSenha()
+        {
+            return this._senha;
         }
 
     }

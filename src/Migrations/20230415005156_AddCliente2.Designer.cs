@@ -12,8 +12,8 @@ using src.Models;
 namespace src.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230414224715_AddCliente")]
-    partial class AddCliente
+    [Migration("20230415005156_AddCliente2")]
+    partial class AddCliente2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,41 +27,45 @@ namespace src.Migrations
 
             modelBuilder.Entity("src.Models.Cliente", b =>
                 {
-                    b.Property<string>("cpf")
+                    b.Property<string>("Cpf")
                         .HasColumnType("text")
                         .HasColumnName("cpf");
 
-                    b.Property<string>("cep")
+                    b.Property<string>("CarteiraId")
+                        .HasColumnType("text")
+                        .HasColumnName("carteira_id");
+
+                    b.Property<string>("Cep")
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("cep");
 
-                    b.Property<DateTime>("dtNascimento")
-                        .HasColumnType("timestamp with time zone")
+                    b.Property<DateTime>("DtNascimento")
+                        .HasColumnType("timestamp without time zone")
                         .HasColumnName("dt_nascimento");
 
-                    b.Property<string>("email")
+                    b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("email");
 
-                    b.Property<string>("endereco")
+                    b.Property<string>("Endereco")
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("endereco");
 
-                    b.Property<string>("idCarteira")
-                        .HasColumnType("text")
-                        .HasColumnName("id_carteira");
-
-                    b.Property<string>("senha")
+                    b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("text")
-                        .HasColumnName("senha");
+                        .HasColumnName("nome");
 
-                    b.HasKey("cpf");
+                    b.Property<string>("Senha")
+                        .IsRequired()
+                        .HasColumnType("text");
 
-                    b.ToTable("Clientes");
+                    b.HasKey("Cpf");
+
+                    b.ToTable("clientes");
                 });
 #pragma warning restore 612, 618
         }
