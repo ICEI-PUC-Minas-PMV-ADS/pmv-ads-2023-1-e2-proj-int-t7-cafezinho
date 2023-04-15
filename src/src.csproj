@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="BCrypt.Net" Version="0.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.5">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -24,6 +25,23 @@
 
   <ItemGroup>
     <Compile Remove="Models\ola.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Clientes\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\Clientes\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Clientes\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Clientes\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Clientes\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Clientes\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Cliente\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Cliente\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Cliente\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Cliente\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Cliente\Index.cshtml" />
   </ItemGroup>
 
   <ItemGroup>

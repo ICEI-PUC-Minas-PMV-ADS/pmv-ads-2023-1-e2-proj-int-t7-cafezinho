@@ -12,8 +12,8 @@ using src.Models;
 namespace src.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230414225618_AddClientes")]
-    partial class AddClientes
+    [Migration("20230415002350_AddCliente")]
+    partial class AddCliente
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -41,7 +41,7 @@ namespace src.Migrations
                         .HasColumnName("cep");
 
                     b.Property<DateTime>("DtNascimento")
-                        .HasColumnType("timestamp with time zone")
+                        .HasColumnType("timestamp without time zone")
                         .HasColumnName("dt_nascimento");
 
                     b.Property<string>("Email")
@@ -53,6 +53,10 @@ namespace src.Migrations
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("endereco");
+
+                    b.Property<string>("Senha")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.HasKey("Cpf");
 

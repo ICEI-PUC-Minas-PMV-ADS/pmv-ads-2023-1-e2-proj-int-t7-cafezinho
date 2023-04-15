@@ -9,16 +9,16 @@ using src.Models;
 
 namespace src.Controllers
 {
-    public class ClientesController : Controller
+    public class ClienteController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public ClientesController(ApplicationDbContext context)
+        public ClienteController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // GET: Clientes
+        // GET: Cliente
         public async Task<IActionResult> Index()
         {
               return _context.Clientes != null ? 
@@ -26,7 +26,7 @@ namespace src.Controllers
                           Problem("Entity set 'ApplicationDbContext.Clientes'  is null.");
         }
 
-        // GET: Clientes/Details/5
+        // GET: Cliente/Details/5
         public async Task<IActionResult> Details(string id)
         {
             if (id == null || _context.Clientes == null)
@@ -44,18 +44,18 @@ namespace src.Controllers
             return View(cliente);
         }
 
-        // GET: Clientes/Create
+        // GET: Cliente/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Clientes/Create
+        // POST: Cliente/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Cpf,Email,Cep,Endereco,DtNascimento,CarteiraId")] Cliente cliente)
+        public async Task<IActionResult> Create([Bind("Cpf,Email,Nome,Cep,Endereco,DtNascimento,CarteiraId,Senha")] Cliente cliente)
         {
             if (ModelState.IsValid)
             {
@@ -66,7 +66,7 @@ namespace src.Controllers
             return View(cliente);
         }
 
-        // GET: Clientes/Edit/5
+        // GET: Cliente/Edit/5
         public async Task<IActionResult> Edit(string id)
         {
             if (id == null || _context.Clientes == null)
@@ -82,12 +82,12 @@ namespace src.Controllers
             return View(cliente);
         }
 
-        // POST: Clientes/Edit/5
+        // POST: Cliente/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Cpf,Email,Cep,Endereco,DtNascimento,CarteiraId")] Cliente cliente)
+        public async Task<IActionResult> Edit(string id, [Bind("Cpf,Email,Nome,Cep,Endereco,DtNascimento,CarteiraId,Senha")] Cliente cliente)
         {
             if (id != cliente.Cpf)
             {
@@ -117,7 +117,7 @@ namespace src.Controllers
             return View(cliente);
         }
 
-        // GET: Clientes/Delete/5
+        // GET: Cliente/Delete/5
         public async Task<IActionResult> Delete(string id)
         {
             if (id == null || _context.Clientes == null)
@@ -135,7 +135,7 @@ namespace src.Controllers
             return View(cliente);
         }
 
-        // POST: Clientes/Delete/5
+        // POST: Cliente/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(string id)

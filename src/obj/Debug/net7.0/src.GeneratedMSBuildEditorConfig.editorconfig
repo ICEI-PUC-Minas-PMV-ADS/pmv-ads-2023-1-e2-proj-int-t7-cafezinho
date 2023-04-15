@@ -16,24 +16,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Views/Clientes/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZXMvQ3JlYXRlLmNzaHRtbA==
+[/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Views/Cliente/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZS9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Views/Clientes/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZXMvRGVsZXRlLmNzaHRtbA==
+[/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Views/Cliente/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZS9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Views/Clientes/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZXMvRGV0YWlscy5jc2h0bWw=
+[/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Views/Cliente/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZS9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Views/Clientes/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZXMvRWRpdC5jc2h0bWw=
+[/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Views/Cliente/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZS9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Views/Clientes/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZXMvSW5kZXguY3NodG1s
+[/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Views/Cliente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Views/Home/Index.cshtml]
