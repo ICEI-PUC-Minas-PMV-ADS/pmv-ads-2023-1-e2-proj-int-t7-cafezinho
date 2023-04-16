@@ -52,7 +52,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 As ferramentas empregadas no projeto são:
 
-- Visual Studio Code.
+- Visual Studio.
 - Microsoft Teams
 - Whatsapp
 - Discord
