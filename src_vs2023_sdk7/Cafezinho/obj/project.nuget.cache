@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hUTBvixsWwSs+PfznGL632HJATUQGJvaOI7WHa9G8gE+XHrlbuY+4xyjXnHCU3B/bXLuVegFxl+bRASS86qHrQ==",
+  "dgSpecHash": "CkkLkpQgGK6qGXzw2yHVHn+JX9iM7ROCF73peyEd8Fj2z630WbB94PpJgbXpxkcE6ylKLGRHF4rz3I3Ey+0NAg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\Cafezinho.csproj",
+  "projectFilePath": "C:\\Users\\flavi\\OneDrive - sga.pucminas.br\\E2\\Projeto\\pmv-ads-2023-1-e2-proj-int-t7-cafezinho\\src_vs2023_sdk7\\Cafezinho\\Cafezinho.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\flavi\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\flavi\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

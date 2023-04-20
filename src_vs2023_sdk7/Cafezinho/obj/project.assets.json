@@ -10721,11 +10721,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\Cafezinho.csproj",
+      "projectUniqueName": "C:\\Users\\flavi\\OneDrive - sga.pucminas.br\\E2\\Projeto\\pmv-ads-2023-1-e2-proj-int-t7-cafezinho\\src_vs2023_sdk7\\Cafezinho\\Cafezinho.csproj",
       "projectName": "Cafezinho",
-      "projectPath": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\Cafezinho.csproj",
+      "projectPath": "C:\\Users\\flavi\\OneDrive - sga.pucminas.br\\E2\\Projeto\\pmv-ads-2023-1-e2-proj-int-t7-cafezinho\\src_vs2023_sdk7\\Cafezinho\\Cafezinho.csproj",
       "packagesPath": "C:\\Users\\flavi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\obj\\",
+      "outputPath": "C:\\Users\\flavi\\OneDrive - sga.pucminas.br\\E2\\Projeto\\pmv-ads-2023-1-e2-proj-int-t7-cafezinho\\src_vs2023_sdk7\\Cafezinho\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\flavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
