@@ -49,44 +49,62 @@ namespace Cafezinho.Migrations
             modelBuilder.Entity("Cafezinho.Models.Cliente", b =>
                 {
                     b.Property<string>("Cpf")
-                        .HasColumnType("nvarchar(450)")
-                        .HasColumnName("cpf");
+                        .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("CarteiraId")
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("carteira_id");
+                    b.Property<string>("Bairro")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("Cep")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("cep");
+                        .HasMaxLength(8)
+                        .HasColumnType("nvarchar(8)");
+
+                    b.Property<string>("Cidade")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Complemento")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("DtNascimento")
-                        .HasColumnType("datetime2")
-                        .HasColumnName("dt_nascimento");
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("email");
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Endereco")
+                    b.Property<string>("Estado")
                         .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("IdCarteira")
                         .HasColumnType("nvarchar(max)")
-                        .HasColumnName("endereco");
+                        .HasColumnName("id_carteira");
+
+                    b.Property<string>("Logradouro")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.Property<string>("Nome")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("nome");
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Numero")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<int>("Perfil")
                         .HasColumnType("int");
 
                     b.Property<string>("Senha")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("senha");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Cpf");
 

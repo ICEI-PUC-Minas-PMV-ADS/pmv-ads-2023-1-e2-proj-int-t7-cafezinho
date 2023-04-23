@@ -31,7 +31,7 @@ namespace Cafezinho.Controllers
 
         [HttpPost]
         [AllowAnonymous]
-        public async Task<IActionResult> Login([Bind("Cpf,Senha")]Cliente cliente)
+        public async Task<IActionResult> Login([Bind("Cpf,Senha")] Cliente cliente)
         {
             var client = await _context.Clientes
             .FirstOrDefaultAsync(m => m.Cpf == cliente.Cpf);
@@ -44,7 +44,7 @@ namespace Cafezinho.Controllers
 
             bool isSenhaOk = BCrypt.Net.BCrypt.Verify(cliente.Senha, client.Senha);
 
-            if(isSenhaOk)
+            if (isSenhaOk)
             {
                 var claims = new List<Claim>
                 {
@@ -65,7 +65,7 @@ namespace Cafezinho.Controllers
                 };
 
                 await HttpContext.SignInAsync(principal, props);
-               
+
                 return Redirect("/");
             }
 
@@ -89,7 +89,7 @@ namespace Cafezinho.Controllers
         // GET: Clientes
         public async Task<IActionResult> Index()
         {
-              return View(await _context.Clientes.ToListAsync());
+            return View(await _context.Clientes.ToListAsync());
         }
 
         // GET: Clientes/Details/5
@@ -121,7 +121,7 @@ namespace Cafezinho.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Cpf,Email,Nome,Cep,Endereco,DtNascimento,CarteiraId,Senha,Perfil")] Cliente cliente)
+        public async Task<IActionResult> Create(Cliente cliente)
         {
             if (ModelState.IsValid)
             {
@@ -154,7 +154,7 @@ namespace Cafezinho.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Cpf,Email,Nome,Cep,Endereco,DtNascimento,CarteiraId,Senha,Perfil")] Cliente cliente)
+        public async Task<IActionResult> Edit(string id, Cliente cliente)
         {
             if (id != cliente.Cpf)
             {
@@ -217,14 +217,14 @@ namespace Cafezinho.Controllers
             {
                 _context.Clientes.Remove(cliente);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool ClienteExists(string id)
         {
-          return _context.Clientes.Any(e => e.Cpf == id);
+            return _context.Clientes.Any(e => e.Cpf == id);
         }
     }
 }

@@ -30,19 +30,24 @@ namespace Cafezinho.Migrations
                 name: "clientes",
                 columns: table => new
                 {
-                    cpf = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    cep = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    endereco = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    dt_nascimento = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    senha = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    carteira_id = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Cpf = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DtNascimento = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Cep = table.Column<string>(type: "nvarchar(8)", maxLength: 8, nullable: false),
+                    Logradouro = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
+                    Numero = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    Complemento = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Bairro = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    Cidade = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    Estado = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    Senha = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    id_carteira = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Perfil = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_clientes", x => x.cpf);
+                    table.PrimaryKey("PK_clientes", x => x.Cpf);
                 });
         }
 

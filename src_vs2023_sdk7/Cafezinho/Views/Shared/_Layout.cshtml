@@ -40,12 +40,16 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacidade</a>
                         </li>*@
                     </ul>
-                    <ul class="navbar-nav me-5">
+                    <ul class="navbar-nav d-inline-flex gap-4">
                         @if(User.Identity.IsAuthenticated)
                         {
-                            <li class="nav-item ">
-                                Olá, @User.Identity.Name <a class="btn btn-outline- px-2 py-1 d-inline nav-link text-dark" asp-area="" asp-controller="Clientes" asp-action="Logout">Sair</a>
+                            <li>
+                                Olá, @User.Identity.Name!
                             </li>
+                            <li>
+                                <a class="btn btn-secondary btn-sm" asp-area=" " asp-controller="Clientes" asp-action="Logout">Sair</a>
+                            </li>
+
                         }
                         else
                         {
