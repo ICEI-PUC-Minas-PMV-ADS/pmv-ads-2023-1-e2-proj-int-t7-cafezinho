@@ -35,7 +35,7 @@ namespace Cafezinho.Controllers
             }
 
             var ativo = await _context.Ativos
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.AtivoId == id);
             if (ativo == null)
             {
                 return NotFound();
@@ -55,7 +55,7 @@ namespace Cafezinho.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Ticker,Preco")] Ativo ativo)
+        public async Task<IActionResult> Create([Bind("AtivoId,Nome,Ticker,Preco")] Ativo ativo)
         {
             if (ModelState.IsValid)
             {
@@ -87,9 +87,9 @@ namespace Cafezinho.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Ticker,Preco")] Ativo ativo)
+        public async Task<IActionResult> Edit(int id, [Bind("AtivoId,Nome,Ticker,Preco")] Ativo ativo)
         {
-            if (id != ativo.Id)
+            if (id != ativo.AtivoId)
             {
                 return NotFound();
             }
@@ -103,7 +103,7 @@ namespace Cafezinho.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!AtivoExists(ativo.Id))
+                    if (!AtivoExists(ativo.AtivoId))
                     {
                         return NotFound();
                     }
@@ -126,7 +126,7 @@ namespace Cafezinho.Controllers
             }
 
             var ativo = await _context.Ativos
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.AtivoId == id);
             if (ativo == null)
             {
                 return NotFound();
@@ -156,7 +156,7 @@ namespace Cafezinho.Controllers
 
         private bool AtivoExists(int id)
         {
-          return _context.Ativos.Any(e => e.Id == id);
+          return _context.Ativos.Any(e => e.AtivoId == id);
         }
     }
 }

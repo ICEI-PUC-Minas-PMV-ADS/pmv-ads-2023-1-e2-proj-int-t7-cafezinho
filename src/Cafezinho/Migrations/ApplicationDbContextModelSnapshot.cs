@@ -24,24 +24,28 @@ namespace Cafezinho.Migrations
 
             modelBuilder.Entity("Cafezinho.Models.Ativo", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("AtivoId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("ativo_id");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AtivoId"));
 
                     b.Property<string>("Nome")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("nome");
 
                     b.Property<decimal>("Preco")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("preco");
 
                     b.Property<string>("Ticker")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("ticker");
 
-                    b.HasKey("Id");
+                    b.HasKey("AtivoId");
 
                     b.ToTable("Ativos");
                 });
@@ -49,62 +53,73 @@ namespace Cafezinho.Migrations
             modelBuilder.Entity("Cafezinho.Models.Cliente", b =>
                 {
                     b.Property<string>("Cpf")
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnName("cpf");
 
                     b.Property<string>("Bairro")
-                        .IsRequired()
                         .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasColumnType("nvarchar(100)")
+                        .HasColumnName("bairro");
+
+                    b.Property<string>("CarteiraId")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("carteira_id");
 
                     b.Property<string>("Cep")
                         .IsRequired()
                         .HasMaxLength(8)
-                        .HasColumnType("nvarchar(8)");
+                        .HasColumnType("nvarchar(8)")
+                        .HasColumnName("cep");
 
                     b.Property<string>("Cidade")
                         .IsRequired()
                         .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasColumnType("nvarchar(100)")
+                        .HasColumnName("cidade");
 
                     b.Property<string>("Complemento")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("DtNascimento")
-                        .HasColumnType("datetime2");
+                        .HasColumnType("datetime2")
+                        .HasColumnName("dt_nascimento");
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("email");
 
                     b.Property<string>("Estado")
                         .IsRequired()
                         .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("IdCarteira")
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("id_carteira");
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("estado");
 
                     b.Property<string>("Logradouro")
                         .IsRequired()
                         .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
+                        .HasColumnType("nvarchar(200)")
+                        .HasColumnName("logradouro");
 
                     b.Property<string>("Nome")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("nome");
 
                     b.Property<string>("Numero")
                         .IsRequired()
                         .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("numero");
 
                     b.Property<int>("Perfil")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("perfil");
 
                     b.Property<string>("Senha")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("senha");
 
                     b.HasKey("Cpf");
 

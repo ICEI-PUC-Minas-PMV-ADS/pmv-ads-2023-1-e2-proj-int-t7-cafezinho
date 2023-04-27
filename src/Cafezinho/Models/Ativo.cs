@@ -8,17 +8,20 @@ namespace Cafezinho.Models
     public class Ativo
     {
         [Key]
-        public int Id { get; set; }
+        [Column(name: "ativo_id")]
+        public int AtivoId { get; set; }
 
         [Required(ErrorMessage = "Campo Nome é obrigatorio")]
+        [Column(name: "nome")]
         public string Nome { get; set; }
 
         [Required(ErrorMessage = "Campo Ticker é obrigatorio")]
+        [Column(name: "ticker")]
         public string Ticker { get; set; }
 
         [Display(Name = "Preço")]
-        [Column(TypeName = "decimal(18,2)")]
         [Required(ErrorMessage = "Campo Preço é obrigatorio")]
+        [Column(name: "preco", TypeName = "decimal(18,2)")]
         public decimal Preco { get; set; }
     }
 }
