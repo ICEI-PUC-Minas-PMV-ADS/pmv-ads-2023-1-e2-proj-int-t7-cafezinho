@@ -974,6 +974,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.Data.Sqlite.Core/7.0.5": {
         "type": "package",
         "dependencies": {
@@ -990,6 +991,8 @@
           }
         }
       },
+=======
+>>>>>>> flavio/mvc
       "Microsoft.DiaSymReader/1.4.0": {
         "type": "package",
         "dependencies": {
@@ -1118,6 +1121,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.EntityFrameworkCore.Sqlite/7.0.5": {
         "type": "package",
         "dependencies": {
@@ -1149,6 +1153,8 @@
           }
         }
       },
+=======
+>>>>>>> flavio/mvc
       "Microsoft.EntityFrameworkCore.SqlServer/7.0.5": {
         "type": "package",
         "dependencies": {
@@ -1281,7 +1287,11 @@
           "System.Text.Json": "7.0.0"
         },
         "compile": {
+<<<<<<< HEAD
           "lib/net7.0/Microsoft.Extensions.DependencyModel.dll": {
+=======
+          "lib/net7.0/_._": {
+>>>>>>> flavio/mvc
             "related": ".xml"
           }
         },
@@ -2182,6 +2192,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.4": {
         "type": "package",
         "dependencies": {
@@ -2325,6 +2336,8 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+=======
+>>>>>>> flavio/mvc
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -5039,6 +5052,7 @@
         "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.Data.Sqlite.Core/7.0.5": {
       "sha512": "FTerRmQPqHrCrnoUzhBu+E+1DNGwyrAMLqHkAqOOOu5pGfyMOj8qQUBxI/gDtWtG11p49UxSfWmBzRNlwZqfUg==",
       "type": "package",
@@ -5055,6 +5069,8 @@
         "microsoft.data.sqlite.core.nuspec"
       ]
     },
+=======
+>>>>>>> flavio/mvc
     "Microsoft.DiaSymReader/1.4.0": {
       "sha512": "iLtWq5/W5ePzSraavAFeXAbasE6REDByizTz6M8yQO3e4jf+6pRqPLdNCSvnSfKRVqsF7y/lTVWhqlf89ttweg==",
       "type": "package",
@@ -5159,6 +5175,7 @@
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.EntityFrameworkCore.Sqlite/7.0.5": {
       "sha512": "2XPZB9OLF5/m13HgZp7/Dv0u8FWEJzcaBsMYR9Kp3R6aygkb3RnOijofPDTsmdhAqG9YTysCmh2bFaGs0TCc7A==",
       "type": "package",
@@ -5186,6 +5203,8 @@
         "microsoft.entityframeworkcore.sqlite.core.nuspec"
       ]
     },
+=======
+>>>>>>> flavio/mvc
     "Microsoft.EntityFrameworkCore.SqlServer/7.0.5": {
       "sha512": "cUJqCiamT0EvpKNgZEV5fqNv2MyVfKNgOPQfFINqHiIKHOYrS0nTCUJP97+UuG0JIIrP792/PwnuNjbekImtBg==",
       "type": "package",
@@ -6952,6 +6971,7 @@
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
+<<<<<<< HEAD
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.4": {
       "sha512": "EWI1olKDjFEBMJu0+3wuxwziIAdWDVMYLhuZ3Qs84rrz+DHwD00RzWPZCa+bLnHCf3oJwuFZIRsHT5p236QXww==",
       "type": "package",
@@ -7042,6 +7062,8 @@
         "sqlitepclraw.provider.e_sqlite3.nuspec"
       ]
     },
+=======
+>>>>>>> flavio/mvc
     "System.AppContext/4.3.0": {
       "sha512": "fKC+rmaLfeIzUhagxY17Q9siv/sPrjjKcfNg1Ic8IlQkZLipo8ljcaZQu4VtI4Jqbzjc2VTjzGLF6WmsRXAEgA==",
       "type": "package",
@@ -11033,18 +11055,26 @@
       "Microsoft.EntityFrameworkCore >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.5",
+<<<<<<< HEAD
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.5",
+=======
+>>>>>>> flavio/mvc
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.5",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.6",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 7.0.3"
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "/home/cowboy/.nuget/packages/": {}
+=======
+    "C:\\Users\\flavi\\.nuget\\packages\\": {}
+>>>>>>> flavio/mvc
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/src.csproj",
       "projectName": "src",
       "projectPath": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/src.csproj",
@@ -11053,11 +11083,26 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/cowboy/.nuget/NuGet/NuGet.Config"
+=======
+      "projectUniqueName": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\Cafezinho.csproj",
+      "projectName": "Cafezinho",
+      "projectPath": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\Cafezinho.csproj",
+      "packagesPath": "C:\\Users\\flavi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\flavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> flavio/mvc
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+<<<<<<< HEAD
+=======
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+>>>>>>> flavio/mvc
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11094,10 +11139,13 @@
             "target": "Package",
             "version": "[7.0.5, )"
           },
+<<<<<<< HEAD
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[7.0.5, )"
           },
+=======
+>>>>>>> flavio/mvc
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
@@ -11132,7 +11180,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "/home/cowboy/.dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+>>>>>>> flavio/mvc
       }
     }
   },

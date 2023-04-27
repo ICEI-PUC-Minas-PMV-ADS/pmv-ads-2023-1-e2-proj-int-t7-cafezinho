@@ -1,27 +1,99 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "6XX0DDZ/FgVIAJZ9N+ICtNl2LqbcENOZwL8RBzv2BWY=",
   "Source": "src",
   "BasePath": "_content/src",
+=======
+  "Hash": "14cmUvKiOWDv+WEEvljq0bKs3467FPnC/ZWkrKILEAY=",
+  "Source": "Cafezinho",
+  "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
+<<<<<<< HEAD
       "Name": "src/wwwroot",
       "Source": "src",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "Name": "Cafezinho\\wwwroot",
+      "Source": "Cafezinho",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
       "Identity": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/css/site.css",
       "SourceId": "src",
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Cafezinho.styles.css",
+      "SourceId": "Cafezinho",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "Cafezinho.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Cafezinho.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Cafezinho.bundle.scp.css",
+      "SourceId": "Cafezinho",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "Cafezinho.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Cafezinho.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\cafe.jpg",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "cafe.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\cafe.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\css\\site.css",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "css/site.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -31,6 +103,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
@@ -39,6 +112,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\favicon.ico",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -48,6 +131,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
@@ -56,6 +140,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\js\\site.js",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "js/site.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -65,6 +159,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/js/site.js"
     },
     {
@@ -481,6 +576,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -490,6 +595,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
@@ -498,6 +604,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -507,6 +623,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
@@ -515,6 +632,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -524,6 +651,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
@@ -532,6 +660,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -541,6 +679,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
@@ -549,6 +688,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -558,6 +707,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
@@ -566,6 +716,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -575,6 +735,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
@@ -583,6 +744,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -592,6 +763,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
@@ -600,6 +772,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -609,6 +791,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
@@ -617,6 +800,424 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -626,6 +1227,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
@@ -634,6 +1236,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -643,6 +1255,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
@@ -651,6 +1264,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -660,6 +1283,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
@@ -668,6 +1292,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -677,6 +1311,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
@@ -685,6 +1320,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -694,6 +1339,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
@@ -702,6 +1348,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -711,6 +1367,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
@@ -719,6 +1376,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -728,6 +1395,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
@@ -736,6 +1404,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -745,6 +1423,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
@@ -753,6 +1432,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -762,6 +1451,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
@@ -770,6 +1460,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -779,6 +1479,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
@@ -787,6 +1488,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -796,6 +1507,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
@@ -804,6 +1516,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -813,6 +1535,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
@@ -821,6 +1544,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -830,6 +1563,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
     },
     {
@@ -974,6 +1708,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -983,6 +1727,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
     },
     {
@@ -991,6 +1736,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1000,6 +1755,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
     },
     {
@@ -1008,6 +1764,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1017,6 +1783,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
     },
     {
@@ -1025,6 +1792,16 @@
       "SourceType": "Discovered",
       "ContentRoot": "/home/cowboy/puc/cafezinho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/wwwroot/",
       "BasePath": "_content/src",
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+>>>>>>> flavio/mvc
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1034,7 +1811,147 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+=======
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/jquery-validation/LICENSE.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "Cafezinho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flavi\\source\\repos\\Cafezinho\\Cafezinho\\wwwroot\\",
+      "BasePath": "_content/Cafezinho",
+      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+>>>>>>> flavio/mvc
     }
   ]
 }
