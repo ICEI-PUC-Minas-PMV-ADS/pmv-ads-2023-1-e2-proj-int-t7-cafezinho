@@ -30,7 +30,10 @@ namespace Cafezinho.Models
         
         [Column(name: "data_transacao")]
         public Date DataTransacao { get; set; }
-        
+
+        [Column(name: "valor_total", TypeName = "decimal(18,2)")]
+        public decimal ValorTotal { get; set; }
+
         public void reali
     }
 }

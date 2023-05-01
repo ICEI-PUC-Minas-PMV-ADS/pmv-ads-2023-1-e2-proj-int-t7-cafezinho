@@ -22,11 +22,34 @@ namespace Cafezinho.Controllers
         {
             if (ModelState.IsValid)
             {
-                registro.setTipoTransacao() = TipoTransacaoEnum.COMPRA;
-                decimal valorTotal = registro.getQuantidade() + registro.getPreco();
-                _context.Add(registro, valorTotal);
+                registro.setTipoTransacao(TipoTransacaoEnum.COMPRA);
+                decimal valorTotal = registro.getQuantidade() * registro.getPreco();
+                registro.setValorTotal(valorTotal);
+                _context.Add(registro);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
+            }
+            return View(registro);
+        }
+
+        // PUT: Registro/Edit
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteRegistro(Registro registro)
+        {
+            if (ModelState.IsValid)
+            {
+                if (registro.getId() != null) 
+                {
+                    registro.setTipoTransacao(TipoTransacaoEnum.VENDA);
+                    decimal valorTotal = registro.getQuantidade() * registro.getPreco();
+                    _context.Update(registro, valorTotal);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
+
             }
             return View(registro);
         }
