@@ -1,0 +1,10 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/FileContentIndex/0ef60152-b2d2-400c-954f-53903d425ed2.vsidx
+/.vs/slnx.sqlite
+/.vs/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/FileContentIndex/35908d89-bd0a-40bb-b80a-c3059f7c8aca.vsidx
+/.vs/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/FileContentIndex/read.lock
+/.vs/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/FileContentIndex/62195eaa-cef5-44bb-be52-4561a06c9c13.vsidx
+*.vsidx
