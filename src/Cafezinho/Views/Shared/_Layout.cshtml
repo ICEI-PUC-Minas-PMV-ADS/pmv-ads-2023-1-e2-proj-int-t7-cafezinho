@@ -12,7 +12,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-dark border-bottom box-shadow mb-3" style="color: #f0f0f0">
-            <img src="./logo15.png" class="img-fluid px-3" style="max-width:20%" alt="logo cafezinho" />
+            <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/blob/flavio/mvc/docs/img/logo15.png?raw=true" class="img-fluid px-3" style="max-width:20%" alt="logo cafezinho" />
             <div class="container-fluid">
                 @*<a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" style="color: #f0f0f0">Cafezinho</a>*@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -43,24 +43,24 @@
                     </ul>
                 </div>
             </div>
-                    <ul class="navbar-nav d-inline-flex gap-4">
-                        @if(User.Identity.IsAuthenticated)
-                        {
-                            <li>
-                                Usuário logado: @User.Identity.Name
-                            </li>
-                            <li>
-                                <a class="btn btn-danger btn-sm" asp-area=" " asp-controller="Clientes" asp-action="Logout">Sair</a>
-                            </li>
+            <ul class="navbar-nav d-flex gap-4 px-4">
+                @if(User.Identity.IsAuthenticated)
+                {
+@*                    <li>
+                        Usuário: @User.Identity.Name
+                    </li>*@
+                    <li>
+                        <a class="btn btn-danger w-100" asp-area=" " asp-controller="Clientes" asp-action="Logout">Sair</a>
+                    </li>
 
-                        }
-                        else
-                        {
-                            <li>
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Clientes" asp-action="Login">Login</a>
-                            </li>
-                        }
-                    </ul>
+                }
+                else
+                {
+                    <li>
+                        <a class="btn btn-success w-100" asp-area="" asp-controller="Clientes" asp-action="Login">Entrar</a>
+                    </li>
+                }
+            </ul>
         </nav>
     </header>
     <div class="container">
