@@ -4,31 +4,28 @@
     ViewData["Title"] = "Login";
 }
 
-<h4>Acessar o sistema</h4>
-
-<hr />
-<div class="row">
-    <div class="col-md-4">
+<div class="row d-flex align-items-center justify-content-center" style="height: 70vh;">
+    <div class="col-md-3">
         <form asp-action="Login">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Cpf" class="control-label"></label>
+            <h1 class="h3 font-weight-normal mb-4 text-center">Acessar o sistema</h1>
+
+            <div class="form-group mb-3">
+                <label asp-for="Cpf" class="control-label mb-2"></label>
                 <input asp-for="Cpf" class="form-control" />
                 <span asp-validation-for="Cpf" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Senha" class="control-label"></label>
+                <label asp-for="Senha" class="control-label  mb-2"></label>
                 <input asp-for="Senha" class="form-control" />
                 <span asp-validation-for="Senha" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Entrar" class="btn btn-primary" />
-                <a class="btn btn-info" asp-controller="Home" asp-action="Index">Voltar</a>
+
+            <div class="form-group mt-4">
+                <input type="submit" value="Entrar" class="btn btn-success w-100" />
             </div>
         </form>
-        <h3>@ViewBag.Message</h3>
+        <h6 class="text-center mt-3 text-danger">@ViewBag.Message</h6>
     </div>
-    @*<a asp-action="Index">Back to List</a>*@
 </div>
 
 @section Scripts {
