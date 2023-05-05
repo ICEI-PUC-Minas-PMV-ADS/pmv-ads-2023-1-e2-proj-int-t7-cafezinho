@@ -1,6 +1,6 @@
 ﻿@using Microsoft.AspNetCore.Identity;
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,9 +11,10 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-dark border-bottom box-shadow mb-3" style="color: #f0f0f0">
+            <img src="./logo15.png" class="img-fluid px-3" style="max-width:20%" alt="logo cafezinho" />
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Cafezinho</a>
+                @*<a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" style="color: #f0f0f0">Cafezinho</a>*@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -21,18 +22,18 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1 me-5">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Início</a>
+                            <a class="nav-link" style="color: #f0f0f0" asp-area="" asp-controller="Home" asp-action="Index">Início</a>
                         </li>
                         @if (User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Ativos" asp-action="Index">Ativos</a>
+                                <a class="nav-link" style="color: #f0f0f0" asp-area="" asp-controller="Ativos" asp-action="Index">Ativos</a>
                             </li>
 
                             @if(User.IsInRole("Administrador"))
                             {
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="Clientes" asp-action="Index">Clientes</a>
+                                    <a class="nav-link" style="color: #f0f0f0" asp-area="" asp-controller="Clientes" asp-action="Index">Clientes</a>
                                 </li>
                             }
                         }
@@ -40,14 +41,16 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacidade</a>
                         </li>*@
                     </ul>
+                </div>
+            </div>
                     <ul class="navbar-nav d-inline-flex gap-4">
                         @if(User.Identity.IsAuthenticated)
                         {
                             <li>
-                                Olá, @User.Identity.Name!
+                                Usuário logado: @User.Identity.Name
                             </li>
                             <li>
-                                <a class="btn btn-secondary btn-sm" asp-area=" " asp-controller="Clientes" asp-action="Logout">Sair</a>
+                                <a class="btn btn-danger btn-sm" asp-area=" " asp-controller="Clientes" asp-action="Logout">Sair</a>
                             </li>
 
                         }
@@ -58,8 +61,6 @@
                             </li>
                         }
                     </ul>
-                </div>
-            </div>
         </nav>
     </header>
     <div class="container">
@@ -68,9 +69,9 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - Cafezinho - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacidade</a>
+    <footer class="border-top footer text-muted bg-dark">
+        <div class="container text-center" style="color: #f0f0f0">
+            &copy; 2023 - Cafezinho</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
