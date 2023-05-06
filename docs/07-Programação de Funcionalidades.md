@@ -1,28 +1,29 @@
 # Programação de Funcionalidades
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
-
-Implementação do sistema descrita por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos com os artefatos criados (código fonte), deverão apresentadas as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
-
-Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos desenvolvidos.
-
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | tarefas.shtml / tarefas.cs / controllertarefas.cs | 
-|RF-002| Emitir um relatório de tarefas no mês   | relatorio.shtml |
+|RF-01| Permitir ao usuário gerenciar seu cadastro na plataforma. | Cliente.cs, Create.cshtml, ClientesController.cs e site.js|
+|RF-02| Permitir ao usuário realizar o login na plataforma. | Login.cshtml |
+|RF-03| Realizar a validação de credenciais do usuário. | Login.cshtml e ClientesController.cs | 
+|RF-04| Permitir que o usuário possa solicitar a recuperação de senha. | Em desenvolvimento |
+|RF-05| Permitir a busca por nomes e tipos de ativos. | Em desenvolvimento |
+|RF-06| Permitir que o usuário gerencie sua carteira de investimentos. | Carteira.cs, Create.cshtml, Delete.cshtml, Details.cshtml, Edit.cshtml, Index.cshtml e CarteirasController.cs|
+|RF-07| Registrar a compra de ativos. | Registro.cs,  Create.cshtml, Delete.cshtml, Details.cshtml, Edit.cshtml, Index.cshtml e RegistrosController.cs|
+|RF-08| Registrar a venda de ativos. | Registro.cs,  Create.cshtml, Delete.cshtml, Details.cshtml, Edit.cshtml, Index.cshtml e RegistrosController.cs |
+|RF-09| Realizar o processamento das informações solicitadas pelo usuário. | Em desenvolvimento |
+|RF-10| Apresentar dashboard principal com recurso visual, identificando por tipos de ativos. | Index.cshtml e mdb.min.js |
+|RF-11| Gerar relatório para acompanhamento dos ativos em carteira. | Em desenvolvimento |
+|RF-12| Gerar relatório para acompanhamento da variação percentual dos ativos em carteira. | Em desenvolvimento |
+|RF-13| Gerar relatório de patrimônio total, investido e/ou liquidado. | Em desenvolvimento |
+|RF-14| Gerar relatório de preço médio e valorização/desvalorização médio, de um ativo da carteira do usuário. | Em desenvolvimento |
 
 # Instruções de acesso
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
+Projeto ainda não hospedado.
+>Deverão apresentadas as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
 
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
+>Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
 
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+>Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+>O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
