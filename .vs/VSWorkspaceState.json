@@ -2,10 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src_vs2023_sdk7",
-    "\\src_vs2023_sdk7\\Cafezinho",
-    "\\src_vs2023_sdk7\\Cafezinho\\Models"
+    "\\src\\Models"
   ],
-  "SelectedNode": "\\src_vs2023_sdk7\\Cafezinho\\Models\\Ativo.cs",
+  "SelectedNode": "\\src\\obj",
   "PreviewInSolutionExplorer": false
 }
