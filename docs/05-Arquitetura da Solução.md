@@ -6,7 +6,7 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-![Diagrama de classes](./img/diagrama-classes.jpeg)
+![Diagrama de classes](./img/diagrama-de-classes.jpeg)
 
 ## Modelo ER (Projeto Conceitual)
 
@@ -18,7 +18,7 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
  
-![Projeto base de dados](./img/Projeto_base_dados.png)
+![Projeto base de dados](./img/diagrama-bd-pe-de-galinha.jpeg)
 
 ## Tecnologias Utilizadas
 
