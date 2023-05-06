@@ -50,6 +50,24 @@ namespace Cafezinho.Migrations
                     b.ToTable("Ativos");
                 });
 
+            modelBuilder.Entity("Cafezinho.Models.Carteira", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<decimal>("valorTotalCarteira")
+                        .HasColumnType("Decimal(18,2)")
+                        .HasColumnName("valor total carteira");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Carteira");
+                });
+
             modelBuilder.Entity("Cafezinho.Models.Cliente", b =>
                 {
                     b.Property<string>("Cpf")
