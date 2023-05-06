@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Cafezinho.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230427023624_M00")]
-    partial class M00
+    [Migration("20230506182925_m01")]
+    partial class m01
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -127,6 +127,45 @@ namespace Cafezinho.Migrations
                     b.HasKey("Cpf");
 
                     b.ToTable("clientes");
+                });
+
+            modelBuilder.Entity("Cafezinho.Models.Registro", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("registro_id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("DataTransacao")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("data_transacao");
+
+                    b.Property<decimal>("Preco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("preco");
+
+                    b.Property<decimal>("Quantidade")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("quantidade");
+
+                    b.Property<string>("Ticker")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("ticker");
+
+                    b.Property<string>("TipoTransacao")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("tipo_transacao");
+
+                    b.Property<decimal>("ValorTotal")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("valor_total");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Registros");
                 });
 #pragma warning restore 612, 618
         }

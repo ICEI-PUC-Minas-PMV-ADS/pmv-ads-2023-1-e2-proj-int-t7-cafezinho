@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\flavi\\OneDrive - sga.pucminas.br\\E2\\pmv-ads-2023-1-e2-proj-int-t7-cafezinho\\src\\Cafezinho\\Cafezinho.csproj": {}
+    "C:\\Users\\amand\\OneDrive\\Área de Trabalho\\pmv-ads-2023-1-e2-proj-int-t7-cafezinho\\src\\Cafezinho\\Cafezinho.csproj": {}
   },
   "projects": {
-    "C:\\Users\\flavi\\OneDrive - sga.pucminas.br\\E2\\pmv-ads-2023-1-e2-proj-int-t7-cafezinho\\src\\Cafezinho\\Cafezinho.csproj": {
+    "C:\\Users\\amand\\OneDrive\\Área de Trabalho\\pmv-ads-2023-1-e2-proj-int-t7-cafezinho\\src\\Cafezinho\\Cafezinho.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\flavi\\OneDrive - sga.pucminas.br\\E2\\pmv-ads-2023-1-e2-proj-int-t7-cafezinho\\src\\Cafezinho\\Cafezinho.csproj",
+        "projectUniqueName": "C:\\Users\\amand\\OneDrive\\Área de Trabalho\\pmv-ads-2023-1-e2-proj-int-t7-cafezinho\\src\\Cafezinho\\Cafezinho.csproj",
         "projectName": "Cafezinho",
-        "projectPath": "C:\\Users\\flavi\\OneDrive - sga.pucminas.br\\E2\\pmv-ads-2023-1-e2-proj-int-t7-cafezinho\\src\\Cafezinho\\Cafezinho.csproj",
-        "packagesPath": "C:\\Users\\flavi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\flavi\\OneDrive - sga.pucminas.br\\E2\\pmv-ads-2023-1-e2-proj-int-t7-cafezinho\\src\\Cafezinho\\obj\\",
+        "projectPath": "C:\\Users\\amand\\OneDrive\\Área de Trabalho\\pmv-ads-2023-1-e2-proj-int-t7-cafezinho\\src\\Cafezinho\\Cafezinho.csproj",
+        "packagesPath": "C:\\Users\\amand\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\amand\\OneDrive\\Área de Trabalho\\pmv-ads-2023-1-e2-proj-int-t7-cafezinho\\src\\Cafezinho\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\flavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\amand\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

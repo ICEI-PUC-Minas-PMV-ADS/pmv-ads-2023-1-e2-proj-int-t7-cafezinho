@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Cafezinho.Migrations
 {
     /// <inheritdoc />
-    public partial class M00 : Migration
+    public partial class m01 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -49,6 +49,24 @@ namespace Cafezinho.Migrations
                 {
                     table.PrimaryKey("PK_clientes", x => x.cpf);
                 });
+
+            migrationBuilder.CreateTable(
+                name: "Registros",
+                columns: table => new
+                {
+                    registro_id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    ticker = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    preco = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    quantidade = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    tipo_transacao = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    data_transacao = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    valor_total = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Registros", x => x.registro_id);
+                });
         }
 
         /// <inheritdoc />
@@ -59,6 +77,9 @@ namespace Cafezinho.Migrations
 
             migrationBuilder.DropTable(
                 name: "clientes");
+
+            migrationBuilder.DropTable(
+                name: "Registros");
         }
     }
 }

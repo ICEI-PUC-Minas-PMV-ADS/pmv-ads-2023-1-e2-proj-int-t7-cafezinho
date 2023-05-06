@@ -14,5 +14,6 @@ namespace Cafezinho.Models
 
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Ativo> Ativos { get; set; }
+        public DbSet<Registro> Registros { get; set; }
     }
 }
