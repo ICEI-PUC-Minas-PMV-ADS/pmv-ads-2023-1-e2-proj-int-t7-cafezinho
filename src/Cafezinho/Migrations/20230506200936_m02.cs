@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Cafezinho.Migrations
 {
     /// <inheritdoc />
-    public partial class m01 : Migration
+    public partial class m02 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -31,8 +31,7 @@ namespace Cafezinho.Migrations
                 columns: table => new
                 {
                     id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    valortotalcarteira = table.Column<decimal>(name: "valor total carteira", type: "Decimal(18,2)", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1")
                 },
                 constraints: table =>
                 {
@@ -71,8 +70,8 @@ namespace Cafezinho.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     ticker = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     preco = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    quantidade = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    tipo_transacao = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    quantidade = table.Column<int>(type: "int", nullable: false),
+                    tipo_transacao = table.Column<int>(type: "int", nullable: false),
                     data_transacao = table.Column<DateTime>(type: "datetime2", nullable: false),
                     valor_total = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
                 },

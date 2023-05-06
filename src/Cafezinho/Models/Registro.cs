@@ -9,7 +9,7 @@ namespace Cafezinho.Models
     {
         [Key]
         [Column(name: "registro_id")]
-        public int Id { get; set; }
+        public int RegistroId { get; set; }
 
         [Required(ErrorMessage = "Campo Ticker é obrigatorio")]
         [Column(name: "ticker")]
@@ -22,16 +22,26 @@ namespace Cafezinho.Models
 
         [Display(Name = "Quantidade")]
         [Required(ErrorMessage = "Campo Quantidade é obrigatorio")]
-        [Column(name: "quantidade", TypeName = "decimal(18,2)")]
-        public decimal Quantidade { get; set; }
+        [Column(name: "quantidade")]
+        public int Quantidade { get; set; }
 
         [Column(name: "tipo_transacao")]
-        public string TipoTransacao { get; set; }
+        [Required(ErrorMessage = "Campo Transação é obrigatorio")]
+        [Display(Name = "Tipo de transação")]
+        public Transacao Transacao { get; set; }
 
         [Column(name: "data_transacao")]
-        public DateTime DataTransacao { get; set; }
+        [DataType(DataType.Date)]
+        [Display(Name = "Data da transação")]
+        public DateTime DtTransacao { get; set; }
 
         [Column(name: "valor_total", TypeName = "decimal(18,2)")]
         public decimal ValorTotal { get; set; }
+    }
+
+    public enum Transacao
+    {
+        Compra,
+        Venda
     }
 }

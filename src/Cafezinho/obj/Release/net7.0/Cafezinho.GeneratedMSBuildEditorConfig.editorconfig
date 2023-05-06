@@ -9,125 +9,125 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Cafezinho
 build_property.RootNamespace = Cafezinho
-build_property.ProjectDir = D:\pmv-ads-2023-1-e2-proj-int-t7-cafezinho\src\Cafezinho\
+build_property.ProjectDir = C:\Users\amand\OneDrive\Área de Trabalho\pmv-ads-2023-1-e2-proj-int-t7-cafezinho\src\Cafezinho\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\pmv-ads-2023-1-e2-proj-int-t7-cafezinho\src\Cafezinho
+build_property.MSBuildProjectDirectory = C:\Users\amand\OneDrive\Área de Trabalho\pmv-ads-2023-1-e2-proj-int-t7-cafezinho\src\Cafezinho
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Ativos/Create.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Ativos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRpdm9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Ativos/Delete.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Ativos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRpdm9zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Ativos/Details.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Ativos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRpdm9zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Ativos/Edit.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Ativos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRpdm9zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Ativos/Index.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Ativos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRpdm9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Carteiras/Create.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Carteiras/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydGVpcmFzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Carteiras/Delete.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Carteiras/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydGVpcmFzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Carteiras/Details.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Carteiras/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydGVpcmFzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Carteiras/Edit.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Carteiras/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydGVpcmFzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Carteiras/Index.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Carteiras/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydGVpcmFzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Clientes/AccessDenied.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Clientes/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQWNjZXNzRGVuaWVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Clientes/Create.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Clientes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Clientes/Delete.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Clientes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Clientes/Details.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Clientes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Clientes/Edit.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Clientes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Clientes/Index.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Clientes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Clientes/Login.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Clientes/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Home/Index.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Home/Privacy.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Registros/Create.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Registros/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Registros/Delete.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Registros/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Registros/Details.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Registros/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Registros/Edit.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Registros/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Registros/Index.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Registros/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Shared/Error.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/_ViewImports.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/_ViewStart.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Shared/_Layout.cshtml]
+[C:/Users/amand/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/src/Cafezinho/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-p9k1joxmiz

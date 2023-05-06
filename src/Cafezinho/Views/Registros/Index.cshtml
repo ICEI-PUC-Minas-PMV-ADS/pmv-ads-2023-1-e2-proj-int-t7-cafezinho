@@ -22,10 +22,10 @@
                 @Html.DisplayNameFor(model => model.Quantidade)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.TipoTransacao)
+                @Html.DisplayNameFor(model => model.Transacao)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DataTransacao)
+                @Html.DisplayNameFor(model => model.DtTransacao)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.ValorTotal)
@@ -46,18 +46,18 @@
                 @Html.DisplayFor(modelItem => item.Quantidade)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.TipoTransacao)
+                @Html.DisplayFor(modelItem => item.Transacao)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.DataTransacao)
+                @Html.DisplayFor(modelItem => item.DtTransacao)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ValorTotal)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.RegistroId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.RegistroId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.RegistroId">Delete</a>
             </td>
         </tr>
 }

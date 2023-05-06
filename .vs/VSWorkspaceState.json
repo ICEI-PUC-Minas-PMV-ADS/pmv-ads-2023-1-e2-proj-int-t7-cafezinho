@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\Cafezinho",
+    "\\src\\Cafezinho\\Models"
   ],
-  "SelectedNode": "\\src\\Cafezinho.sln",
+  "SelectedNode": "\\src\\Cafezinho\\Models\\Carteira.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -33,7 +33,7 @@ namespace Cafezinho.Controllers
             }
 
             var registro = await _context.Registros
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.RegistroId == id);
             if (registro == null)
             {
                 return NotFound();
@@ -53,7 +53,7 @@ namespace Cafezinho.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Ticker,Preco,Quantidade,TipoTransacao,DataTransacao,ValorTotal")] Registro registro)
+        public async Task<IActionResult> Create([Bind("RegistroId,Ticker,Preco,Quantidade,Transacao,DtTransacao,ValorTotal")] Registro registro)
         {
             if (ModelState.IsValid)
             {
@@ -85,9 +85,9 @@ namespace Cafezinho.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Ticker,Preco,Quantidade,TipoTransacao,DataTransacao,ValorTotal")] Registro registro)
+        public async Task<IActionResult> Edit(int id, [Bind("RegistroId,Ticker,Preco,Quantidade,Transacao,DtTransacao,ValorTotal")] Registro registro)
         {
-            if (id != registro.Id)
+            if (id != registro.RegistroId)
             {
                 return NotFound();
             }
@@ -101,7 +101,7 @@ namespace Cafezinho.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!RegistroExists(registro.Id))
+                    if (!RegistroExists(registro.RegistroId))
                     {
                         return NotFound();
                     }
@@ -124,7 +124,7 @@ namespace Cafezinho.Controllers
             }
 
             var registro = await _context.Registros
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.RegistroId == id);
             if (registro == null)
             {
                 return NotFound();
@@ -154,7 +154,7 @@ namespace Cafezinho.Controllers
 
         private bool RegistroExists(int id)
         {
-          return _context.Registros.Any(e => e.Id == id);
+          return _context.Registros.Any(e => e.RegistroId == id);
         }
     }
 }
