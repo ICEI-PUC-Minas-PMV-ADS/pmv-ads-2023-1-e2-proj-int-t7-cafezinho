@@ -13,16 +13,12 @@ Segue abaixo o relatório com os resultados obtidos seguindo o plano de testes p
 ## Caso de Teste 02 - Login
 * Requisito Funcional relacionado: RF-02
 
-![teste-login](img/Login.png)
+![teste-login](img/Login.jpeg)
 
 
-## Caso de Teste 03 - Recuperar Senha
-* Requisito Funcional relacionado: RF-04
-
-![teste-recuperar-senha]()
 
 
-## Caso de Teste 04 - Buscar Ativos
+## Caso de Teste 03 - Buscar Ativos
  * Requisito Funcional relacionado: RF-05
 
 ### **Nesta versão, a aplicação permite apenas a adição do ativo manualmente, pois a API ainda está sendo implementada.**
@@ -30,26 +26,26 @@ Segue abaixo o relatório com os resultados obtidos seguindo o plano de testes p
 ![teste-busca-ativos](img/AtivosLista.png)
 
 
-## Caso de Teste 05 - Compra
+## Caso de Teste 04 - Compra
 * Requisito Funcional relacionado: RF-07
 
 ![teste-compra](img/AtivosCadastro.png)
 ![teste-compra2](img/RegistroCadastro.png)
 
 
-## Caso de Teste 06 - Venda
+## Caso de Teste 05 - Venda
 * Requisito Funcional relacionado: RF-08
 ### **No momento do registro, o usuário escolhe se vai fazer o cadastro ou a liquidação do ativo na carteira.**
 ![teste-venda](img/RegistroCadastro.png)
 
 
-## Caso de Teste 07 - Dashboard
+## Caso de Teste 06 - Dashboard
 * Requisito Funcional relacionado: RF-010
 
 ![teste-dashboard](img/DashboardPrincipal.png)
 
 
-## Caso de Teste 08 - Relatórios
+## Caso de Teste 07 - Relatórios
 * Requisito Funcional relacionado: RF-11/12/13/14
 
 ![teste-relatorios](img/RegistroLista.png)
