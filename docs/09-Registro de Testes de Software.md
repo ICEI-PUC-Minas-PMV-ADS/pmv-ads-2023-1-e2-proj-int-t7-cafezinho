@@ -34,12 +34,13 @@ Segue abaixo o relatório com os resultados obtidos seguindo o plano de testes p
 * Requisito Funcional relacionado: RF-07
 
 ![teste-compra](img/AtivosCadastro.png)
+![teste-compra2](img/RegistroCadastro.png)
 
 
 ## Caso de Teste 06 - Venda
 * Requisito Funcional relacionado: RF-08
-
-![teste-venda]()
+### **No momento do registro, o usuário escolhe se vai fazer o cadastro ou a liquidação do ativo na carteira.**
+![teste-venda](img/RegistroCadastro.png)
 
 
 ## Caso de Teste 07 - Dashboard
@@ -52,4 +53,4 @@ Segue abaixo o relatório com os resultados obtidos seguindo o plano de testes p
 * Requisito Funcional relacionado: RF-11/12/13/14
 
 ![teste-relatorios](img/RegistroLista.png)
-![teste-relatorios](img/Home.png)
+![teste-relatorios2](img/Home.png)
