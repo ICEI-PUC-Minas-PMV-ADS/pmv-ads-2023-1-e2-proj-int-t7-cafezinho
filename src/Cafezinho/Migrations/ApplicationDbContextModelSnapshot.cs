@@ -50,6 +50,20 @@ namespace Cafezinho.Migrations
                     b.ToTable("Ativos");
                 });
 
+            modelBuilder.Entity("Cafezinho.Models.Carteira", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Carteira");
+                });
+
             modelBuilder.Entity("Cafezinho.Models.Cliente", b =>
                 {
                     b.Property<string>("Cpf")
@@ -124,6 +138,45 @@ namespace Cafezinho.Migrations
                     b.HasKey("Cpf");
 
                     b.ToTable("clientes");
+                });
+
+            modelBuilder.Entity("Cafezinho.Models.Registro", b =>
+                {
+                    b.Property<int>("RegistroId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("registro_id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RegistroId"));
+
+                    b.Property<DateTime>("DtTransacao")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("data_transacao");
+
+                    b.Property<decimal>("Preco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("preco");
+
+                    b.Property<int>("Quantidade")
+                        .HasColumnType("int")
+                        .HasColumnName("quantidade");
+
+                    b.Property<string>("Ticker")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("ticker");
+
+                    b.Property<int>("Transacao")
+                        .HasColumnType("int")
+                        .HasColumnName("tipo_transacao");
+
+                    b.Property<decimal>("ValorTotal")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("valor_total");
+
+                    b.HasKey("RegistroId");
+
+                    b.ToTable("Registros");
                 });
 #pragma warning restore 612, 618
         }

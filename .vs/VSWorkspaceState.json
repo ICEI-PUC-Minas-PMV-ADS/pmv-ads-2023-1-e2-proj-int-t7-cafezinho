@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\Models"
+    "\\src\\Cafezinho",
+    "\\src\\Cafezinho\\Models"
   ],
-  "SelectedNode": "\\src\\Models\\Cliente.cs",
+  "SelectedNode": "\\src\\Cafezinho\\Models\\Carteira.cs",
   "PreviewInSolutionExplorer": false
 }
