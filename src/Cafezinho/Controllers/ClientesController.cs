@@ -111,6 +111,7 @@ namespace Cafezinho.Controllers
         }
 
         // GET: Clientes/Create
+        [AllowAnonymous]
         public IActionResult Create()
         {
             return View();
@@ -119,6 +120,7 @@ namespace Cafezinho.Controllers
         // POST: Clientes/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [AllowAnonymous]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Cliente cliente)
@@ -134,6 +136,7 @@ namespace Cafezinho.Controllers
         }
 
         // GET: Clientes/Edit/5
+        [AllowAnonymous]
         public async Task<IActionResult> Edit(string id)
         {
             if (id == null || _context.Clientes == null)
@@ -152,6 +155,7 @@ namespace Cafezinho.Controllers
         // POST: Clientes/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [AllowAnonymous]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(string id, Cliente cliente)

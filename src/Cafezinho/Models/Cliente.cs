@@ -76,7 +76,7 @@ namespace Cafezinho.Models
 
     public enum Perfil
     {
-        Administrador,
-        Usuario
+        Usuario,
+        Administrador
     }
 }
