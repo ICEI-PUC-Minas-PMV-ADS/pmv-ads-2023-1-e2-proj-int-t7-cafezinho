@@ -1,12 +1,55 @@
 # Registro de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
+Segue abaixo o relatório com os resultados obtidos seguindo o plano de testes pré-definido.
 
-Para cada caso de teste definido no Plano de Testes de Software, realize o registro das evidências dos testes feitos na aplicação pela equipe, que comprovem que o critério de êxito foi alcançado (ou não!!!). Para isso, utilize uma ferramenta de captura de tela que mostre cada um dos casos de teste definidos (obs.: cada caso de teste deverá possuir um vídeo do tipo _screencast_ para caracterizar uma evidência do referido caso).
 
-## Avaliação
+## Caso de teste 01 - Cadastro
+* Requisito Funcional relacionado: RF-01
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+![teste-cadastro](img/ClientesCadastro.png)
+![teste-cadastro](img/ClientesLista.png)
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+
+## Caso de Teste 02 - Login
+* Requisito Funcional relacionado: RF-02
+
+![teste-login](img/Login.png)
+
+
+## Caso de Teste 03 - Recuperar Senha
+* Requisito Funcional relacionado: RF-04
+
+![teste-recuperar-senha]()
+
+
+## Caso de Teste 04 - Buscar Ativos
+ * Requisito Funcional relacionado: RF-05
+
+### **Nesta versão, a aplicação permite apenas a adição do ativo manualmente, pois a API ainda está sendo implementada.**
+
+![teste-busca-ativos](img/AtivosLista.png)
+
+
+## Caso de Teste 05 - Compra
+* Requisito Funcional relacionado: RF-07
+
+![teste-compra](img/AtivosCadastro.png)
+
+
+## Caso de Teste 06 - Venda
+* Requisito Funcional relacionado: RF-08
+
+![teste-venda]()
+
+
+## Caso de Teste 07 - Dashboard
+* Requisito Funcional relacionado: RF-010
+
+![teste-dashboard](img/DashboardPrincipal.png)
+
+
+## Caso de Teste 08 - Relatórios
+* Requisito Funcional relacionado: RF-11/12/13/14
+
+![teste-relatorios](img/RegistroLista.png)
+![teste-relatorios](img/Home.png)
