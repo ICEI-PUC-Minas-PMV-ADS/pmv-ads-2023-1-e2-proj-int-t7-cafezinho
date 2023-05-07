@@ -40,7 +40,7 @@ O quadro kanban  que está sendo utilizado pode ser acessado através da URL(htt
 
 ### Processo
 
-Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub - Project estruturado com as seguintes listas:  
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Jira - Project estruturado com as seguintes listas:  
 
 * `Backlog`: Recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
 * `To Do`: Esta lista representa o Sprint Backlog. Esta etapa e onde ocorre o estudo das atividades e o que sera feito.
