@@ -34,7 +34,7 @@ A equipe está organizada da seguinte maneira:
 
 O quadro kanban  que está sendo utilizado pode ser acessado através da URL(https://pucminasinfosec.atlassian.net/jira/software/projects/PB/boards/2) é apresentado, no estado atual:
 
-![Diagrama de uso](./img/jira.png "Diagrama do sistema")
+![Diagrama de uso](./img/Entrega 3.png "Diagrama do sistema")
 
 
 
