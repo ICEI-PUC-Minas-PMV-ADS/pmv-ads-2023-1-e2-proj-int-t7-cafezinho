@@ -18,9 +18,6 @@
             <th>
                 @Html.DisplayNameFor(model => model.Ticker)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Preco)
-            </th>
             <th></th>
         </tr>
     </thead>
@@ -32,9 +29,6 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Ticker)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Preco)
             </td>
                 <td>
                     <a class="btn btn-secondary py-1" asp-action="Edit" asp-route-id="@item.AtivoId">Editar</a>
