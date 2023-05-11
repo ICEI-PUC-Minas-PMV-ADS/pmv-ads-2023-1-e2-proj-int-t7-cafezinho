@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
@@ -63,10 +63,6 @@ namespace Cafezinho.Models
         [DataType(DataType.Password)]
         [Column(name: "senha")]
         public string Senha { get; set; }
-
-        [ForeignKey("CarteiraId")]
-        [Column(name: "carteira_id")]
-        public string? CarteiraId { get; set; }
 
         [Required(ErrorMessage = "Campo Perfil de usuário é obrigatório.")]
         [Display(Name = "Perfil de usuário")]
