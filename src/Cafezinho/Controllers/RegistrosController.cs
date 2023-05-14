@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -43,9 +43,12 @@ namespace Cafezinho.Controllers
         }
 
         // GET: Registros/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
-            return View();
+            CreateRegistroViewModel ViewModel;
+            ViewModel = new CreateRegistroViewModel();
+            ViewModel.Ativos = await _context.Ativos.ToListAsync();
+            return View(model: ViewModel);
         }
 
         // POST: Registros/Create
