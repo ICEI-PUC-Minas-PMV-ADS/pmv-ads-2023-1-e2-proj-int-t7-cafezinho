@@ -1,4 +1,8 @@
-﻿@{
+﻿@model IEnumerable<Cafezinho.Models.Registro>
+
+
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -6,6 +10,39 @@
 {
     <h4 class="text-center mt-5" >Olá, @User.Identity.Name!</h4>
     <br />
+
+    <table>
+
+     @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ativo.Ticker)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Preco)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantidade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Transacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DtTransacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValorTotal)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.RegistroId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.RegistroId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.RegistroId">Delete</a>
+            </td>
+        </tr>
+}
+
+</table>
+
     <br />
     <p class="text-center">Inserir aqui o dashboard principal</p>
 }
