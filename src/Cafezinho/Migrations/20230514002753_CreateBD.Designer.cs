@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Cafezinho.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230506200936_m02")]
-    partial class m02
+    [Migration("20230514002753_CreateBD")]
+    partial class CreateBD
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -39,10 +39,6 @@ namespace Cafezinho.Migrations
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("nome");
 
-                    b.Property<decimal>("Preco")
-                        .HasColumnType("decimal(18,2)")
-                        .HasColumnName("preco");
-
                     b.Property<string>("Ticker")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)")
@@ -51,20 +47,6 @@ namespace Cafezinho.Migrations
                     b.HasKey("AtivoId");
 
                     b.ToTable("Ativos");
-                });
-
-            modelBuilder.Entity("Cafezinho.Models.Carteira", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("id");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Carteira");
                 });
 
             modelBuilder.Entity("Cafezinho.Models.Cliente", b =>
@@ -77,10 +59,6 @@ namespace Cafezinho.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)")
                         .HasColumnName("bairro");
-
-                    b.Property<string>("CarteiraId")
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("carteira_id");
 
                     b.Property<string>("Cep")
                         .IsRequired()
@@ -152,6 +130,14 @@ namespace Cafezinho.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RegistroId"));
 
+                    b.Property<int>("AtivoId")
+                        .HasColumnType("int")
+                        .HasColumnName("ativo_id");
+
+                    b.Property<string>("ClienteId")
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnName("cliente_id");
+
                     b.Property<DateTime>("DtTransacao")
                         .HasColumnType("datetime2")
                         .HasColumnName("data_transacao");
@@ -179,7 +165,33 @@ namespace Cafezinho.Migrations
 
                     b.HasKey("RegistroId");
 
+                    b.HasIndex("AtivoId");
+
+                    b.HasIndex("ClienteId");
+
                     b.ToTable("Registros");
+                });
+
+            modelBuilder.Entity("Cafezinho.Models.Registro", b =>
+                {
+                    b.HasOne("Cafezinho.Models.Ativo", "Ativo")
+                        .WithMany()
+                        .HasForeignKey("AtivoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Cafezinho.Models.Cliente", "Cliente")
+                        .WithMany("Registros")
+                        .HasForeignKey("ClienteId");
+
+                    b.Navigation("Ativo");
+
+                    b.Navigation("Cliente");
+                });
+
+            modelBuilder.Entity("Cafezinho.Models.Cliente", b =>
+                {
+                    b.Navigation("Registros");
                 });
 #pragma warning restore 612, 618
         }

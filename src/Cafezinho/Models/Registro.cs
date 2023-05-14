@@ -11,10 +11,7 @@ namespace Cafezinho.Models
         [Column(name: "registro_id")]
         public int RegistroId { get; set; }
 
-        [Required(ErrorMessage = "Campo Ticker é obrigatorio")]
-        [Column(name: "ticker")]
-        public string Ticker { get; set; }
-
+       
         [Display(Name = "Preço")]
         [Required(ErrorMessage = "Campo Preço é obrigatorio")]
         [Column(name: "preco", TypeName = "decimal(18,2)")]
