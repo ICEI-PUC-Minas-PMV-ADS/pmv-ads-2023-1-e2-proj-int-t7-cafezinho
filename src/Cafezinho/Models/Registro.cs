@@ -40,10 +40,12 @@ namespace Cafezinho.Models
 
         [Column(name: "ativo_id")]
         [ForeignKey("Ativo")]
+        public int AtivoId;
         public Ativo Ativo { get; set; }
 
         [Column(name: "cliente_id")]
         [ForeignKey("Cliente")]
+        public string ClienteId;
         public Cliente Cliente { get; set; }
     }
 
