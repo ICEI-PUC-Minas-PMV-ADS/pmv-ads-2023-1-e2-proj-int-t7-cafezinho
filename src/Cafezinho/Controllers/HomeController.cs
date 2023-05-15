@@ -19,7 +19,7 @@ namespace Cafezinho.Controllers
         public async Task<IActionResult> Index()
         {      
 
-         return View(await _context.Registros.ToListAsync());
+         return View();
 
         }
 

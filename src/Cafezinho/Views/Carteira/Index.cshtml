@@ -1,3 +1,59 @@
+@model IEnumerable<Cafezinho.Models.Registro>
 <h1>
     ola
 </h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Ativo.Ticker)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Preco)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantidade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Transacao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DtTransacao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ValorTotal)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Ativo.Ticker)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Preco)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Quantidade)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Transacao)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DtTransacao)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ValorTotal)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.RegistroId">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.RegistroId">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.RegistroId">Delete</a>
+                    </td>
+                </tr>
+        }
+    </tbody>
+</table>

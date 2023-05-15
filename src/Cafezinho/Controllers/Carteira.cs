@@ -1,12 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+
+using System.Security.Claims;
 using Cafezinho.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
 
 namespace Cafezinho.Controllers
 {
@@ -24,7 +20,10 @@ namespace Cafezinho.Controllers
 
         public async Task<IActionResult> IndexAsync()
         {
-            return View(await _context.Registros.ToListAsync());
+            string ClienteCPF = User.Claims.Where((claim) => claim.Type == ClaimTypes.Sid).First().Value;
+            List<Registro> todosregistros = await _context.Registros.ToListAsync();
+            IEnumerable<Registro> registros = todosregistros.Where((registro) => registro.ClienteId == ClienteCPF);
+            return View(registros); 
         }
 
 
