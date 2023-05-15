@@ -27,7 +27,7 @@ namespace Cafezinho.Models
                     Cpf = "001",
                     Nome = "Admin",
                     Email = "",
-                    DtNascimento = DateTime.Now,
+                    DtNascimento = new DateTime(2000, 01, 01),
                     Cep = "",
                     Logradouro = "",
                     Numero = "",
@@ -35,7 +35,7 @@ namespace Cafezinho.Models
                     Bairro = "",
                     Cidade = "",
                     Estado = "",
-                    Senha = BCrypt.Net.BCrypt.HashPassword("1234"),
+                    Senha = "$2a$10$6z4B.MIAncvz0rsrTRnuDORmDZUXXa1hXAXs9Pfa7Twwjylz2qujS",
                     Perfil = Perfil.Administrador,
                 }
             );
