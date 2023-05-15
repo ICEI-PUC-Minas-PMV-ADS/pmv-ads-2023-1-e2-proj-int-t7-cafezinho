@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -6,9 +6,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Cafezinho.Models;
+using Cafezinho.ViewModels;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace Cafezinho.Controllers
 {
+    [Authorize]
     public class RegistrosController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -21,7 +25,11 @@ namespace Cafezinho.Controllers
         // GET: Registros
         public async Task<IActionResult> Index()
         {
-              return View(await _context.Registros.ToListAsync());
+            //filtrar registros
+            string ClienteCPF = User.Claims.Where((claim) => claim.Type == ClaimTypes.Sid).First().Value;
+            List<Registro> todosregistros = await _context.Registros.ToListAsync();
+            IEnumerable<Registro> registros = todosregistros.Where((registro) => registro.ClienteId == ClienteCPF);
+            return View(registros);
         }
 
         // GET: Registros/Details/5
@@ -56,15 +64,30 @@ namespace Cafezinho.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("RegistroId,Ticker,Preco,Quantidade,Transacao,DtTransacao,ValorTotal")] Registro registro)
+        public async Task<IActionResult> Create(
+            [FromForm] CreateRegistroViewModel viewModelRegistro)
         {
             if (ModelState.IsValid)
             {
+            string ClienteCPF = User.Claims.Where((claim) => claim.Type == ClaimTypes.Sid).First().Value;
+
+                Registro registro = new Registro()
+                {
+                    RegistroId = 0,
+                    Preco = viewModelRegistro.Preco,
+                    AtivoId = int.Parse(viewModelRegistro.AtivoId),
+                    DtTransacao = viewModelRegistro.DtTransacao,
+                    Quantidade = viewModelRegistro.Quantidade,
+                    Transacao = viewModelRegistro.Transacao,
+                    ValorTotal = viewModelRegistro.ValorTotal,
+                    ClienteId = ClienteCPF,
+
+                };
                 _context.Add(registro);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(registro);
+            return View(viewModelRegistro);
         }
 
         // GET: Registros/Edit/5
@@ -150,14 +173,14 @@ namespace Cafezinho.Controllers
             {
                 _context.Registros.Remove(registro);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool RegistroExists(int id)
         {
-          return _context.Registros.Any(e => e.RegistroId == id);
+            return _context.Registros.Any(e => e.RegistroId == id);
         }
     }
 }
