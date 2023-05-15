@@ -35,9 +35,9 @@ namespace Cafezinho.Models
         [Column(name: "valor_total", TypeName = "decimal(18,2)")]
         public decimal ValorTotal { get; set; }
 
-        [Column(name: "ativo_id")]
+        [Column(name: "ticker")]
         [ForeignKey("Ativo")]
-        public int AtivoId;
+        public string Ticker;
         public Ativo Ativo { get; set; }
 
         [Column(name: "cliente_id")]

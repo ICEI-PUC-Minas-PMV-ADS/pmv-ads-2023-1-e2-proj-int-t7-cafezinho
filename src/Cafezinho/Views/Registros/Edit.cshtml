@@ -12,11 +12,11 @@
     <div class="col-md-4">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <label asp-for="AtivoId" class="control-label"></label>
-                <select asp-for="AtivoId" class="form-control" > 
+            <label asp-for="Ticker" class="control-label"></label>
+                <select asp-for="Ticker" class="form-control" > 
                     @for (int i = 0; i < Model.Ativos.Count(); i++)
                     {
-                        <option value=@Model.Ativos[i].AtivoId>@Model.Ativos[i].Ticker</option>
+                        <option value=@Model.Ativos[i].Ticker>@Model.Ativos[i].Nome</option>
                     }
                 </select>
             <div class="form-group">

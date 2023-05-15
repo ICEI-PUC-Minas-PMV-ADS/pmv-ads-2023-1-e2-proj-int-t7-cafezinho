@@ -27,7 +27,7 @@ namespace Cafezinho.Controllers
         }
 
         // GET: Ativos/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(string id)
         {
             if (id == null || _context.Ativos == null)
             {
@@ -35,7 +35,7 @@ namespace Cafezinho.Controllers
             }
 
             var ativo = await _context.Ativos
-                .FirstOrDefaultAsync(m => m.AtivoId == id);
+                .FirstOrDefaultAsync(m => m.Ticker == id);
             if (ativo == null)
             {
                 return NotFound();
@@ -67,7 +67,7 @@ namespace Cafezinho.Controllers
         }
 
         // GET: Ativos/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(int id)
         {
             if (id == null || _context.Ativos == null)
             {
@@ -87,9 +87,9 @@ namespace Cafezinho.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("AtivoId,Nome,Ticker,Preco")] Ativo ativo)
+        public async Task<IActionResult> Edit(string id, [Bind("AtivoId,Nome,Ticker,Preco")] Ativo ativo)
         {
-            if (id != ativo.AtivoId)
+            if (id != ativo.Ticker)
             {
                 return NotFound();
             }
@@ -103,7 +103,7 @@ namespace Cafezinho.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!AtivoExists(ativo.AtivoId))
+                    if (!AtivoExists(ativo.Ticker))
                     {
                         return NotFound();
                     }
@@ -118,7 +118,7 @@ namespace Cafezinho.Controllers
         }
 
         // GET: Ativos/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(string id)
         {
             if (id == null || _context.Ativos == null)
             {
@@ -126,7 +126,7 @@ namespace Cafezinho.Controllers
             }
 
             var ativo = await _context.Ativos
-                .FirstOrDefaultAsync(m => m.AtivoId == id);
+                .FirstOrDefaultAsync(m => m.Ticker == id);
             if (ativo == null)
             {
                 return NotFound();
@@ -154,9 +154,9 @@ namespace Cafezinho.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool AtivoExists(int id)
+        private bool AtivoExists(string id)
         {
-          return _context.Ativos.Any(e => e.AtivoId == id);
+          return _context.Ativos.Any(e => e.Ticker == id);
         }
     }
 }

@@ -26,9 +26,14 @@ namespace Cafezinho.Controllers
         public async Task<IActionResult> Index()
         {
             //filtrar registros
-            string ClienteCPF = User.Claims.Where((claim) => claim.Type == ClaimTypes.Sid).First().Value;
+            string ClienteCPF = User.Claims
+                .Where((claim) => claim.Type == ClaimTypes.Sid)
+                .First()
+                .Value;
             List<Registro> todosregistros = await _context.Registros.ToListAsync();
-            IEnumerable<Registro> registros = todosregistros.Where((registro) => registro.ClienteId == ClienteCPF);
+            IEnumerable<Registro> registros = todosregistros.Where(
+                (registro) => registro.ClienteId == ClienteCPF
+            );
             return View(registros);
         }
 
@@ -40,8 +45,7 @@ namespace Cafezinho.Controllers
                 return NotFound();
             }
 
-            var registro = await _context.Registros
-                .FirstOrDefaultAsync(m => m.RegistroId == id);
+            var registro = await _context.Registros.FirstOrDefaultAsync(m => m.RegistroId == id);
             if (registro == null)
             {
                 return NotFound();
@@ -64,30 +68,20 @@ namespace Cafezinho.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(
-            [FromForm] CreateRegistroViewModel viewModelRegistro)
+        public async Task<IActionResult> Create([FromForm] Registro registro)
         {
             if (ModelState.IsValid)
             {
-            string ClienteCPF = User.Claims.Where((claim) => claim.Type == ClaimTypes.Sid).First().Value;
-
-                Registro registro = new Registro()
-                {
-                    RegistroId = 0,
-                    Preco = viewModelRegistro.Preco,
-                    AtivoId = int.Parse(viewModelRegistro.AtivoId),
-                    DtTransacao = viewModelRegistro.DtTransacao,
-                    Quantidade = viewModelRegistro.Quantidade,
-                    Transacao = viewModelRegistro.Transacao,
-                    ValorTotal = viewModelRegistro.ValorTotal,
-                    ClienteId = ClienteCPF,
-
-                };
+                string ClienteCPF = User.Claims
+                    .Where((claim) => claim.Type == ClaimTypes.Sid)
+                    .First()
+                    .Value;
+                registro.ClienteId = ClienteCPF;
                 _context.Add(registro);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(viewModelRegistro);
+            return View(registro);
         }
 
         // GET: Registros/Edit/5
@@ -111,7 +105,11 @@ namespace Cafezinho.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("RegistroId,Ticker,Preco,Quantidade,Transacao,DtTransacao,ValorTotal")] Registro registro)
+        public async Task<IActionResult> Edit(
+            int id,
+            [Bind("RegistroId,Ticker,Preco,Quantidade,Transacao,DtTransacao,ValorTotal")]
+                Registro registro
+        )
         {
             if (id != registro.RegistroId)
             {
@@ -149,8 +147,7 @@ namespace Cafezinho.Controllers
                 return NotFound();
             }
 
-            var registro = await _context.Registros
-                .FirstOrDefaultAsync(m => m.RegistroId == id);
+            var registro = await _context.Registros.FirstOrDefaultAsync(m => m.RegistroId == id);
             if (registro == null)
             {
                 return NotFound();

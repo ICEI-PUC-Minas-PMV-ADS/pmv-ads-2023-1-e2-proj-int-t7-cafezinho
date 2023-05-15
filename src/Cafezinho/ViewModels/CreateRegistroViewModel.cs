@@ -8,7 +8,7 @@ namespace Cafezinho.ViewModels
     public class CreateRegistroViewModel
     {
 
-        public string AtivoId { get; set; }
+        public string Ticker { get; set; }
 
         public decimal Preco { get; set; }
 
