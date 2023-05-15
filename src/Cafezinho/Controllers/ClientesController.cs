@@ -10,6 +10,7 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.Identity.Client;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace Cafezinho.Controllers
 {
@@ -49,13 +50,12 @@ namespace Cafezinho.Controllers
                 var claims = new List<Claim>
                 {
                 new Claim(ClaimTypes.Name, client.Nome),
-                new Claim(ClaimTypes.Name, client.Nome),
+                new Claim(ClaimTypes.Sid, client.Cpf),
                 new Claim(ClaimTypes.Role, client.Perfil.ToString())
                 };
 
-                var clientIdentity = new ClaimsIdentity(claims, "login");
+                var clientIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
 
-                ClaimsPrincipal principal = new ClaimsPrincipal(clientIdentity);
 
                 var props = new AuthenticationProperties
                 {
@@ -64,7 +64,9 @@ namespace Cafezinho.Controllers
                     IsPersistent = true
                 };
 
+                ClaimsPrincipal principal = new ClaimsPrincipal(clientIdentity);
                 await HttpContext.SignInAsync(principal, props);
+
 
                 return Redirect("/");
             }
