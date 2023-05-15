@@ -14,7 +14,7 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace Cafezinho.Controllers
 {
-    //[Authorize(Roles = "Administrador")]
+    [Authorize(Roles = "Administrador")]
     public class ClientesController : Controller
     {
         private readonly ApplicationDbContext _context;
