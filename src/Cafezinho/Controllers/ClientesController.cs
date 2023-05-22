@@ -88,30 +88,11 @@ namespace Cafezinho.Controllers
             return View();
         }
 
-
-
-        // GET: Clientes Admin
-        public async Task<IActionResult> IndexAdmin()
+        // GET: Clientes
+        public async Task<IActionResult> Index()
         {
             return View(await _context.Clientes.ToListAsync());
         }
-
-        // GET: Clientes
-        [AllowAnonymous]
-        public async Task<IActionResult> Index()
-        {
-            //filtrar registros
-            string ClienteCPF = User.Claims
-                .Where((claim) => claim.Type == ClaimTypes.Sid)
-                .First()
-                .Value;
-            List<Cliente> todosClientes = await _context.Clientes.ToListAsync();
-            IEnumerable<Cliente> clientes = todosClientes.Where(
-                (registro) => registro.Cpf == ClienteCPF
-            );
-            return View(clientes);
-        }
-
 
         // GET: Clientes/Details/5
         public async Task<IActionResult> Details(string id)
