@@ -10,10 +10,11 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.Identity.Client;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace Cafezinho.Controllers
 {
-    //[Authorize(Roles = "Administrador")]
+    [Authorize(Roles = "Administrador")]
     public class ClientesController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -49,13 +50,12 @@ namespace Cafezinho.Controllers
                 var claims = new List<Claim>
                 {
                 new Claim(ClaimTypes.Name, client.Nome),
-                new Claim(ClaimTypes.Name, client.Nome),
+                new Claim(ClaimTypes.Sid, client.Cpf),
                 new Claim(ClaimTypes.Role, client.Perfil.ToString())
                 };
 
-                var clientIdentity = new ClaimsIdentity(claims, "login");
+                var clientIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
 
-                ClaimsPrincipal principal = new ClaimsPrincipal(clientIdentity);
 
                 var props = new AuthenticationProperties
                 {
@@ -64,7 +64,9 @@ namespace Cafezinho.Controllers
                     IsPersistent = true
                 };
 
+                ClaimsPrincipal principal = new ClaimsPrincipal(clientIdentity);
                 await HttpContext.SignInAsync(principal, props);
+
 
                 return Redirect("/");
             }
@@ -86,11 +88,30 @@ namespace Cafezinho.Controllers
             return View();
         }
 
-        // GET: Clientes
-        public async Task<IActionResult> Index()
+
+
+        // GET: Clientes Admin
+        public async Task<IActionResult> IndexAdmin()
         {
             return View(await _context.Clientes.ToListAsync());
         }
+
+        // GET: Clientes
+        [AllowAnonymous]
+        public async Task<IActionResult> Index()
+        {
+            //filtrar registros
+            string ClienteCPF = User.Claims
+                .Where((claim) => claim.Type == ClaimTypes.Sid)
+                .First()
+                .Value;
+            List<Cliente> todosClientes = await _context.Clientes.ToListAsync();
+            IEnumerable<Cliente> clientes = todosClientes.Where(
+                (registro) => registro.Cpf == ClienteCPF
+            );
+            return View(clientes);
+        }
+
 
         // GET: Clientes/Details/5
         public async Task<IActionResult> Details(string id)

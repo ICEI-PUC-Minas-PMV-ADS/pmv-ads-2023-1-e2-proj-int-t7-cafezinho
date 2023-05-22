@@ -6,9 +6,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Cafezinho.Models;
+using Cafezinho.ViewModels;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace Cafezinho.Controllers
 {
+    [Authorize]
     public class RegistrosController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -21,7 +25,16 @@ namespace Cafezinho.Controllers
         // GET: Registros
         public async Task<IActionResult> Index()
         {
-              return View(await _context.Registros.ToListAsync());
+            //filtrar registros
+            string ClienteCPF = User.Claims
+                .Where((claim) => claim.Type == ClaimTypes.Sid)
+                .First()
+                .Value;
+            List<Registro> todosregistros = await _context.Registros.ToListAsync();
+            IEnumerable<Registro> registros = todosregistros.Where(
+                (registro) => registro.ClienteId == ClienteCPF
+            );
+            return View(registros);
         }
 
         // GET: Registros/Details/5
@@ -32,8 +45,7 @@ namespace Cafezinho.Controllers
                 return NotFound();
             }
 
-            var registro = await _context.Registros
-                .FirstOrDefaultAsync(m => m.RegistroId == id);
+            var registro = await _context.Registros.FirstOrDefaultAsync(m => m.RegistroId == id);
             if (registro == null)
             {
                 return NotFound();
@@ -43,9 +55,12 @@ namespace Cafezinho.Controllers
         }
 
         // GET: Registros/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
-            return View();
+            CreateRegistroViewModel ViewModel;
+            ViewModel = new CreateRegistroViewModel();
+            ViewModel.Ativos = await _context.Ativos.ToListAsync();
+            return View(model: ViewModel);
         }
 
         // POST: Registros/Create
@@ -53,10 +68,15 @@ namespace Cafezinho.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("RegistroId,Ticker,Preco,Quantidade,Transacao,DtTransacao,ValorTotal")] Registro registro)
+        public async Task<IActionResult> Create([FromForm] Registro registro)
         {
             if (ModelState.IsValid)
             {
+                string ClienteCPF = User.Claims
+                    .Where((claim) => claim.Type == ClaimTypes.Sid)
+                    .First()
+                    .Value;
+                registro.ClienteId = ClienteCPF;
                 _context.Add(registro);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -85,7 +105,11 @@ namespace Cafezinho.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("RegistroId,Ticker,Preco,Quantidade,Transacao,DtTransacao,ValorTotal")] Registro registro)
+        public async Task<IActionResult> Edit(
+            int id,
+            [Bind("RegistroId,Ticker,Preco,Quantidade,Transacao,DtTransacao,ValorTotal")]
+                Registro registro
+        )
         {
             if (id != registro.RegistroId)
             {
@@ -123,8 +147,7 @@ namespace Cafezinho.Controllers
                 return NotFound();
             }
 
-            var registro = await _context.Registros
-                .FirstOrDefaultAsync(m => m.RegistroId == id);
+            var registro = await _context.Registros.FirstOrDefaultAsync(m => m.RegistroId == id);
             if (registro == null)
             {
                 return NotFound();
@@ -147,14 +170,14 @@ namespace Cafezinho.Controllers
             {
                 _context.Registros.Remove(registro);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool RegistroExists(int id)
         {
-          return _context.Registros.Any(e => e.RegistroId == id);
+            return _context.Registros.Any(e => e.RegistroId == id);
         }
     }
 }

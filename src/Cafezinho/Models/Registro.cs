@@ -11,10 +11,7 @@ namespace Cafezinho.Models
         [Column(name: "registro_id")]
         public int RegistroId { get; set; }
 
-        [Required(ErrorMessage = "Campo Ticker é obrigatorio")]
-        [Column(name: "ticker")]
-        public string Ticker { get; set; }
-
+       
         [Display(Name = "Preço")]
         [Required(ErrorMessage = "Campo Preço é obrigatorio")]
         [Column(name: "preco", TypeName = "decimal(18,2)")]
@@ -37,6 +34,16 @@ namespace Cafezinho.Models
 
         [Column(name: "valor_total", TypeName = "decimal(18,2)")]
         public decimal ValorTotal { get; set; }
+
+        [Column(name: "ticker")]
+        [ForeignKey("Ativo")]
+        public string Ticker;
+        public Ativo Ativo { get; set; }
+
+        [Column(name: "cliente_id")]
+        [ForeignKey("Cliente")]
+        public string ClienteId;
+        public Cliente Cliente { get; set; }
     }
 
     public enum Transacao
