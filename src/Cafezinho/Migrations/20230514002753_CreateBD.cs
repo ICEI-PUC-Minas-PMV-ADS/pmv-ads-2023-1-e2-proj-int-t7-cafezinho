@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Cafezinho.Migrations
 {
     /// <inheritdoc />
-    public partial class m02 : Migration
+    public partial class CreateBD : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -18,24 +18,11 @@ namespace Cafezinho.Migrations
                     ativo_id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ticker = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    preco = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
+                    ticker = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Ativos", x => x.ativo_id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Carteira",
-                columns: table => new
-                {
-                    id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1")
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Carteira", x => x.id);
                 });
 
             migrationBuilder.CreateTable(
@@ -54,7 +41,6 @@ namespace Cafezinho.Migrations
                     cidade = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     estado = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     senha = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    carteira_id = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     perfil = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -73,28 +59,48 @@ namespace Cafezinho.Migrations
                     quantidade = table.Column<int>(type: "int", nullable: false),
                     tipo_transacao = table.Column<int>(type: "int", nullable: false),
                     data_transacao = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    valor_total = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
+                    valor_total = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    ativo_id = table.Column<int>(type: "int", nullable: false),
+                    cliente_id = table.Column<string>(type: "nvarchar(450)", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Registros", x => x.registro_id);
+                    table.ForeignKey(
+                        name: "FK_Registros_Ativos_ativo_id",
+                        column: x => x.ativo_id,
+                        principalTable: "Ativos",
+                        principalColumn: "ativo_id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Registros_clientes_cliente_id",
+                        column: x => x.cliente_id,
+                        principalTable: "clientes",
+                        principalColumn: "cpf");
                 });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Registros_ativo_id",
+                table: "Registros",
+                column: "ativo_id");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Registros_cliente_id",
+                table: "Registros",
+                column: "cliente_id");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
+                name: "Registros");
+
+            migrationBuilder.DropTable(
                 name: "Ativos");
 
             migrationBuilder.DropTable(
-                name: "Carteira");
-
-            migrationBuilder.DropTable(
                 name: "clientes");
-
-            migrationBuilder.DropTable(
-                name: "Registros");
         }
     }
 }

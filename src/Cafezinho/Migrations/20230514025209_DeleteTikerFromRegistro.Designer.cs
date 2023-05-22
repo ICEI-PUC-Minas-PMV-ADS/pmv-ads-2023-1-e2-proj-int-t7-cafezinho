@@ -4,6 +4,7 @@ using Cafezinho.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Cafezinho.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230514025209_DeleteTikerFromRegistro")]
+    partial class DeleteTikerFromRegistro
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -24,25 +27,26 @@ namespace Cafezinho.Migrations
 
             modelBuilder.Entity("Cafezinho.Models.Ativo", b =>
                 {
-                    b.Property<string>("Ticker")
-                        .HasColumnType("nvarchar(450)")
-                        .HasColumnName("ticker");
+                    b.Property<int>("AtivoId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("ativo_id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AtivoId"));
 
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("nome");
 
-                    b.HasKey("Ticker");
+                    b.Property<string>("Ticker")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("ticker");
+
+                    b.HasKey("AtivoId");
 
                     b.ToTable("Ativos");
-
-                    b.HasData(
-                        new
-                        {
-                            Ticker = "AAAA",
-                            Nome = "aaaa"
-                        });
                 });
 
             modelBuilder.Entity("Cafezinho.Models.Cliente", b =>
@@ -115,24 +119,6 @@ namespace Cafezinho.Migrations
                     b.HasKey("Cpf");
 
                     b.ToTable("clientes");
-
-                    b.HasData(
-                        new
-                        {
-                            Cpf = "001",
-                            Bairro = "",
-                            Cep = "",
-                            Cidade = "",
-                            Complemento = "",
-                            DtNascimento = new DateTime(2000, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Email = "",
-                            Estado = "",
-                            Logradouro = "",
-                            Nome = "Admin",
-                            Numero = "",
-                            Perfil = 1,
-                            Senha = "$2a$10$6z4B.MIAncvz0rsrTRnuDORmDZUXXa1hXAXs9Pfa7Twwjylz2qujS"
-                        });
                 });
 
             modelBuilder.Entity("Cafezinho.Models.Registro", b =>
@@ -143,6 +129,10 @@ namespace Cafezinho.Migrations
                         .HasColumnName("registro_id");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RegistroId"));
+
+                    b.Property<int>("AtivoId")
+                        .HasColumnType("int")
+                        .HasColumnName("ativo_id");
 
                     b.Property<string>("ClienteId")
                         .HasColumnType("nvarchar(450)")
@@ -160,10 +150,6 @@ namespace Cafezinho.Migrations
                         .HasColumnType("int")
                         .HasColumnName("quantidade");
 
-                    b.Property<string>("Ticker")
-                        .HasColumnType("nvarchar(450)")
-                        .HasColumnName("ticker");
-
                     b.Property<int>("Transacao")
                         .HasColumnType("int")
                         .HasColumnName("tipo_transacao");
@@ -174,22 +160,24 @@ namespace Cafezinho.Migrations
 
                     b.HasKey("RegistroId");
 
-                    b.HasIndex("ClienteId");
+                    b.HasIndex("AtivoId");
 
-                    b.HasIndex("Ticker");
+                    b.HasIndex("ClienteId");
 
                     b.ToTable("Registros");
                 });
 
             modelBuilder.Entity("Cafezinho.Models.Registro", b =>
                 {
+                    b.HasOne("Cafezinho.Models.Ativo", "Ativo")
+                        .WithMany()
+                        .HasForeignKey("AtivoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("Cafezinho.Models.Cliente", "Cliente")
                         .WithMany("Registros")
                         .HasForeignKey("ClienteId");
-
-                    b.HasOne("Cafezinho.Models.Ativo", "Ativo")
-                        .WithMany()
-                        .HasForeignKey("Ticker");
 
                     b.Navigation("Ativo");
 
