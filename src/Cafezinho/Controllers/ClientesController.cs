@@ -88,31 +88,6 @@ namespace Cafezinho.Controllers
             return View();
         }
 
-
-
-        // GET: Clientes Admin
-        public async Task<IActionResult> IndexAdmin()
-        {
-            return View(await _context.Clientes.ToListAsync());
-        }
-
-        // GET: Clientes
-        [AllowAnonymous]
-        public async Task<IActionResult> Index()
-        {
-            //filtrar registros
-            string ClienteCPF = User.Claims
-                .Where((claim) => claim.Type == ClaimTypes.Sid)
-                .First()
-                .Value;
-            List<Cliente> todosClientes = await _context.Clientes.ToListAsync();
-            IEnumerable<Cliente> clientes = todosClientes.Where(
-                (registro) => registro.Cpf == ClienteCPF
-            );
-            return View(clientes);
-        }
-
-
         // GET: Clientes/Details/5
         public async Task<IActionResult> Details(string id)
         {
@@ -211,6 +186,7 @@ namespace Cafezinho.Controllers
         }
 
         // GET: Clientes/Delete/5
+        [AllowAnonymous]
         public async Task<IActionResult> Delete(string id)
         {
             if (id == null || _context.Clientes == null)
@@ -229,6 +205,7 @@ namespace Cafezinho.Controllers
         }
 
         // POST: Clientes/Delete/5
+        [AllowAnonymous]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(string id)
@@ -246,6 +223,30 @@ namespace Cafezinho.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+
+
+        // GET: Clientes Index para o Administrador
+        public async Task<IActionResult> Index()
+        {
+            return View(await _context.Clientes.ToListAsync());
+        }
+
+        // GET: Clientes
+        [AllowAnonymous]
+        public async Task<IActionResult> FiltroCliente()
+        {
+            //filtrar registros
+            string ClienteCPF = User.Claims
+                .Where((claim) => claim.Type == ClaimTypes.Sid)
+                .First()
+                .Value;
+            List<Cliente> todosClientes = await _context.Clientes.ToListAsync();
+            IEnumerable<Cliente> clientes = todosClientes.Where(
+                (registro) => registro.Cpf == ClienteCPF
+            );
+            return View(clientes);
+        }
+
 
         private bool ClienteExists(string id)
         {
