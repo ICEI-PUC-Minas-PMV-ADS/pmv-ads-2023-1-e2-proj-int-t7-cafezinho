@@ -4,11 +4,8 @@
     ViewData["Title"] = "Index";
 }
 
-<h4>Relação de clientes cadastrados</h4>
+<h4>Meu cadastro</h4>
 
-<p>
-    <a class="btn btn-success mt-4" asp-action="Create">Adicionar cliente</a>
-</p>
 <table class="table align-middle">
     <thead>
         <tr class="text-center">
@@ -86,7 +83,6 @@
             </td>
                 <td class="d-block">
                     <a class="btn btn-secondary p-0 w-100" asp-action="Edit" asp-route-id="@item.Cpf">Editar</a>
-                    <a class="btn btn-warning p-0 w-100" asp-action="Details" asp-route-id="@item.Cpf">Detalhar</a>
                     <a class="btn btn-danger p-0 w-100" asp-action="Delete" asp-route-id="@item.Cpf">Apagar</a>
                 </td>
         </tr>

@@ -226,14 +226,14 @@ namespace Cafezinho.Controllers
 
 
         // GET: Clientes Index para o Administrador
-        public async Task<IActionResult> IndexAdmin()
+        public async Task<IActionResult> Index()
         {
             return View(await _context.Clientes.ToListAsync());
         }
 
         // GET: Clientes
         [AllowAnonymous]
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> FiltroCliente()
         {
             //filtrar registros
             string ClienteCPF = User.Claims
