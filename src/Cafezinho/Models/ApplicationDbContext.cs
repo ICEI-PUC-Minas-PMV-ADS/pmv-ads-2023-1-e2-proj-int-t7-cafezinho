@@ -18,6 +18,7 @@ namespace Cafezinho.Models
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Ativo> Ativos { get; set; }
         public DbSet<Registro> Registros { get; set; }
+        public DbSet<Dashboard> Dashboard { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
