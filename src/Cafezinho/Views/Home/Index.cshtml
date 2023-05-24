@@ -6,54 +6,53 @@
     ViewData["Title"] = "Home Page";
 }
 
-@if (User.Identity.IsAuthenticated)
-{
-    <h4 class="text-center mt-5">Olá, @User.Identity.Name!</h4>
-    <br />
+@{
+    if (User.Identity.IsAuthenticated)
+    {
+        <script>
+            window.location.href = '@Url.Action("Index", "Dashboards")';
+        </script>
+    }
+    else
+    {
+        <div id="carouselDarkVariant" class="carousel slide carousel-fade carousel-dark mx-auto" style="max-width:1000px;"
+             data-mdb-ride="carousel" data-mdb-interval="2000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="~/img/Relatorio1.png" class="d-block w-100" alt="" />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Relatório X</h5>
+                        <p>Texto sobre o relatório X</p>
+                    </div>
+                </div>
 
-    <br />
-    <p class="text-center">Inserir aqui o dashboard principal</p>
-}
+                <div class="carousel-item">
+                    <img src="~/img/Relatorio2.png" class="d-block w-100" alt="" />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Relatório Y</h5>
+                        <p>Texto sobre o relatório Y</p>
+                    </div>
+                </div>
 
-else
-{
-    <div id="carouselDarkVariant" class="carousel slide carousel-fade carousel-dark mx-auto" style="max-width:1000px;"
-        data-mdb-ride="carousel" data-mdb-interval="2000">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="~/img/Relatorio1.png" class="d-block w-100" alt="" />
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Relatório X</h5>
-                    <p>Texto sobre o relatório X</p>
+                <div class="carousel-item">
+                    <img src="~/img/Relatorio3.png" class="d-block w-100" alt="" />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Relatório Z</h5>
+                        <p>Texto sobre o relatório Z</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="carousel-item">
-                <img src="~/img/Relatorio2.png" class="d-block w-100" alt="" />
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Relatório Y</h5>
-                    <p>Texto sobre o relatório Y</p>
-                </div>
-            </div>
-
-            <div class="carousel-item">
-                <img src="~/img/Relatorio3.png" class="d-block w-100" alt="" />
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Relatório Z</h5>
-                    <p>Texto sobre o relatório Z</p>
-                </div>
-            </div>
+            <button class="carousel-control-prev" type="button" data-mdb-target="#carouselDarkVariant" data-mdb-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-mdb-target="#carouselDarkVariant" data-mdb-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-
-        <button class="carousel-control-prev" type="button" data-mdb-target="#carouselDarkVariant" data-mdb-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-mdb-target="#carouselDarkVariant" data-mdb-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+    }
 }
 
 @section Scripts {
