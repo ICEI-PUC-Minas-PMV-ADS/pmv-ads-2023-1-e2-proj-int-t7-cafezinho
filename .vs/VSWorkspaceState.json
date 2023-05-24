@@ -5,6 +5,6 @@
     "\\src\\Cafezinho",
     "\\src\\Cafezinho\\Models"
   ],
-  "SelectedNode": "\\src\\Cafezinho.sln",
+  "SelectedNode": "\\src\\Cafezinho\\Models\\ApplicationDbContext.cs",
   "PreviewInSolutionExplorer": false
 }
