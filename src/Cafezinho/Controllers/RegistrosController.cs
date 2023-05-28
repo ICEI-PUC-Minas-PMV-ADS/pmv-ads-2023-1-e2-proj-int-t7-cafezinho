@@ -97,8 +97,21 @@ namespace Cafezinho.Controllers
             {
                 return NotFound();
             }
-            return View(registro);
+
+            var viewModel = new CreateRegistroViewModel
+            {
+                Ticker = registro.Ticker,
+                Preco = registro.Preco,
+                Quantidade = registro.Quantidade,
+                Transacao = registro.Transacao,
+                DtTransacao = registro.DtTransacao,
+                ValorTotal = registro.ValorTotal,
+                Ativos = await _context.Ativos.ToListAsync()
+            };
+
+            return View(viewModel);
         }
+
 
         // POST: Registros/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
@@ -178,6 +191,21 @@ namespace Cafezinho.Controllers
         private bool RegistroExists(int id)
         {
             return _context.Registros.Any(e => e.RegistroId == id);
+        }
+        // GET: Registros/GetChartData
+         [HttpGet]
+        public IActionResult GetChartData()
+        {
+            var chart1Data = _context.Registros
+                .Select(registro => registro.ValorTotal)
+                .ToList();
+
+            var chartData = new
+            {
+                chart1Data
+            };
+
+            return Ok(chartData);
         }
     }
 }
