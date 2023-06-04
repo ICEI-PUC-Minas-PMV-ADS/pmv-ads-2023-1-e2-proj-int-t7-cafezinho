@@ -68,6 +68,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais, 
 |RNF-06| A aplicação deve se comunicar com o banco de dados SQL. | ALTA | 
 |RNF-07| A aplicação deve estár acessível e sem interrupções por pelo menos 95% do tempo, apresentando um tempo de inatividade mínimo. | ALTA | 
 |RNF-08| A aplicação deverá realizar a validação de CEP e preencher automaticamente campos de endereço utilizando a API [ViaCEP](https://viacep.com.br/). | BAIXA | 
+|RNF-09| A aplicação deverá usar a API [Brapi](https://brapi.dev/) para preencher o banco de dados de ativos. | BAIXA | 
 
 ## Restrições
 

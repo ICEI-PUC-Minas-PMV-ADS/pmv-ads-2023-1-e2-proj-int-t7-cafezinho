@@ -1,35 +1,56 @@
 ﻿@model IEnumerable<Cafezinho.Models.Dashboard>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Dashboard financeiro";
 }
 
-<h1>Index</h1>
+<h1>Dashboard</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.TotalEmCarteira)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.TotalEmCarteira)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.DashboardId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.DashboardId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.DashboardId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div style="width: 400px; height: 300px;">
+    <canvas id="myChart1" width="400" height="300"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    const ctx1 = document.getElementById('myChart1').getContext('2d');
+
+    // Retrieve data for chart 1
+    var chart1Data = {
+        labels: [],
+        datasets: [{
+            label: '# of Votes',
+            data: [],
+            borderWidth: 1
+        }]
+    };
+
+    // Fetch data from the server
+    fetch('/Registros/GetChartData')  // Modify this line if needed
+        .then(response => response.json())
+        .then(data => {
+            // Update chart 1 data
+            chart1Data.datasets[0].data = data.chart1Data;
+
+            // Add labels if there is registro data
+            if (data.chart1Data.length > 0) {
+                const labels = data.chart1Data.map((_, index) => `Registro ${index + 1}`);
+                chart1Data.labels = labels;
+            }
+
+            // Create chart 1
+            new Chart(ctx1, {
+                type: 'doughnut',
+                data: chart1Data,
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        })
+        .catch(error => {
+            console.error('Error fetching chart data:', error);
+        });
+</script>

@@ -1,11 +1,10 @@
 @model IEnumerable<Cafezinho.Models.Registro>
-<h1>
-    olá!
-</h1>
-
+<h4>
+Relatório de ativos em carteira</h4>
+<br>
 <style>
     .compra {
-        color: #00FF00;
+        color: #2c8e2c;
     }
 
     .venda {
@@ -53,7 +52,7 @@
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Ativo.Ticker)
+                    @Html.DisplayFor(modelItem => item.Ticker)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Preco)
@@ -76,11 +75,6 @@
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.ValorTotal)
-                </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.RegistroId">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.RegistroId">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.RegistroId">Delete</a>
                 </td>
             </tr>
             <tr class="result-separator">

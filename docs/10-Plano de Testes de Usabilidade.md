@@ -12,33 +12,11 @@ Para cada tarefa que será designada aos participantes do teste, será possível
 
 * Eficiência;
 * Erros;
-* Recorrência de erros;
-* Reminisciência;
+* Quantidade de erros;
 * Satisfação.
 
 
-Ao fim das tarefas o usuário deverá responder um questionário que irá classificar sua experiência com cada uma delas:
-
-`Classificando por dificuldade:` 
-
-| **Escala** | **Classificação** |
-| :---: | :--- |
-| 1 | Extremamente Difícil |
-| 2 | Muito Difícil |
-| 3 | Moderado |
-| 4 | Fácil |
-| 5 | Muito Fácil |
-
-`Classificando por satisfação:`
-
-| **Escala** | **Classificação** |
-| :---: | :--- |
-| 1 | Muito Insatisfeito |
-| 2 | Insatisfeito |
-| 3 | Neutro |
-| 4 | Satisfeito |
-| 5 | Muito Satisfeito |
-
+Ao fim das tarefas a equipe de testes irá registrar todos os resultados obtidos.
 
 ## Roteiro de Testes
 
@@ -56,6 +34,10 @@ As tarefas a serem executadas pelos voluntários estão descritas no quadro abai
 | **Tarefa 05** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
 | Efetuar a venda de ativos | - Clicar em "Registros"; <br> - Clicar em "Create New"; <br> - Preencher as informações de negociação; <br> - Escolher a opção de "Venda"; <br> - Clicar em "Create". | O usuário consegue realizar a liquidação do ativo da sua carteira | Eficiência, erros, recorrência de erros, reminisciência e satisfação |
 | **Tarefa 06** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
-| Dashboard | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Realizar o login;  <br> - Acessar dashboard principal da carteira. |
+| Dashboard | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Realizar o login;  <br> - Acessar dashboard principal da carteira. | O usuário consegue visualizar o dashboard. | Eficiência, erros, satisfação |
 | **Tarefa 07** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
 | Gerar relatórios da carteira | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Realizar o login;  <br> - Clicar em "Gerar relatório". | O usuário consegue gerar o relatório solicitado | Eficiência, erros, recorrência de erros, reminisciência e satisfação |
+| **Tarefa 08** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
+| Validar CEP | - Abrir o navegador, <br> - Acessar a aplicação; <br> - Clicar em "Entrar"; <br> - Clicar em "Cadastrar";  <br> - Preencher o campo CEP; <br> - Clicar fora do campo CEP ou teclar "tab". | - Não retornar as mensagens "Formato de CEP inválido", ao inserir CEP em formato inválido ou "CEP não encontrado", quando o CEP não existir na base de dados da API ViaCEP. | Eficiência, erros, recorrência de erros, reminisciência e satisfação |
+| **Tarefa 09** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
+| Preencher campos de endereço automaticamente | - Abrir o navegador, <br> - Acessar a aplicação; <br> - Clicar em "Entrar"; <br> - Clicar em "Cadastrar";  <br> - Preencher o campo CEP; <br> - Clicar fora do campo CEP ou teclar "tab". | - Preencher automaticamente os campos "Logradouro", "Bairro", "Cidade" e "Estado". | Eficiência, erros, recorrência de erros, reminisciência e satisfação |
