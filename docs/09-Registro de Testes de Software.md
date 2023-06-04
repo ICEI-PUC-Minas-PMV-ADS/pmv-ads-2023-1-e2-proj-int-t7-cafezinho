@@ -6,48 +6,37 @@ Segue abaixo o relatório com os resultados obtidos seguindo o plano de testes p
 ## Caso de teste 01 - Cadastro
 * Requisito Funcional relacionado: RF-01
 
-![teste-cadastro](img/ClientesCadastro.png)
-![teste-cadastro](img/ClientesLista.png)
-
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/assets/108690900/96022008-b3db-4991-bd79-ef29469d551b
 
 ## Caso de Teste 02 - Login
 * Requisito Funcional relacionado: RF-02
 
-![teste-login](img/Login.jpeg)
-
-
-
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/assets/108690900/e5428fab-7950-4400-8967-336afaab738d
 
 ## Caso de Teste 03 - Buscar Ativos
  * Requisito Funcional relacionado: RF-05
 
-### **Nesta versão, a aplicação permite apenas a adição do ativo manualmente, pois a API ainda está sendo implementada.**
-
-![teste-busca-ativos](img/AtivosLista.png)
-
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/assets/108690900/2e057a09-f407-4d43-bef3-0d933ce4418c
 
 ## Caso de Teste 04 - Compra
 * Requisito Funcional relacionado: RF-07
 
-![teste-compra](img/AtivosCadastro.png)
-![teste-compra2](img/RegistroCadastro.png)
-
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/assets/82981072/da9baba5-627b-40c9-bf2d-9ff0b2e0fd97
 
 ## Caso de Teste 05 - Venda
 * Requisito Funcional relacionado: RF-08
 ### **No momento do registro, o usuário escolhe se vai fazer o cadastro ou a liquidação do ativo na carteira.**
-![teste-venda](img/RegistroCadastro.png)
 
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/assets/82981072/a21e062a-f644-4361-973b-2b106ea61bb5
 
 ## Caso de Teste 06 - Dashboard
 * Requisito Funcional relacionado: RF-010
 
-![teste-dashboard](img/DashboardPrincipal.png)
-
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/assets/82981072/cbbe4af8-e382-48d1-90ac-622a6278a291
 
 ## Caso de Teste 07 - Relatórios
 * Requisito Funcional relacionado: RF-11/12/13
-
+### **No momento do registro, os relatórios ainda estão sendo implementados.**
 ![teste-relatorios](img/RegistroLista.png)
 ![teste-relatorios2](img/Home.png)
 

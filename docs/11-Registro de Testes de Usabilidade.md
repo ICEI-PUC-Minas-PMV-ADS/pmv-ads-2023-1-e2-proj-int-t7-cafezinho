@@ -1,29 +1,84 @@
 # Registro de Testes de Usabilidade
 
-Após toda a realização do plano de testes, os participantes receberam uma planilha para classificar a experiência com a aplicação.
+Durante a realização dos testes foram avaliados os pontos que foram descritos nas tabelas abaixo:
 
-Para cada tarefa executada, os participantes classificaram em niveis de satisfação e dificuldade.
+| **Usuário** |**Caso de Teste** | **Eficiência (Se concluiu ou não)** | **Quantidade de erros** |
+| :---: |:---:| :---: | :---: |
+| Usuário 01 | CT-01 | Concluído | 0 |
+| Usuário 02 | CT-01 | Concluído | 0 |
+| Usuário 03 | CT-01 | Concluído | 0 |
+| Usuário 04 | CT-01 | Concluído | 0 |
+| Usuário 05 | CT-01 | Concluído | 0 |
+| Usuário 06 | CT-01 | Concluído | 0 |
 
-`Classificando por dificuldade:` 
+| **Usuário** |**Caso de Teste** | **Eficiência (Se concluiu ou não)** | **Recorrência de erros** |
+| :---: |:---:| :---: | :---: |
+| Usuário 01 | CT-02 | Concluído | 0 |
+| Usuário 02 | CT-02 | Concluído | 0 |
+| Usuário 03 | CT-02 | Concluído | 0 |
+| Usuário 04 | CT-02 | Concluído | 0 |
+| Usuário 05 | CT-02 | Concluído | 0 |
+| Usuário 06 | CT-02 | Concluído | 0 |
 
-| **Escala** | **Classificação** |
-| :---: | :--- |
-| 1 | Extremamente Difícil |
-| 2 | Muito Difícil |
-| 3 | Moderado |
-| 4 | Fácil |
-| 5 | Muito Fácil |
+| **Usuário** |**Caso de Teste** | **Eficiência (Se concluiu ou não)** | **Recorrência de erros** |
+| :---: |:---:| :---: | :---: |
+| Usuário 01 | CT-03 | Concluído | 0 |
+| Usuário 02 | CT-03 | Concluído | 0 |
+| Usuário 03 | CT-03 | Concluído | 1 |
+| Usuário 04 | CT-03 | Concluído | 2 |
+| Usuário 05 | CT-03 | Concluído | 0 |
+| Usuário 06 | CT-03 | Concluído | 0 |
 
-`Classificando por satisfação:`
+| **Usuário** |**Caso de Teste** | **Eficiência (Se concluiu ou não)** | **Recorrência de erros** |
+| :---: |:---:| :---: | :---: |
+| Usuário 01 | CT-04 | Concluído | 1 |
+| Usuário 02 | CT-04 | Concluído | 0 |
+| Usuário 03 | CT-04 | Concluído | 1 |
+| Usuário 04 | CT-04 | Concluído | 3 |
+| Usuário 05 | CT-04 | Concluído | 0 |
+| Usuário 06 | CT-04 | Concluído | 1 |
 
-| **Escala** | **Classificação** |
-| :---: | :--- |
-| 1 | Muito Insatisfeito |
-| 2 | Insatisfeito |
-| 3 | Neutro |
-| 4 | Satisfeito |
-| 5 | Muito Satisfeito |
+| **Usuário** |**Caso de Teste** | **Eficiência (Se concluiu ou não)** | **Recorrência de erros** |
+| :---: |:---:| :---: | :---: |
+| Usuário 01 | CT-05 | Concluído | 1 |
+| Usuário 02 | CT-05 | Concluído | 1 |
+| Usuário 03 | CT-05 | Concluído | 0 |
+| Usuário 04 | CT-05 | Concluído | 2 |
+| Usuário 05 | CT-05 | Concluído | 1 |
+| Usuário 06 | CT-05 | Concluído | 0 |
 
-Os registros abaixo mostram as respostas dos participantes e indicam como foi a experiência com a aplicação.
+| **Usuário** |**Caso de Teste** | **Eficiência (Se concluiu ou não)** | **Recorrência de erros** |
+| :---: |:---:| :---: | :---: |
+| Usuário 01 | CT-06 | Concluído | 0 |
+| Usuário 02 | CT-06 | Concluído | 0 |
+| Usuário 03 | CT-06 | Concluído | 0 |
+| Usuário 04 | CT-06 | Concluído | 0 |
+| Usuário 05 | CT-06 | Concluído | 0 |
+| Usuário 06 | CT-06 | Concluído | 0 |
 
-![registro-testes-usabilidade](img/testes-usabilidade.png)
+| **Usuário** |**Caso de Teste** | **Eficiência (Se concluiu ou não)** | **Recorrência de erros** |
+| :---: |:---:| :---: | :---: |
+| Usuário 01 | CT-07 | Concluído | 0 |
+| Usuário 02 | CT-07 | Concluído | 0 |
+| Usuário 03 | CT-07 | Concluído | 1 |
+| Usuário 04 | CT-07 | Concluído | 1 |
+| Usuário 05 | CT-07 | Concluído | 0 |
+| Usuário 06 | CT-07 | Concluído | 1 |
+
+| **Usuário** |**Caso de Teste** | **Eficiência (Se concluiu ou não)** | **Recorrência de erros** |
+| :---: |:---:| :---: | :---: |
+| Usuário 01 | CT-08 | Concluído | 0 |
+| Usuário 02 | CT-08 | Concluído | 0 |
+| Usuário 03 | CT-08 | Concluído | 0 |
+| Usuário 04 | CT-08 | Concluído | 0 |
+| Usuário 05 | CT-08 | Concluído | 0 |
+| Usuário 06 | CT-08 | Concluído | 0 |
+
+| **Usuário** |**Caso de Teste** | **Eficiência (Se concluiu ou não)** | **Recorrência de erros** |
+| :---: |:---:| :---: | :---: |
+| Usuário 01 | CT-09 | Concluído | 0 |
+| Usuário 02 | CT-09 | Concluído | 0 |
+| Usuário 03 | CT-09 | Concluído | 0 |
+| Usuário 04 | CT-09 | Concluído | 0 |
+| Usuário 05 | CT-09 | Concluído | 0 |
+| Usuário 06 | CT-09 | Concluído | 0 |
