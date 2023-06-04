@@ -21,18 +21,18 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t7-cafezinh
 ## Caso de Teste 04 - Compra
 * Requisito Funcional relacionado: RF-07
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/assets/108690900/0abe59fe-48ed-448e-931a-86913073e061
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/assets/82981072/da9baba5-627b-40c9-bf2d-9ff0b2e0fd97
 
 ## Caso de Teste 05 - Venda
 * Requisito Funcional relacionado: RF-08
 ### **No momento do registro, o usuário escolhe se vai fazer o cadastro ou a liquidação do ativo na carteira.**
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/assets/108690900/6fc3d5b5-8ea5-42f1-abff-8fa411e2a9d3
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/assets/82981072/a21e062a-f644-4361-973b-2b106ea61bb5
 
 ## Caso de Teste 06 - Dashboard
 * Requisito Funcional relacionado: RF-010
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/assets/108690900/d3983a00-a114-402b-8199-540cb04589a6
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/assets/82981072/cbbe4af8-e382-48d1-90ac-622a6278a291
 
 ## Caso de Teste 07 - Relatórios
 * Requisito Funcional relacionado: RF-11/12/13
