@@ -70,15 +70,27 @@ namespace Cafezinho.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([FromForm] Registro registro)
         {
+            
+            
             if (ModelState.IsValid)
             {
                 string ClienteCPF = User.Claims
                     .Where((claim) => claim.Type == ClaimTypes.Sid)
                     .First()
                     .Value;
+
                 registro.ClienteId = ClienteCPF;
+
+                var ticker = Request.Form
+                .Where((item) => item.Key == "Ticker")
+                .Single()
+                .Value.ToString();
+
+                registro.Ticker = ticker;
+
                 _context.Add(registro);
                 await _context.SaveChangesAsync();
+                
                 return RedirectToAction(nameof(Index));
             }
             return View(registro);

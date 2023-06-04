@@ -51,6 +51,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais, 
 |RF-11| Gerar relatório para acompanhamento da variação percentual dos ativos em carteira. | BAIXA |
 |RF-12| Gerar relatório de patrimônio total, investido e/ou liquidado. | ALTA |
 |RF-13| Gerar relatório de preço médio e valorização/desvalorização médio, de um ativo da carteira do usuário. | BAIXA |
+|RF-14| Realizar a validação de CEP ao gerenciar cadastro de usuário. | BAIXA |
+|RF-15| Preencher automaticamente os campos "Logradouro", "Bairro", "Cidade" e "Estado", após inserção de CEP válido, ao gerenciar cadastro de usuário. | BAIXA |
 
 
 
@@ -65,6 +67,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais, 
 |RNF-05| O site deve ser desenvolvido com layout simples, organizado e intuitivo. | ALTA |
 |RNF-06| A aplicação deve se comunicar com o banco de dados SQL. | ALTA | 
 |RNF-07| A aplicação deve estár acessível e sem interrupções por pelo menos 95% do tempo, apresentando um tempo de inatividade mínimo. | ALTA | 
+|RNF-08| A aplicação deverá realizar a validação de CEP e preencher automaticamente campos de endereço utilizando a API [ViaCEP](https://viacep.com.br/). | BAIXA | 
+|RNF-09| A aplicação deverá usar a API [Brapi](https://brapi.dev/) para preencher o banco de dados de ativos. | BAIXA | 
 
 ## Restrições
 

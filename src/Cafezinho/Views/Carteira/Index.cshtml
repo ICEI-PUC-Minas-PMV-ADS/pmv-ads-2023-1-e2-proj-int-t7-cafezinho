@@ -3,57 +3,89 @@
     olá!
 </h1>
 
+<style>
+    .compra {
+        color: #00FF00;
+    }
+
+    .venda {
+        color: red;
+    }
+
+    .title-separator {
+        border-bottom: 1px solid black;
+    }
+
+    .result-separator {
+        border-bottom: 1px solid #CCCCCC;
+    }
+</style>
+
 <table>
     <thead>
         <tr>
-            <th>
+            <th style="padding-right: 100px;">
                 @Html.DisplayNameFor(model => model.Ativo.Ticker)
             </th>
-            <th>
+            <th style="padding-right: 100px;">
                 @Html.DisplayNameFor(model => model.Preco)
             </th>
-            <th>
+            <th style="padding-right: 100px;">
                 @Html.DisplayNameFor(model => model.Quantidade)
             </th>
-            <th>
+            <th style="padding-right: 100px;">
                 @Html.DisplayNameFor(model => model.Transacao)
             </th>
-            <th>
+            <th style="padding-right: 100px;">
                 @Html.DisplayNameFor(model => model.DtTransacao)
             </th>
-            <th>
+            <th style="padding-right: 100px;">
                 @Html.DisplayNameFor(model => model.ValorTotal)
             </th>
             <th></th>
         </tr>
+        <tr class="title-separator">
+            <td colspan="7"></td>
+        </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model) {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Ativo.Ticker)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Preco)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Quantidade)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Transacao)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.DtTransacao)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.ValorTotal)
-                    </td>
-                    <td>
-                        <a asp-action="Edit" asp-route-id="@item.RegistroId">Edit</a> |
-                        <a asp-action="Details" asp-route-id="@item.RegistroId">Details</a> |
-                        <a asp-action="Delete" asp-route-id="@item.RegistroId">Delete</a>
-                    </td>
-                </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ativo.Ticker)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Preco)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantidade)
+                </td>
+                <td>
+                    @if (item.Transacao.ToString().ToLower() == "compra")
+                    {
+                        <span class="compra">@Html.DisplayFor(modelItem => item.Transacao)</span>
+                    }
+                    else
+                    {
+                        <span class="venda">@Html.DisplayFor(modelItem => item.Transacao)</span>
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DtTransacao)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ValorTotal)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.RegistroId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.RegistroId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.RegistroId">Delete</a>
+                </td>
+            </tr>
+            <tr class="result-separator">
+                <td colspan="7"></td>
+            </tr>
         }
     </tbody>
 </table>
