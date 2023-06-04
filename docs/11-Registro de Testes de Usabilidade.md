@@ -58,12 +58,12 @@ Durante a realização dos testes foram avaliados os pontos que foram descritos 
 
 | **Usuário** |**Caso de Teste** | **Eficiência (Se concluiu ou não)** | **Recorrência de erros** |
 | :---: |:---:| :---: | :---: |
-| Usuário 01 | CT-07 | Não Concluído | Teste não concluído |
-| Usuário 02 | CT-07 | Não Concluído | Teste não concluído |
-| Usuário 03 | CT-07 | Não Concluído | Teste não concluído |
-| Usuário 04 | CT-07 | Não Concluído | Teste não concluído |
-| Usuário 05 | CT-07 | Não Concluído | Teste não concluído |
-| Usuário 06 | CT-07 | Não Concluído | Teste não concluído |
+| Usuário 01 | CT-07 | Concluído | 0 |
+| Usuário 02 | CT-07 | Concluído | 0 |
+| Usuário 03 | CT-07 | Concluído | 1 |
+| Usuário 04 | CT-07 | Concluído | 1 |
+| Usuário 05 | CT-07 | Concluído | 0 |
+| Usuário 06 | CT-07 | Concluído | 1 |
 
 | **Usuário** |**Caso de Teste** | **Eficiência (Se concluiu ou não)** | **Recorrência de erros** |
 | :---: |:---:| :---: | :---: |
