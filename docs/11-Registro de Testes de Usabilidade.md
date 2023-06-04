@@ -1,11 +1,6 @@
 # Registro de Testes de Usabilidade
 
-Após toda a realização do plano de testes, os participantes receberam uma planilha para classificar a experiência com a aplicação.
-
-Para cada tarefa executada, os participantes vão responder o nivél de satisfação com a aplicação testada.
-
-
-Os registros abaixo mostram as respostas dos participantes e indicam como foi a experiência com a aplicação.
+Durante a realização dos testes foram avaliados os pontos que foram descritos nas tabelas abaixo:
 
 | **Usuário** |**Caso de Teste** | **Eficiência (Se concluiu ou não)** | **Quantidade de erros** |
 | :---: |:---:| :---: | :---: |
