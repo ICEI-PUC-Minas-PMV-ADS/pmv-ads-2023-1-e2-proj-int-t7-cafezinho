@@ -49,3 +49,15 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Objetivo do Teste | - Verificar se a aplicação gera corretamente o relátorio solicitado pelo usuário. |
 | Passos | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Realizar o login;  <br> - Clicar em "Gerar relatório". |
 |Critério de Êxito | - O relatório será gerado. |
+|  	|  	|
+| **Caso de Teste** | **CT-08 – Validar CEP** 	|
+| Requisito Associado | RF - 14 - Realizar a validação de CEP ao gerenciar cadastro de usuário. |
+| Objetivo do Teste | Verificar se há validação do campo CEP ao preencher o campo com informações incorretas ou fora do padrão esperado. |
+| Passos | - Abrir o navegador, <br> - Acessar a aplicação; <br> - Clicar em "Entrar"; <br> - Clicar em "Cadastrar";  <br> - Preencher o campo CEP; <br> - Clicar fora do campo CEP ou teclar "tab". |
+|Critério de Êxito | - Não retornar as mensagens "Formato de CEP inválido", ao inserir CEP em formato inválido ou "CEP não encontrado", quando o CEP não existir na base de dados da API ViaCEP. |
+|  	|  	|
+| **Caso de Teste** | **CT-09 – Preencher campos de endereço automaticamente** 	|
+| Requisito Associado | RF - 15 - Preencher automaticamente os campos "Logradouro", "Bairro", "Cidade" e "Estado", após inserção de CEP válido, ao gerenciar cadastro de usuário. |
+| Objetivo do Teste | Preencher automaticamente os campos "Logradouro", "Bairro", "Cidade" e "Estado". |
+| Passos | - Abrir o navegador, <br> - Acessar a aplicação; <br> - Clicar em "Entrar"; <br> - Clicar em "Cadastrar";  <br> - Preencher o campo CEP; <br> - Clicar fora do campo CEP ou teclar "tab". |
+|Critério de Êxito | - Preencher automaticamente os campos "Logradouro", "Bairro", "Cidade" e "Estado". |
