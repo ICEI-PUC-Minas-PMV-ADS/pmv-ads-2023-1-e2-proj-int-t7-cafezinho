@@ -16,28 +16,7 @@ Para cada tarefa que será designada aos participantes do teste, será possível
 * Satisfação.
 
 
-Ao fim das tarefas o usuário deverá responder um questionário que irá classificar sua experiência com cada uma delas:
-
-`Classificando por dificuldade:` 
-
-| **Escala** | **Classificação** |
-| :---: | :--- |
-| 1 | Extremamente Difícil |
-| 2 | Muito Difícil |
-| 3 | Moderado |
-| 4 | Fácil |
-| 5 | Muito Fácil |
-
-`Classificando por satisfação:`
-
-| **Escala** | **Classificação** |
-| :---: | :--- |
-| 1 | Muito Insatisfeito |
-| 2 | Insatisfeito |
-| 3 | Neutro |
-| 4 | Satisfeito |
-| 5 | Muito Satisfeito |
-
+Ao fim das tarefas a equipe de testes irá registrar todos os resultados obtidos.
 
 ## Roteiro de Testes
 
