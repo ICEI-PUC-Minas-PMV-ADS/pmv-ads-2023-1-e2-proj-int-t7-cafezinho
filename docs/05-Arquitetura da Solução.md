@@ -24,9 +24,11 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 
 * HTML, CSS, JavaScript, C#;
 * Git, GitHub, Jira e Github Projects;
-* Visual Studio Code;
-* Microsoft Teams, Whatsapp e Discord;
+* Visual Studio Code e Visual Studio;
+* Microsoft Teams, Whatsapp, Google Meet e Discord;
 * Moqups app.
+* API [ViaCEP](https://viacep.com.br/)
+* API [Brapi](https://brapi.dev/)
 
 ## Hospedagem
 
