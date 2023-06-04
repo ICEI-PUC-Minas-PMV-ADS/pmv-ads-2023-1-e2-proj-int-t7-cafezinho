@@ -46,7 +46,17 @@ Segue abaixo o relatório com os resultados obtidos seguindo o plano de testes p
 
 
 ## Caso de Teste 07 - Relatórios
-* Requisito Funcional relacionado: RF-11/12/13/14
+* Requisito Funcional relacionado: RF-11/12/13
 
 ![teste-relatorios](img/RegistroLista.png)
 ![teste-relatorios2](img/Home.png)
+
+## Caso de Teste 08 - Validar CEP
+* Requisito Funcional relacionado: RF-14
+
+>Inserir vídeo
+
+## Caso de Teste 09 - Preencher campos de endereço automaticamente
+* Requisito Funcional relacionado: RF-15
+
+>Inserir vídeo
