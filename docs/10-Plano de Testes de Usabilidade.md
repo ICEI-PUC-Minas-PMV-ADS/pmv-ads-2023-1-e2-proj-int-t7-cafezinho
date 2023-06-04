@@ -46,16 +46,16 @@ As tarefas a serem executadas pelos voluntários estão descritas no quadro abai
 
 | **Tarefa 01** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
 | :---: | :---: | :---: | :---: |
-|Cadastro de novo usuário | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Clicar em "Criar conta";  <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular,  senha e confirmação de senha); <br> - Aceitar os termos de uso; <br> - Clicar em "Registrar". | O cadastro é realizado com sucesso | Eficiência, erros, satisfação |
+|Cadastro de novo usuário | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Clicar em "Entrar"; <br> - Clicar em "Cadastrar";  <br> - Preencher os campos obrigatórios (CPF; nome; e-mail, data de nascimento, CEP, logradouro, cidade, estado e senha); <br> - Clicar em "Salvar". | O cadastro é realizado com sucesso | Eficiência, erros, satisfação |
 | **Tarefa 02** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
-|Fazer o login no sistema | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Clicar em "Fazer login";  <br> - Preencher os dados cadastrados (e-mail e senha); <br> - Clicar em "Entrar". | O usuário consegue fazer o login | Eficiênciação, erros, satisfação |
+|Fazer o login no sistema | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Clicar em "Entrar";  <br> - Preencher os dados cadastrados (CPF e senha); <br> - Clicar em "Entrar". | O usuário consegue fazer o login | Eficiênciação, erros, satisfação |
 | **Tarefa 03** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
-| Redefinir senha | - Abrir o navegador;<br> - Acessar o navegador; <br> - Acessar a aplicação; <br> - Clicar em "Fazer login";  <br> - Clicar em "Esqueci minha senha"; <br> - Iniciar procedimento de autenticação; <br> - Informar e confirmar nova senha. | O usuário consegue redefinir sua senha | Eficiência, erros, satisfação |
+|Busca de ativos| - Clicar em "Registros"; <br> - Clicar em "Create New"; <br> - Buscar o Ticker do ativo. | A aplicação vai retornar o ativo buscado pelo usuário. | Eficiência, erros, recorrência de erros, reminisciência e satisfação|
 | **Tarefa 04** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
-| Busca de ativos | - Abrir o navegador;<br> - Acessar a aplicação; <br> - Realizar o login;  <br> - Clicar em "Buscar ativos"; <br> - Digitar o ativo procurado.| A aplicação vai retornar o ativo buscado pelo usuário. | Eficiência, erros, recorrência de erros, reminisciência e satisfação|
+| Efetuar a compra de ativos | - Clicar em "Registros"; <br> - Clicar em "Create New"; <br> - Preencher as informações de negociação; <br> - Escolher a opção de "Compra"; <br> - Clicar em "Create". | O usuário consegue efetivar a compra do ativo | Eficiência, erros, recorrência de erros, reminisciência e satisfação |
 | **Tarefa 05** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
-| Efetuar a compra de ativos | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Realizar o login;  <br> - Clicar em "Buscar ativos"; <br> - Clicar em "Efetuar compra do ativo". | O usuário consegue efetivar a compra do ativo | Eficiência, erros, recorrência de erros, reminisciência e satisfação |
+| Efetuar a venda de ativos | - Clicar em "Registros"; <br> - Clicar em "Create New"; <br> - Preencher as informações de negociação; <br> - Escolher a opção de "Venda"; <br> - Clicar em "Create". | O usuário consegue realizar a liquidação do ativo da sua carteira | Eficiência, erros, recorrência de erros, reminisciência e satisfação |
 | **Tarefa 06** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
-| Efetuar a venda de ativos | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Realizar o login;  <br> - Acessar os ativos em carteira; <br> - Clicar em "Efetuar venda do ativo". | O usuário consegue realizar a liquidação do ativo da sua carteira | Eficiência, erros, recorrência de erros, reminisciência e satisfação |
+| Dashboard | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Realizar o login;  <br> - Acessar dashboard principal da carteira. |
 | **Tarefa 07** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
 | Gerar relatórios da carteira | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Realizar o login;  <br> - Clicar em "Gerar relatório". | O usuário consegue gerar o relatório solicitado | Eficiência, erros, recorrência de erros, reminisciência e satisfação |

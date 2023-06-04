@@ -9,7 +9,7 @@ namespace Cafezinho.Models
     {
         [Key]
         [Required(ErrorMessage = "Campo CPF é obrigatório.")]
-        [Display(Name = "CPF")]
+        [Display(Name = "CPF (apenas números)")]
         [Column(name: "cpf")]
         public string Cpf { get; set; }
 
@@ -30,6 +30,7 @@ namespace Cafezinho.Models
 
         [Required(ErrorMessage = "O campo CEP é obrigatório")]
         [StringLength(8, ErrorMessage = "O campo {0} precisa ter {1} caracteres", MinimumLength = 8)]
+        [Display(Name = "CEP")]
         [Column(name: "cep")]
         public string Cep { get; set; }
 
@@ -40,6 +41,7 @@ namespace Cafezinho.Models
 
         [Required(ErrorMessage = "O campo Numero é obrigatório")]
         [StringLength(50, ErrorMessage = "O campo {0} precisa ter entre {2} e {1} caracteres", MinimumLength = 1)]
+        [Display(Name = "Número")]
         [Column(name: "numero")]
         public string Numero { get; set; }
 

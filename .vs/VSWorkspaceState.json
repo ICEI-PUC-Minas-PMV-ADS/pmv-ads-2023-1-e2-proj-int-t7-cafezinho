@@ -5,6 +5,6 @@
     "\\src\\Cafezinho",
     "\\src\\Cafezinho\\Models"
   ],
-  "SelectedNode": "\\src\\Cafezinho\\Models\\Carteira.cs",
+  "SelectedNode": "\\src\\Cafezinho\\Models\\ApplicationDbContext.cs",
   "PreviewInSolutionExplorer": false
 }

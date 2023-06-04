@@ -54,18 +54,17 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 As ferramentas empregadas no projeto são:
 
-- Visual Studio.
+- Visual Studio
+- Visual Studio Code
 - Microsoft Teams
 - Whatsapp
 - Discord
-- Moqups app para de esquematização de telas (wireframing)
-<<<<<<< HEAD
+- Google Meet
+- Moqups app, para de esquematização de telas (wireframing)
 - Jira
+- API [ViaCEP](https://viacep.com.br/)
+- API [Brapi](https://brapi.dev/)
 
 
-O Visual Studio foi escolhido porque ele possui uma integração direta com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos o site moqups.com por melhor captar as necessidades da nossa solução.
-=======
-- Jira.
-
-
-O Visual Studio  foi escolhido porque ele possui uma integração direta com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos o site moqups.com por melhor captar as necessidades da nossa solução.
+Visual Studio e Visual Studio Code foram escolhidos porque eles possuem uma integração direta com o sistema de versionamento. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas.  
+Para criar diagramas, utilizamos o site moqups.com, por melhor captar as necessidades da nossa solução.
