@@ -2,7 +2,7 @@
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) | Responsável(eis) |
 |------|-----------------------------------------|----|----|
-|RF-01| Permitir ao usuário gerenciar seu cadastro na plataforma. | Cliente.cs, Create.cshtml, ClientesController.cs e site.js| Flávio / Ronald|
+|RF-01| Permitir ao usuário gerenciar seu cadastro na plataforma. | Cliente.cs, Create.cshtml, ClientesController.cs, FiltroCliente.cshtml e site.js| Flávio / Ronald|
 |RF-02| Permitir ao usuário realizar o login na plataforma. | Login.cshtml |Flávio / Ronald|
 |RF-03| Realizar a validação de credenciais do usuário. | Login.cshtml e ClientesController.cs |Flávio / Ronald|
 |RF-04| Permitir a busca por ativos através do TICKER. |  Registro.cs,  Create.cshtml, Delete.cshtml, Details.cshtml, Edit.cshtml, Index.cshtml e RegistrosController.cs | Amanda|
