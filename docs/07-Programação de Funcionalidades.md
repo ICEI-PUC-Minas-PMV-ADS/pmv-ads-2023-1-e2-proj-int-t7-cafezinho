@@ -8,7 +8,7 @@
 |RF-04| Permitir a busca por ativos através do TICKER. |  Registro.cs,  Create.cshtml, Delete.cshtml, Details.cshtml, Edit.cshtml, Index.cshtml e RegistrosController.cs | Amanda|
 |RF-05| Permitir que o usuário gerencie sua carteira de investimentos. | Carteira.cs, Create.cshtml, Delete.cshtml, Details.cshtml, Edit.cshtml, Index.cshtml e CarteirasController.cs|Amanda|
 |RF-06| Registrar a compra de ativos. | Registro.cs,  Create.cshtml, Delete.cshtml, Details.cshtml, Edit.cshtml, Index.cshtml e RegistrosController.cs|Amanda|
-|RF-07| Registrar a venda de ativos. | Registro.cs,  Create.cshtml, Delete.cshtml, Details.cshtml, Edit.cshtml, Index.cshtml e RegistrosController.cs |Amanda|
+|RF-07| Registrar a venda de ativos. | Registro.cs,  Create.cshtml, Delete.cshtml, Details.cshtml, Edit.cshtml, Index.cshtml e RegistrosController.cs |Amanda / Flávio|
 |RF-08| Realizar o processamento das informações solicitadas pelo usuário. | Em desenvolvimento | xxxx |
 |RF-09| Apresentar dashboard principal com recurso visual, identificando por tipos de ativos. | Index.cshtml e mdb.min.js |Diego / Pedro|
 |RF-10| Gerar relatório para acompanhamento dos ativos em carteira (comprados/vendidos). | Index.cshtml | Amanda / Lucas |
