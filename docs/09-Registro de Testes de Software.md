@@ -50,3 +50,43 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t7-cafezinh
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/assets/82981072/f81dd40d-69d6-40bf-af77-ccf12e538c9a
 
+<br>
+
+## Relatório de Testes de Software
+
+| 1 | Criar Conta |
+|:---:	|:---:	|
+|	Requisito	| RF - 01 - Permitir ao usuário gerenciar seu cadastro na plataforma. |
+| Observação |  |
+|  	|  	|
+| 2 | Efetuar login	|
+| Requisito | RF - 02 - Permitir ao usuário realizar o login na plataforma. |
+| Observação |  |
+|  	|  	|
+| 3 | Busca de ativos |
+|Requisito | RF - 04 - Permitir a busca por nomes e tipos de ativos. |
+| Observação |  |
+|  	|  	|
+| 4 | Registrar compra |
+|Requisito | RF - 06 - Registrar a compra de ativos. |
+| Observação |  |
+|  	|  	|
+| 5 | Registrar venda |
+|Requisito | RF - 07 - Registrar a venda de ativos. |
+| Observação |  |
+|  	|  	|
+| 6 | Dashboard |
+|Requisitos | RF - 09 - Apresentar dashboard principal com recurso visual, identificando por tipos de ativos. |
+| Observação |  |
+|  	|  	|
+| 7 | Relatórios |
+|Requisito | RF - 10 - Gerar relatório para acompanhamento dos ativos em carteira; <br> RF - 11 - Gerar relatório para acompanhamento da variação percentual dos ativos em carteira; <br> RF - 12 - Gerar relatório de patrimônio total, investido e/ou liquidado; <br> RF - 13 - Gerar relatório de preço médio e valorização/desvalorização médio, de um ativo da carteira do usuário. |
+| Observação |  |
+|  	|  	|
+| 8 | Validar CEP |
+|Requisito | RF - 14 - Realizar a validação de CEP ao gerenciar cadastro de usuário. |
+| Observação |  |
+|  	|  	|
+| 9 | Preencher campos de endereço automaticamente |
+|Requisito | RF - 15 - Preencher automaticamente os campos "Logradouro", "Bairro", "Cidade" e "Estado", após inserção de CEP válido, ao gerenciar cadastro de usuário. |
+| Observação |  |
