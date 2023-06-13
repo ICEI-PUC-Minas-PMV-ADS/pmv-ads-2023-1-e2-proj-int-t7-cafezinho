@@ -4,84 +4,84 @@ Durante a realização dos testes foram avaliados os pontos que foram descritos 
 
 | **Usuário** |**Caso de Teste** | **Eficiência (Se concluiu ou não)** | **Quantidade de erros** |
 | :---: |:---:| :---: | :---: |
-| Usuário 01 | CT-01 | Concluído | 0 |
-| Usuário 02 | CT-01 | Concluído | 0 |
-| Usuário 03 | CT-01 | Concluído | 0 |
-| Usuário 04 | CT-01 | Concluído | 0 |
-| Usuário 05 | CT-01 | Concluído | 0 |
-| Usuário 06 | CT-01 | Concluído | 0 |
+| Usuário 01 | CTU-01 | Concluído | 0 |
+| Usuário 02 | CTU-01 | Concluído | 0 |
+| Usuário 03 | CTU-01 | Concluído | 0 |
+| Usuário 04 | CTU-01 | Concluído | 0 |
+| Usuário 05 | CTU-01 | Concluído | 0 |
+| Usuário 06 | CTU-01 | Concluído | 0 |
 
 | **Usuário** |**Caso de Teste** | **Eficiência (Se concluiu ou não)** | **Quantidade de erros** |
 | :---: |:---:| :---: | :---: |
-| Usuário 01 | CT-02 | Concluído | 0 |
-| Usuário 02 | CT-02 | Concluído | 0 |
-| Usuário 03 | CT-02 | Concluído | 0 |
-| Usuário 04 | CT-02 | Concluído | 0 |
-| Usuário 05 | CT-02 | Concluído | 0 |
-| Usuário 06 | CT-02 | Concluído | 0 |
+| Usuário 01 | CTU-02 | Concluído | 0 |
+| Usuário 02 | CTU-02 | Concluído | 0 |
+| Usuário 03 | CTU-02 | Concluído | 0 |
+| Usuário 04 | CTU-02 | Concluído | 0 |
+| Usuário 05 | CTU-02 | Concluído | 0 |
+| Usuário 06 | CTU-02 | Concluído | 0 |
 
 | **Usuário** |**Caso de Teste** | **Eficiência (Se concluiu ou não)** | **Quantidade de erros** |
 | :---: |:---:| :---: | :---: |
-| Usuário 01 | CT-03 | Concluído | 0 |
-| Usuário 02 | CT-03 | Concluído | 0 |
-| Usuário 03 | CT-03 | Concluído | 1 |
-| Usuário 04 | CT-03 | Concluído | 2 |
-| Usuário 05 | CT-03 | Concluído | 0 |
-| Usuário 06 | CT-03 | Concluído | 0 |
+| Usuário 01 | CTU-03 | Concluído | 0 |
+| Usuário 02 | CTU-03 | Concluído | 0 |
+| Usuário 03 | CTU-03 | Concluído | 1 |
+| Usuário 04 | CTU-03 | Concluído | 2 |
+| Usuário 05 | CTU-03 | Concluído | 0 |
+| Usuário 06 | CTU-03 | Concluído | 0 |
 
 | **Usuário** |**Caso de Teste** | **Eficiência (Se concluiu ou não)** | **Quantidade de erros** |
 | :---: |:---:| :---: | :---: |
-| Usuário 01 | CT-04 | Concluído | 1 |
-| Usuário 02 | CT-04 | Concluído | 0 |
-| Usuário 03 | CT-04 | Concluído | 1 |
-| Usuário 04 | CT-04 | Concluído | 3 |
-| Usuário 05 | CT-04 | Concluído | 0 |
-| Usuário 06 | CT-04 | Concluído | 1 |
+| Usuário 01 | CTU-04 | Concluído | 1 |
+| Usuário 02 | CTU-04 | Concluído | 0 |
+| Usuário 03 | CTU-04 | Concluído | 1 |
+| Usuário 04 | CTU-04 | Concluído | 3 |
+| Usuário 05 | CTU-04 | Concluído | 0 |
+| Usuário 06 | CTU-04 | Concluído | 1 |
 
 | **Usuário** |**Caso de Teste** | **Eficiência (Se concluiu ou não)** | **Quantidade de erros** |
 | :---: |:---:| :---: | :---: |
-| Usuário 01 | CT-05 | Concluído | 1 |
-| Usuário 02 | CT-05 | Concluído | 1 |
-| Usuário 03 | CT-05 | Concluído | 0 |
-| Usuário 04 | CT-05 | Concluído | 2 |
-| Usuário 05 | CT-05 | Concluído | 1 |
-| Usuário 06 | CT-05 | Concluído | 0 |
+| Usuário 01 | CTU-05 | Concluído | 1 |
+| Usuário 02 | CTU-05 | Concluído | 1 |
+| Usuário 03 | CTU-05 | Concluído | 0 |
+| Usuário 04 | CTU-05 | Concluído | 2 |
+| Usuário 05 | CTU-05 | Concluído | 1 |
+| Usuário 06 | CTU-05 | Concluído | 0 |
 
 | **Usuário** |**Caso de Teste** | **Eficiência (Se concluiu ou não)** | **Quantidade de erros** |
 | :---: |:---:| :---: | :---: |
-| Usuário 01 | CT-06 | Concluído | 0 |
-| Usuário 02 | CT-06 | Concluído | 0 |
-| Usuário 03 | CT-06 | Concluído | 0 |
-| Usuário 04 | CT-06 | Concluído | 0 |
-| Usuário 05 | CT-06 | Concluído | 0 |
-| Usuário 06 | CT-06 | Concluído | 0 |
+| Usuário 01 | CTU-06 | Concluído | 0 |
+| Usuário 02 | CTU-06 | Concluído | 0 |
+| Usuário 03 | CTU-06 | Concluído | 0 |
+| Usuário 04 | CTU-06 | Concluído | 0 |
+| Usuário 05 | CTU-06 | Concluído | 0 |
+| Usuário 06 | CTU-06 | Concluído | 0 |
 
 | **Usuário** |**Caso de Teste** | **Eficiência (Se concluiu ou não)** | **Quantidade de erros** |
 | :---: |:---:| :---: | :---: |
-| Usuário 01 | CT-07 | Concluído | 0 |
-| Usuário 02 | CT-07 | Concluído | 0 |
-| Usuário 03 | CT-07 | Concluído | 1 |
-| Usuário 04 | CT-07 | Concluído | 1 |
-| Usuário 05 | CT-07 | Concluído | 0 |
-| Usuário 06 | CT-07 | Concluído | 1 |
+| Usuário 01 | CTU-07 | Concluído | 0 |
+| Usuário 02 | CTU-07 | Concluído | 0 |
+| Usuário 03 | CTU-07 | Concluído | 1 |
+| Usuário 04 | CTU-07 | Concluído | 1 |
+| Usuário 05 | CTU-07 | Concluído | 0 |
+| Usuário 06 | CTU-07 | Concluído | 1 |
 
 | **Usuário** |**Caso de Teste** | **Eficiência (Se concluiu ou não)** | **Quantidade de erros** |
 | :---: |:---:| :---: | :---: |
-| Usuário 01 | CT-08 | Concluído | 0 |
-| Usuário 02 | CT-08 | Concluído | 0 |
-| Usuário 03 | CT-08 | Concluído | 0 |
-| Usuário 04 | CT-08 | Concluído | 0 |
-| Usuário 05 | CT-08 | Concluído | 0 |
-| Usuário 06 | CT-08 | Concluído | 0 |
+| Usuário 01 | CTU-08 | Concluído | 0 |
+| Usuário 02 | CTU-08 | Concluído | 0 |
+| Usuário 03 | CTU-08 | Concluído | 0 |
+| Usuário 04 | CTU-08 | Concluído | 0 |
+| Usuário 05 | CTU-08 | Concluído | 0 |
+| Usuário 06 | CTU-08 | Concluído | 0 |
 
 | **Usuário** |**Caso de Teste** | **Eficiência (Se concluiu ou não)** | **Quantidade de erros** |
 | :---: |:---:| :---: | :---: |
-| Usuário 01 | CT-09 | Concluído | 0 |
-| Usuário 02 | CT-09 | Concluído | 0 |
-| Usuário 03 | CT-09 | Concluído | 0 |
-| Usuário 04 | CT-09 | Concluído | 0 |
-| Usuário 05 | CT-09 | Concluído | 0 |
-| Usuário 06 | CT-09 | Concluído | 0 |
+| Usuário 01 | CTU-09 | Concluído | 0 |
+| Usuário 02 | CTU-09 | Concluído | 0 |
+| Usuário 03 | CTU-09 | Concluído | 0 |
+| Usuário 04 | CTU-09 | Concluído | 0 |
+| Usuário 05 | CTU-09 | Concluído | 0 |
+| Usuário 06 | CTU-09 | Concluído | 0 |
 
 <br>
 
@@ -92,5 +92,5 @@ Portanto, observou-se que para que esta feature se torne mais intuitiva para os 
 
 <br>
 
-## Relatório de Testes de Software
+## Relatório de Testes de Usabilidade
 
