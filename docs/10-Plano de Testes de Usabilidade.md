@@ -11,7 +11,6 @@ O teste será realizado remotamente em uma versão da aplicação a ser desenvol
 Para cada tarefa que será designada aos participantes do teste, será possível mensurar: 
 
 * Eficiência;
-* Erros;
 * Quantidade de erros;
 * Satisfação.
 
