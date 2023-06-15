@@ -117,3 +117,18 @@ Abaixo consta os resultados obtidos:
 <br>
 
 ### Plano de Correções
+
+Com base nos testes, foi possível observar que a aplicação como um todo não possui problemas críticos de usabilidade, porém, nas tarefas de compra e venda, foi constatado uma dificuldade maior dos usuários em concluir a atividade.
+
+Portanto, abaixo segue algumas ações pensadas afim de solucionar este problema, assim como outras observações feitas pelos usuários:
+
+* Inclusão de informações ou instruções (tutorial), na interface para facilitar o uso da aplicação;
+* Hospedar a aplicação em um banco de dados remoto;
+* Separar a tela de registro dos ativos (compra e venda);
+* Melhorias visuais para facilitar a navegação na aplicação.
+
+<br>
+
+### Conclusão 
+
+A importância dos testes de usabilidade é notada quando usuários diversos utilizam a aplicação, dessa forma, é possível implementar adaptações e melhorias para que a mesma sempre continue a atender as necessidades dos usuários.
