@@ -22,12 +22,12 @@ Durante a realização dos testes foram avaliados os pontos que foram descritos 
 
 | **Usuário** | **Idade** | **Caso de Teste** | **Eficiência (Se concluiu ou não)** | **Quantidade de erros** | **Satisfação** |
 | :---: | :---: | :---:| :---: | :---: | :---: |
-| Usuário 01 | 32 | CTU-03 | Concluído | 0 | 0 |
-| Usuário 02 | 18 | CTU-03 | Concluído | 0 | 0 |
-| Usuário 03 | 51 | CTU-03 | Concluído | 1 | 0 |
-| Usuário 04 | 60 | CTU-03 | Concluído | 2 | 0 |
-| Usuário 05 | 25 | CTU-03 | Concluído | 0 | 0 |
-| Usuário 06 | 44 | CTU-03 | Concluído | 0 | 0 |
+| Usuário 01 | 32 | CTU-03 | Concluído | 0 | 3 |
+| Usuário 02 | 18 | CTU-03 | Concluído | 0 | 4 |
+| Usuário 03 | 51 | CTU-03 | Concluído | 1 | 3 |
+| Usuário 04 | 60 | CTU-03 | Concluído | 2 | 3 |
+| Usuário 05 | 25 | CTU-03 | Concluído | 0 | 5 |
+| Usuário 06 | 44 | CTU-03 | Concluído | 0 | 4 |
 
 | **Usuário** | **Idade** | **Caso de Teste** | **Eficiência (Se concluiu ou não)** | **Quantidade de erros** | **Satisfação** |
 | :---: | :---: | :---:| :---: | :---: | :---: |
@@ -94,11 +94,9 @@ Entretanto, foi possível identificar uma dificuldade maior dos usuários ao exe
 
 ## Relatório de Testes de Usabilidade
 
-Os testes de usabilidade tem como objetivo colocar usuários reais para utilizar a aplicação e com isso descobrir problemas, erros e pontos de melhorias.
+Os testes de usabilidade tem como objetivo colocar usuários reais para utilizar a aplicação e com isso descobrir problemas, erros e pontos de melhorias. Durante os testes executados pelos usuários, foram observados alguns parâmetros como eficiência, ou seja, a conclusão da tarefa, erros e a satisfação geral do usuário com a tarefa e a aplicação.
 
-Durante os testes executados pelos usuários, foram observados alguns parâmetros como eficiência, ou seja, a conclusão da tarefa, erros e a satisfação geral do usuário com a tarefa e a aplicação.
-
-O teste foi conduzido com cada usuário de maneira remota e individual e de forma completa, ou seja, foi testada a aplicação como um todo.
+O teste foi conduzido com cada usuário de maneira remota, individual e de forma completa, ou seja, foi testada a aplicação como um todo.
 
 Abaixo consta os resultados obtidos:
 
@@ -106,9 +104,9 @@ Abaixo consta os resultados obtidos:
 | :---: | :---: | 
 | CTU - 01 - Cadastro de novo usuário | Todos os usuários finalizaram a tarefa sem erros ou observações. |
 | CTU - 02 - Fazer o login no sistema| Todos os usuários finalizaram a tarefa sem erros ou observações. |
-| CTU - 03 - Busca de ativos | A maioria dos usuários conseguiram executar a tarefa sem problemas, os erros aconteceram por problemas com o banco de dados local de alguns deles. **Sujestão de melhoria:** Criar o banco de dados remoto. |
-| CTU - 04 - Efetuar a compra de ativos | Os usuários acharam pouco intuitivo em ter que escolher a opção de compra e venda na mesma tela. **Sujestão de melhoria:** Separar as duas tarefas em telas diferentes. |
-| CTU - 05 - Efetuar a venda de ativos | Os usuários acharam pouco intuitivo em ter que escolher a opção de compra e venda na mesma tela. **Sujestão de melhoria:** Separar as duas tarefas em telas diferentes. |
+| CTU - 03 - Busca de ativos | A maioria dos usuários conseguiram executar a tarefa sem problemas, os erros aconteceram por problemas com o banco de dados local de alguns deles. <br> **Sujestão de melhoria:** Criar o banco de dados remoto. |
+| CTU - 04 - Efetuar a compra de ativos | Os usuários acharam pouco intuitivo em ter que escolher a opção de compra e venda na mesma tela. <br> **Sujestão de melhoria:** Separar as duas tarefas em telas diferentes. |
+| CTU - 05 - Efetuar a venda de ativos | Os usuários acharam pouco intuitivo em ter que escolher a opção de compra e venda na mesma tela. <br> **Sujestão de melhoria:** Separar as duas tarefas em telas diferentes. |
 | CTU - 06 - Dashboard | Todos os usuários finalizaram a tarefa sem erros ou observações. |
 | CTU - 07 - Gerar relatórios da carteira |  |
 | CTU - 08 - Validar CEP | Todos os usuários finalizaram a tarefa sem erros ou observações. |
@@ -131,4 +129,4 @@ Portanto, abaixo segue algumas ações pensadas afim de solucionar este problema
 
 ### Conclusão 
 
-A importância dos testes de usabilidade é notada quando usuários diversos utilizam a aplicação, dessa forma, é possível implementar adaptações e melhorias para que a mesma sempre continue a atender as necessidades dos usuários.
+A importância dos testes de usabilidade é notada quando usuários diversos utilizam a aplicação, dessa forma, é possível implementar adaptações e melhorias para que a mesma sempre continue a atender as necessidades das pessoas que a utilizam.
