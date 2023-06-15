@@ -56,7 +56,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t7-cafezinh
 
 | 1 | Criar Conta |
 |:---:	|:---:	|
-|	Requisito	| RF - 01 - Permitir ao usuário gerenciar seu cadastro na plataforma. |
+|	Requisito	| RF - 01 - Permitir ao usuário gerenciar seu cadastro na plataforma; <br> RF - 03 - Realizar a validação de credenciais do usuário. |
 | Observação | Presente na página inicial, a funcionalidade de cadastro de conta é acionada ao clicar em "Cadastrar", após o preenchimento de informações essenciais como CPF, nome e e-mail a conta é criada e o usuário já pode realizar o login. Dessa forma, o requisito **RF - 01 Criar Conta** é atendido.|
 |  	|  	|
 | 2 | Efetuar login	|
@@ -80,16 +80,13 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t7-cafezinh
 | Observação | Ao acessar sua carteira o usuário entra na tela do dashboard, que vai mostrar por gráficos o conteúdo da sua carteira. Dessa forma, a aplicação atende ao requisito **RF - 09 Dashboard**. |
 |  	|  	|
 | 7 | Relatórios |
-|Requisito | RF - 10 - Gerar relatório para acompanhamento dos ativos em carteira; <br> RF - 11 - Gerar relatório para acompanhamento da variação percentual dos ativos em carteira; <br> RF - 12 - Gerar relatório de patrimônio total, investido e/ou liquidado; <br> RF - 13 - Gerar relatório de preço médio e valorização/desvalorização médio, de um ativo da carteira do usuário. |
+|Requisito | RF - 08 - Realizar o processamento das informações solicitadas pelo usuário; <br> RF - 10 - Gerar relatório para acompanhamento dos ativos em carteira; <br> RF - 11 - Gerar relatório para acompanhamento da variação percentual dos ativos em carteira; <br> RF - 12 - Gerar relatório de patrimônio total, investido e/ou liquidado; <br> RF - 13 - Gerar relatório de preço médio e valorização/desvalorização médio, de um ativo da carteira do usuário. |
 | Observação |  |
 |  	|  	|
 | 8 | Validar CEP |
-|Requisito | RF - 14 - Realizar a validação de CEP ao gerenciar cadastro de usuário. |
+|Requisito | RF - 03 - Realizar a validação de credenciais do usuário; <br> RF - 14 - Realizar a validação de CEP ao gerenciar cadastro de usuário. |
 | Observação | Ao realizar o cadastro, o usuário deve preencher o campo "CEP" com o formato válido e existente, caso contrário a aplicação irá retornar um aviso mostrando o erro. Assim, o requisito **RF - 14 Validar CEP** é atendido. |
 |  	|  	|
 | 9 | Preencher campos de endereço automaticamente |
-|Requisito | RF - 15 - Preencher automaticamente os campos "Logradouro", "Bairro", "Cidade" e "Estado", após inserção de CEP válido, ao gerenciar cadastro de usuário. |
+|Requisito | RF - 03 - Realizar a validação de credenciais do usuário; <br> RF - 15 - Preencher automaticamente os campos "Logradouro", "Bairro", "Cidade" e "Estado", após inserção de CEP válido, ao gerenciar cadastro de usuário. |
 | Observação | Complementando a validação do CEP, se o campo "CEP" for preenchido corretamente, a aplicação irá preencher de forma automática os seguintes campos "Logradouro", "Bairro", "Cidade", e "Estado". Com isso o requisito **RF - 15 Preencher campos de endereço automaticamente** também é atendido. |
-
-
-# Faltando incluir RF-03 e 08 (confirmar)
