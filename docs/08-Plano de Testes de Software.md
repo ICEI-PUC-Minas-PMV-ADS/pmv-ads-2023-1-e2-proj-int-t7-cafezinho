@@ -9,6 +9,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Objetivo do Teste | Verificar se o usuário consegue se cadastrar na aplicação. |
 | Passos | - Abrir o navegador, <br> - Acessar a aplicação; <br> - Clicar em "Entrar"; <br> - Clicar em "Cadastrar";  <br> - Preencher os campos obrigatórios (CPF, nome, e-mail, data de nascimento, CEP, logradouro, cidade, estado e senha); <br> - Clicar em "Salvar". |
 |Critério de Êxito | - O cadastro foi realizado com sucesso. |
+|Critério de Falha | - O usuário não consegue concluir o cadastro, e aparece na tela mostrando algum campo com preenchimento obrigatório. |
 |  	|  	|
 | **Caso de Teste** | **CT-02 – Efetuar login** |
 | Requisito Associado | RF - 02 - Permitir ao usuário realizar o login na plataforma. |
