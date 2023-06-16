@@ -5,7 +5,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
  
 | **Caso de Teste** | **CT-01 – Criar conta** 	|
 | :---: | :--- |
-| Requisito Associado | RF - 01 - Permitir ao usuário gerenciar seu cadastro na plataforma. |
+| Requisito Associado | RF - 01 - Permitir ao usuário gerenciar seu cadastro na plataforma; <br> RF - 03 - Realizar a validação de credenciais do usuário. |
 | Objetivo do Teste | Verificar se o usuário consegue se cadastrar na aplicação. |
 | Passos | - Abrir o navegador, <br> - Acessar a aplicação; <br> - Clicar em "Entrar"; <br> - Clicar em "Cadastrar";  <br> - Preencher os campos obrigatórios (CPF, nome, e-mail, data de nascimento, CEP, logradouro, cidade, estado e senha); <br> - Clicar em "Salvar". |
 |Critério de Êxito | - O cadastro foi realizado com sucesso. |
@@ -26,14 +26,14 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Critério de Falha | - A aplicação retorna uma mensagem de erro: " O ativo buscado não foi encontrado". |
 |  	|  	|
 | **Caso de Teste** | **CT-04 – Registrar compra** |
-| Requisito Associado | RF - 06 - Registrar a compra de ativos. |
+| Requisito Associado | RF - 05 - 	Permitir que o usuário gerencie sua carteira de investimentos; <br> RF - 06 - Registrar a compra de ativos. |
 | Objetivo do Teste | - Verificar se o usuário consegue realizar o cadastramento dos ativos na sua carteira. |
 | Passos | - Clicar em "Registros"; <br> - Clicar em "Create New"; <br> - Preencher as informações de negociação; <br> - Escolher a opção de "Compra"; <br> - Clicar em "Create". |
 |Critério de Êxito | - O ativo será registrado na carteira do usuário. |
 |Critério de Falha | - A aplicação não vai registrar o ativo e deve retornar uma mensagem de erro: "A ativo não foi registrado". |
 |  	|  	|
 | **Caso de Teste** | **CT-05 – Registrar venda** |
-| Requisito Associado | RF - 07 - Registrar a venda de ativos. |
+| Requisito Associado | RF - 05 - 	Permitir que o usuário gerencie sua carteira de investimentos; <br> RF - 07 - Registrar a venda de ativos. |
 | Objetivo do Teste | - Verificar se o usuário consegue fazer a liquidação de um ativo da carteira. |
 | Passos | - Clicar em "Registros"; <br> - Clicar em "Create New"; <br> - Preencher as informações de negociação; <br> - Escolher a opção de "Venda"; <br> - Clicar em "Create". |
 |Critério de Êxito | - O ativo é liquidado da carteira . |
@@ -46,19 +46,18 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Critério de Êxito | - Informações importantes serão apresentadas para o usuário. |
 |  	|  	|
 | **Caso de Teste** | **CT-07 – Relatórios** |
-| Requisito Associado | RF - 10 - Gerar relatório para acompanhamento dos ativos em carteira; <br> RF - 11 - Gerar relatório para acompanhamento da variação percentual dos ativos em carteira; <br> RF - 12 - Gerar relatório de patrimônio total, investido e/ou liquidado; <br> RF - 13 - Gerar relatório de preço médio e valorização/desvalorização médio, de um ativo da carteira do usuário. |
+| Requisito Associado | RF - 08 - Realizar o processamento das informações solicitadas pelo usuário; <br> RF - 10 - Gerar relatório para acompanhamento dos ativos em carteira; <br> RF - 11 - Gerar relatório para acompanhamento da variação percentual dos ativos em carteira; <br> RF - 12 - Gerar relatório de patrimônio total, investido e/ou liquidado; <br> RF - 13 - Gerar relatório de preço médio e valorização/desvalorização médio, de um ativo da carteira do usuário. |
 | Objetivo do Teste | - Verificar se a aplicação gera corretamente o relátorio solicitado pelo usuário. |
 | Passos | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Realizar o login;  <br> - Clicar em "Gerar relatório". |
 |Critério de Êxito | - O relatório será gerado. |
 |  	|  	|
 | **Caso de Teste** | **CT-08 – Validar CEP** 	|
-| Requisito Associado | RF - 14 - Realizar a validação de CEP ao gerenciar cadastro de usuário. |
-| Objetivo do Teste | Verificar se há validação do campo CEP ao preencher o campo com informações incorretas ou fora do padrão esperado. |
+| Requisito Associado | RF - 03 - Realizar a validação de credenciais do usuário; <br> RF - 14 - Realizar a validação de CEP ao gerenciar cadastro de usuário. |
 | Passos | - Abrir o navegador, <br> - Acessar a aplicação; <br> - Clicar em "Entrar"; <br> - Clicar em "Cadastrar";  <br> - Preencher o campo CEP; <br> - Clicar fora do campo CEP ou teclar "tab". |
 |Critério de Êxito | - Não retornar as mensagens "Formato de CEP inválido", ao inserir CEP em formato inválido ou "CEP não encontrado", quando o CEP não existir na base de dados da API ViaCEP. |
 |  	|  	|
 | **Caso de Teste** | **CT-09 – Preencher campos de endereço automaticamente** 	|
-| Requisito Associado | RF - 15 - Preencher automaticamente os campos "Logradouro", "Bairro", "Cidade" e "Estado", após inserção de CEP válido, ao gerenciar cadastro de usuário. |
+| Requisito Associado | RF - 03 - Realizar a validação de credenciais do usuário; <br> RF - 15 - Preencher automaticamente os campos "Logradouro", "Bairro", "Cidade" e "Estado", após inserção de CEP válido, ao gerenciar cadastro de usuário. |
 | Objetivo do Teste | Preencher automaticamente os campos "Logradouro", "Bairro", "Cidade" e "Estado". |
 | Passos | - Abrir o navegador, <br> - Acessar a aplicação; <br> - Clicar em "Entrar"; <br> - Clicar em "Cadastrar";  <br> - Preencher o campo CEP; <br> - Clicar fora do campo CEP ou teclar "tab". |
 |Critério de Êxito | - Preencher automaticamente os campos "Logradouro", "Bairro", "Cidade" e "Estado". |

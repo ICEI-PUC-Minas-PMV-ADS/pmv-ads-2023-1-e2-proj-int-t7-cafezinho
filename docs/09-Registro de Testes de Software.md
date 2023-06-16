@@ -57,36 +57,36 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t7-cafezinh
 | 1 | Criar Conta |
 |:---:	|:---:	|
 |	Requisito	| RF - 01 - Permitir ao usuário gerenciar seu cadastro na plataforma; <br> RF - 03 - Realizar a validação de credenciais do usuário. |
-| Observação | Presente na página inicial, a funcionalidade de cadastro de conta é acionada ao clicar em "Cadastrar", após o preenchimento de informações essenciais como CPF, nome e e-mail a conta é criada e o usuário já pode realizar o login. Dessa forma, o requisito **RF - 01 Criar Conta** é atendido.|
+| Observação | Presente na página inicial, a funcionalidade de cadastro de conta é acionada ao clicar em "Cadastrar", após o preenchimento de informações essenciais como CPF, nome e e-mail a conta é criada e o usuário já pode realizar o login. Dessa forma, o requisito **RF - 01 e 03** foram atendidos.|
 |  	|  	|
 | 2 | Efetuar login	|
 | Requisito | RF - 02 - Permitir ao usuário realizar o login na plataforma. |
-| Observação | Após a realização do cadastro, o usuário pode preencher os dados necessários CPF e senha para a realização do login e então será redirecionado para a tela da sua carteira. Com esta funcionalidade a aplicação atende ao requisito **RF - 02 Efetuar Login**.|
+| Observação | Após a realização do cadastro, o usuário pode preencher os dados necessários CPF e senha para a realização do login e então será redirecionado para a tela da sua carteira. Com esta funcionalidade a aplicação atende ao requisito **RF - 02**.|
 |  	|  	|
 | 3 | Busca de ativos |
 |Requisito | RF - 04 - Permitir a busca por nomes e tipos de ativos. |
-| Observação | Antes de efetuar a compra, o usuário deve buscar um ativo pelo Ticker presente na lista que a aplicação oferece. Assim sendo, o requisito **RF - 04 Busca de ativos** foi atendido. |
+| Observação | Antes de efetuar a compra, o usuário deve buscar um ativo pelo Ticker presente na lista que a aplicação oferece. Assim sendo, o requisito **RF - 04** foi atendido. |
 |  	|  	|
 | 4 | Registrar compra |
 |Requisito | RF - 05 - 	Permitir que o usuário gerencie sua carteira de investimentos; <br> RF - 06 - Registrar a compra de ativos. |
-| Observação | Após a busca e escolha do ativo, o usuário deve preencher as demais informações referente a compra. Os requisitos **RF - 05 Gerenciar carteira e RF - 06 Regsitrar compra** são atendidos. |
+| Observação | Após a busca e escolha do ativo, o usuário deve preencher as demais informações referente a compra. Os requisitos **RF - 05 e 06** são atendidos. |
 |  	|  	|
 | 5 | Registrar venda |
 |Requisito | RF - 05 - 	Permitir que o usuário gerencie sua carteira de investimentos; <br> RF - 07 - Registrar a venda de ativos. |
-| Observação | Da mesma forma que acontece no registro de compra, porém agora o usuário deve escolher a opção de venda do ativo. Os requisitos **RF - 05 Gerenciar carteira e RF - 07 Regsitrar venda** são atendidos. |
+| Observação | Da mesma forma que acontece no registro de compra, porém agora o usuário deve escolher a opção de venda do ativo. Os requisitos **RF - 05 e 07** são atendidos. |
 |  	|  	|
 | 6 | Dashboard |
 |Requisitos | RF - 09 - Apresentar dashboard principal com recurso visual, identificando por tipos de ativos. |
-| Observação | Ao acessar sua carteira o usuário entra na tela do dashboard, que vai mostrar por gráficos o conteúdo da sua carteira. Dessa forma, a aplicação atende ao requisito **RF - 09 Dashboard**. |
+| Observação | Ao acessar sua carteira o usuário entra na tela do dashboard, que vai mostrar por gráficos o conteúdo da sua carteira. Dessa forma, a aplicação atende ao requisito **RF - 09**. |
 |  	|  	|
 | 7 | Relatórios |
 |Requisito | RF - 08 - Realizar o processamento das informações solicitadas pelo usuário; <br> RF - 10 - Gerar relatório para acompanhamento dos ativos em carteira; <br> RF - 11 - Gerar relatório para acompanhamento da variação percentual dos ativos em carteira; <br> RF - 12 - Gerar relatório de patrimônio total, investido e/ou liquidado; <br> RF - 13 - Gerar relatório de preço médio e valorização/desvalorização médio, de um ativo da carteira do usuário. |
-| Observação |  |
+| Observação | Após o registro dos ativos, o usuário pode acessar sua carteira e gerar o relatório que deseja. Dessa forma, os requisitos **RF - 08, 10, 11, 12 e 13** foram atendidos. |
 |  	|  	|
 | 8 | Validar CEP |
 |Requisito | RF - 03 - Realizar a validação de credenciais do usuário; <br> RF - 14 - Realizar a validação de CEP ao gerenciar cadastro de usuário. |
-| Observação | Ao realizar o cadastro, o usuário deve preencher o campo "CEP" com o formato válido e existente, caso contrário a aplicação irá retornar um aviso mostrando o erro. Assim, o requisito **RF - 14 Validar CEP** é atendido. |
+| Observação | Ao realizar o cadastro, o usuário deve preencher o campo "CEP" com o formato válido e existente, caso contrário a aplicação irá retornar um aviso mostrando o erro. Assim, os requisitos **RF - 03 e 14** são atendidos. |
 |  	|  	|
 | 9 | Preencher campos de endereço automaticamente |
 |Requisito | RF - 03 - Realizar a validação de credenciais do usuário; <br> RF - 15 - Preencher automaticamente os campos "Logradouro", "Bairro", "Cidade" e "Estado", após inserção de CEP válido, ao gerenciar cadastro de usuário. |
-| Observação | Complementando a validação do CEP, se o campo "CEP" for preenchido corretamente, a aplicação irá preencher de forma automática os seguintes campos "Logradouro", "Bairro", "Cidade", e "Estado". Com isso o requisito **RF - 15 Preencher campos de endereço automaticamente** também é atendido. |
+| Observação | Complementando a validação do CEP, se o campo "CEP" for preenchido corretamente, a aplicação irá preencher de forma automática os seguintes campos "Logradouro", "Bairro", "Cidade", e "Estado". Com isso o requisito **RF - 03 e 15** também são atendidos. |

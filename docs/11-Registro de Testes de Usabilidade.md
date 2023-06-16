@@ -108,7 +108,7 @@ Abaixo consta os resultados obtidos:
 | CTU - 04 - Efetuar a compra de ativos | Os usuários acharam pouco intuitivo em ter que escolher a opção de compra e venda na mesma tela. <br> **Sujestão de melhoria:** Separar as duas tarefas em telas diferentes. |
 | CTU - 05 - Efetuar a venda de ativos | Os usuários acharam pouco intuitivo em ter que escolher a opção de compra e venda na mesma tela. <br> **Sujestão de melhoria:** Separar as duas tarefas em telas diferentes. |
 | CTU - 06 - Dashboard | Todos os usuários finalizaram a tarefa sem erros ou observações. |
-| CTU - 07 - Gerar relatórios da carteira |  |
+| CTU - 07 - Gerar relatórios da carteira | Os usuários conseguiram finalizar a tarefa sem erros críticos, porém alguns destes sentiram dificuldade em entender a tarefa. <br> **Sujestão de melhoria:** Criar dicas para facilitar o entendimento do usuário. |
 | CTU - 08 - Validar CEP | Todos os usuários finalizaram a tarefa sem erros ou observações. |
 | CTU - 09 - Preencher campos de endereço automaticamente | Todos os usuários finalizaram a tarefa sem erros ou observações. |
 
