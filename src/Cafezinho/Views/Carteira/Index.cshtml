@@ -1,25 +1,7 @@
 @model Cafezinho.ViewModels.CarteiraListViewModel
-@{
-    int totalCompras = 0;
-    int totalVendas = 0;
-}
-
-@{ 
-    foreach (var compra in Model.Registros)
-    {
-        totalCompras++;
-        foreach (var venda in Model.Vendas.Where(v => v.RegistroId == compra.RegistroId))
-        {
-            totalVendas++;
-        }
-    }
-}
-
 <h4>
     Relatório de ativos em carteira</h4>
 <br>
-<p>Total de compras: @totalCompras</p>
-<p>Total de vendas: @totalVendas</p>
 <style>
     .compra {
         color: #2c8e2c;
@@ -92,7 +74,7 @@
                     <a class="btn btn-danger p-0 w-100" asp-action="Delete" asp-route-id="@compra.RegistroId">Apagar</a>
                 </td>
             </tr>
-            foreach (var venda in Model.Vendas.Where(v => v.RegistroId == compra.RegistroId))
+            @foreach (var venda in Model.Vendas.Where(v => v.RegistroId == compra.RegistroId))
             {
                 <tr style="margin-top: 50px;">
                     <td>
