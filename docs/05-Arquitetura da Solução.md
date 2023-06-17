@@ -32,4 +32,5 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 
 ## Hospedagem
 
-`Explique como a hospedagem e o lançamento da plataforma foi feita.`
+A hospedagem da aplicação e do banco de dados foram feitas usando a plataforma Azure.  
+Para conferir a nossa aplicação, acesse [https://cafezinhonet.azurewebsites.net](https://cafezinhonet.azurewebsites.net/)
