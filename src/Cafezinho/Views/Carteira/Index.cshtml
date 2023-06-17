@@ -1,6 +1,6 @@
 @model Cafezinho.ViewModels.CarteiraListViewModel
 <h4>
-Relatório de ativos em carteira</h4>
+    Relatório de ativos em carteira</h4>
 <br>
 <style>
     .compra {
@@ -33,10 +33,10 @@ Relatório de ativos em carteira</h4>
                 Preço
             </th>
             <th style="padding-right: 50px;">
-               Quantidade
+                Quantidade
             </th>
             <th style="padding-right: 100px;">
-               Data da Transação
+                Data da Transação
             </th>
             <th style="padding-right: 100px;">
                 Valor Total
@@ -74,34 +74,36 @@ Relatório de ativos em carteira</h4>
                     <a class="btn btn-danger p-0 w-100" asp-action="Delete" asp-route-id="@compra.RegistroId">Apagar</a>
                 </td>
             </tr>
+            @foreach (var venda in Model.Vendas.Where(v => v.RegistroId == compra.RegistroId))
+            {
+                <tr style="margin-top: 50px;">
+                    <td>
+                        Venda
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => compra.Ticker)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => venda.Preco)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => venda.Quantidade)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => venda.DtTransacao)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => venda.ValorTotal)
+                    </td>
+                    <td class="d-block">
+                        <a class="btn btn-danger p-0 w-100" asp-action="DeleteVenda" asp-route-id="@venda.VendaId">Apagar</a>
+                    </td>
+                </tr>
+            }
             <tr class="result-separator">
                 <td colspan="7"></td>
             </tr>
-        @foreach (var venda in Model.Vendas){
-               <tr style="margin-top: 50px;">
-                <td>
-                    Venda
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => compra.Ticker)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => venda.Preco)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => venda.Quantidade)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => venda.DtTransacao)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => venda.ValorTotal)
-                </td>
-                <td class="d-block">
-                    <a class="btn btn-danger p-0 w-100" asp-action="DeleteVenda" asp-route-id="@venda.VendaId">Apagar</a>
-                </td>
-            </tr>
-        }
 
-        }    </tbody>
+        }
+    </tbody>
 </table>
