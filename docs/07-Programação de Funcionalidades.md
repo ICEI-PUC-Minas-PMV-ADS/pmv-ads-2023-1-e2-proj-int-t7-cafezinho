@@ -11,7 +11,7 @@
 |RF-07| Registrar a venda de ativos. | Vender.cshtml, Index.cshtml, DeleteVenda.cshtml, CarteiraController.cs, _ViewStart.cshtml, _ViewImports.cshtml |Amanda / Flávio|
 |RF-08| Realizar o processamento das informações solicitadas pelo usuário. | Em desenvolvimento |  |
 |RF-09| Apresentar dashboard principal com recurso visual, identificando por tipos de ativos. | Index.cshtml e mdb.min.js |Diego / Pedro|
-|RF-10| Gerar relatório para acompanhamento dos ativos em carteira (comprados/vendidos). | Index.cshtml | Amanda / Lucas / Matheus |
+|RF-10| Gerar relatório para acompanhamento dos ativos em carteira (comprados/vendidos). | CarteiraController.cs, Index.cshtml | Amanda / Lucas / Matheus |
 |RF-11| Gerar relatório para acompanhamento da variação percentual dos ativos em carteira. | Em desenvolvimento |  |
 |RF-12| Gerar relatório de patrimônio total, investido e/ou liquidado. | Em desenvolvimento |  |
 |RF-13| Gerar relatório de preço médio e valorização/desvalorização médio, de um ativo da carteira do usuário. | Em desenvolvimento |  |
