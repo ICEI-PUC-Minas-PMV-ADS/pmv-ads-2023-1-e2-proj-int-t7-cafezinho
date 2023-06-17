@@ -12,7 +12,7 @@ namespace Cafezinho.Models
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-
+            Database.EnsureCreated();
         }
 
         public DbSet<Cliente> Clientes { get; set; }
