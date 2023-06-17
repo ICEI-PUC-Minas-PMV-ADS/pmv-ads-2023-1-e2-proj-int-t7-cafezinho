@@ -1,0 +1,47 @@
+@model Cafezinho.ViewModels.CreateVendaViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+
+<h4>Venda</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Vender">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Preco" class="control-label"></label>
+                <input id="preco" asp-for="Preco" class="form-control" />
+                <span asp-validation-for="Preco" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quantidade" class="control-label"></label>
+                <input value=1 type="number" class="form-control" asp-for="Quantidade" min="1"
+                    max=@(Model.QuantidadeMax.ToString())>
+                <span asp-validation-for="Quantidade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DtTransacao" class="control-label"></label>
+                <input asp-for="DtTransacao" class="form-control" type="date" value=0 />
+                <span asp-validation-for="DtTransacao" class="text-danger"></span>
+            </div>
+           
+            <div class="form-group">
+                <input type="submit" value="Vender" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

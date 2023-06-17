@@ -1,4 +1,4 @@
-@model IEnumerable<Cafezinho.Models.Registro>
+@model Cafezinho.ViewModels.CarteiraListViewModel
 <h4>
 Relatório de ativos em carteira</h4>
 <br>
@@ -23,23 +23,23 @@ Relatório de ativos em carteira</h4>
 <table>
     <thead>
         <tr>
-            <th style="padding-right: 100px;">
-                @Html.DisplayNameFor(model => model.Ativo.Ticker)
+            <th style="padding-right: 50px;">
+                Operação
+            </th>
+            <th style="padding-right: 50px;">
+                Ticker
+            </th>
+            <th style="padding-right: 50px;">
+                Preço
+            </th>
+            <th style="padding-right: 50px;">
+               Quantidade
             </th>
             <th style="padding-right: 100px;">
-                @Html.DisplayNameFor(model => model.Preco)
+               Data da Transação
             </th>
             <th style="padding-right: 100px;">
-                @Html.DisplayNameFor(model => model.Quantidade)
-            </th>
-            <th style="padding-right: 100px;">
-                @Html.DisplayNameFor(model => model.Transacao)
-            </th>
-            <th style="padding-right: 100px;">
-                @Html.DisplayNameFor(model => model.DtTransacao)
-            </th>
-            <th style="padding-right: 100px;">
-                @Html.DisplayNameFor(model => model.ValorTotal)
+                Valor Total
             </th>
             <th></th>
         </tr>
@@ -48,38 +48,60 @@ Relatório de ativos em carteira</h4>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
+        @foreach (var compra in Model.Registros)
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Ticker)
+                    Compra
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Preco)
+                    @Html.DisplayFor(modelItem => compra.Ticker)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Quantidade)
+                    @Html.DisplayFor(modelItem => compra.Preco)
                 </td>
                 <td>
-                    @if (item.Transacao.ToString().ToLower() == "compra")
-                    {
-                        <span class="compra">@Html.DisplayFor(modelItem => item.Transacao)</span>
-                    }
-                    else
-                    {
-                        <span class="venda">@Html.DisplayFor(modelItem => item.Transacao)</span>
-                    }
+                    @Html.DisplayFor(modelItem => compra.Quantidade)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.DtTransacao)
+                    @Html.DisplayFor(modelItem => compra.DtTransacao)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.ValorTotal)
+                    @Html.DisplayFor(modelItem => compra.ValorTotal)
+                </td>
+                <td class="d-block">
+                    <a class="btn btn-secondary p-0 w-100" asp-action="Vender" asp-route-id="@compra.RegistroId">Vender</a>
+                    <a class="btn btn-danger p-0 w-100" asp-action="Delete" asp-route-id="@compra.RegistroId">Apagar</a>
                 </td>
             </tr>
             <tr class="result-separator">
                 <td colspan="7"></td>
             </tr>
+        @foreach (var venda in Model.Vendas){
+               <tr style="margin-top: 50px;">
+                <td>
+                    Venda
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => compra.Ticker)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => venda.Preco)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => venda.Quantidade)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => venda.DtTransacao)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => venda.ValorTotal)
+                </td>
+                <td class="d-block">
+                    <a class="btn btn-danger p-0 w-100" asp-action="DeleteVenda" asp-route-id="@venda.VendaId">Apagar</a>
+                </td>
+            </tr>
         }
-    </tbody>
+
+        }    </tbody>
 </table>
