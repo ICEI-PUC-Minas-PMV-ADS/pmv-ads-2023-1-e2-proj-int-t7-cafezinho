@@ -12,9 +12,9 @@
 |RF-08| Realizar o processamento das informações solicitadas pelo usuário. | Em desenvolvimento |  |
 |RF-09| Apresentar dashboard principal com recurso visual, identificando por tipos de ativos. | Index.cshtml e mdb.min.js |Diego / Pedro|
 |RF-10| Gerar relatório para acompanhamento dos ativos em carteira (comprados/vendidos). | Index.cshtml | Amanda / Lucas / Matheus |
-|RF-11| Gerar relatório para acompanhamento da variação percentual dos ativos em carteira. | Em desenvolvimento | xxxx |
-|RF-12| Gerar relatório de patrimônio total, investido e/ou liquidado. | Em desenvolvimento | xxxx |
-|RF-13| Gerar relatório de preço médio e valorização/desvalorização médio, de um ativo da carteira do usuário. | Em desenvolvimento | xxxx |
+|RF-11| Gerar relatório para acompanhamento da variação percentual dos ativos em carteira. | Em desenvolvimento |  |
+|RF-12| Gerar relatório de patrimônio total, investido e/ou liquidado. | Em desenvolvimento |  |
+|RF-13| Gerar relatório de preço médio e valorização/desvalorização médio, de um ativo da carteira do usuário. | Em desenvolvimento |  |
 |RF-14| Realizar a validação de CEP ao gerenciar cadastro de usuário. | Cliente.cs, Create.cshtml, ClientesController.cs e site.js | Flávio |
 |RF-15| Preencher automaticamente os campos "Logradouro", "Bairro", "Cidade" e "Estado", após inserção de CEP válido, ao gerenciar cadastro de usuário. | Cliente.cs, Create.cshtml, ClientesController.cs e site.js | Flávio |
 
