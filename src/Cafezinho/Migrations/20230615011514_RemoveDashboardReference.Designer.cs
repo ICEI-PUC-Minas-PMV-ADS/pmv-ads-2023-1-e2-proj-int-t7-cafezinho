@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Cafezinho.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230514002753_CreateBD")]
-    partial class CreateBD
+    [Migration("20230615011514_RemoveDashboardReference")]
+    partial class RemoveDashboardReference
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,24 +27,21 @@ namespace Cafezinho.Migrations
 
             modelBuilder.Entity("Cafezinho.Models.Ativo", b =>
                 {
-                    b.Property<int>("AtivoId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("ativo_id");
+                    b.Property<string>("Ticker")
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnName("ticker");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AtivoId"));
+                    b.Property<int?>("DashboardId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("nome");
 
-                    b.Property<string>("Ticker")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("ticker");
+                    b.HasKey("Ticker");
 
-                    b.HasKey("AtivoId");
+                    b.HasIndex("DashboardId");
 
                     b.ToTable("Ativos");
                 });
@@ -119,6 +116,40 @@ namespace Cafezinho.Migrations
                     b.HasKey("Cpf");
 
                     b.ToTable("clientes");
+
+                    b.HasData(
+                        new
+                        {
+                            Cpf = "001",
+                            Bairro = "",
+                            Cep = "",
+                            Cidade = "",
+                            Complemento = "",
+                            DtNascimento = new DateTime(2000, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "",
+                            Estado = "",
+                            Logradouro = "",
+                            Nome = "Admin",
+                            Numero = "",
+                            Perfil = 1,
+                            Senha = "$2a$10$6z4B.MIAncvz0rsrTRnuDORmDZUXXa1hXAXs9Pfa7Twwjylz2qujS"
+                        });
+                });
+
+            modelBuilder.Entity("Cafezinho.Models.Dashboard", b =>
+                {
+                    b.Property<int>("DashboardId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DashboardId"));
+
+                    b.Property<int>("TotalEmCarteira")
+                        .HasColumnType("int");
+
+                    b.HasKey("DashboardId");
+
+                    b.ToTable("Dashboard");
                 });
 
             modelBuilder.Entity("Cafezinho.Models.Registro", b =>
@@ -130,13 +161,12 @@ namespace Cafezinho.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RegistroId"));
 
-                    b.Property<int>("AtivoId")
-                        .HasColumnType("int")
-                        .HasColumnName("ativo_id");
-
                     b.Property<string>("ClienteId")
                         .HasColumnType("nvarchar(450)")
                         .HasColumnName("cliente_id");
+
+                    b.Property<int?>("DashboardId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("DtTransacao")
                         .HasColumnType("datetime2")
@@ -151,13 +181,8 @@ namespace Cafezinho.Migrations
                         .HasColumnName("quantidade");
 
                     b.Property<string>("Ticker")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)")
+                        .HasColumnType("nvarchar(450)")
                         .HasColumnName("ticker");
-
-                    b.Property<int>("Transacao")
-                        .HasColumnType("int")
-                        .HasColumnName("tipo_transacao");
 
                     b.Property<decimal>("ValorTotal")
                         .HasColumnType("decimal(18,2)")
@@ -165,33 +190,98 @@ namespace Cafezinho.Migrations
 
                     b.HasKey("RegistroId");
 
-                    b.HasIndex("AtivoId");
-
                     b.HasIndex("ClienteId");
+
+                    b.HasIndex("DashboardId");
+
+                    b.HasIndex("Ticker");
 
                     b.ToTable("Registros");
                 });
 
+            modelBuilder.Entity("Cafezinho.Models.Venda", b =>
+                {
+                    b.Property<int>("VendaId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("venda_id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("VendaId"));
+
+                    b.Property<DateTime>("DtTransacao")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("data_transacao");
+
+                    b.Property<decimal>("Preco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("preco");
+
+                    b.Property<int>("Quantidade")
+                        .HasColumnType("int")
+                        .HasColumnName("quantidade");
+
+                    b.Property<int>("RegistroId")
+                        .HasColumnType("int")
+                        .HasColumnName("registro_id");
+
+                    b.Property<decimal>("ValorTotal")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("valor_total");
+
+                    b.HasKey("VendaId");
+
+                    b.HasIndex("RegistroId");
+
+                    b.ToTable("Vendas");
+                });
+
+            modelBuilder.Entity("Cafezinho.Models.Ativo", b =>
+                {
+                    b.HasOne("Cafezinho.Models.Dashboard", null)
+                        .WithMany("ativos")
+                        .HasForeignKey("DashboardId");
+                });
+
             modelBuilder.Entity("Cafezinho.Models.Registro", b =>
                 {
-                    b.HasOne("Cafezinho.Models.Ativo", "Ativo")
-                        .WithMany()
-                        .HasForeignKey("AtivoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("Cafezinho.Models.Cliente", "Cliente")
                         .WithMany("Registros")
                         .HasForeignKey("ClienteId");
+
+                    b.HasOne("Cafezinho.Models.Dashboard", null)
+                        .WithMany("Registros")
+                        .HasForeignKey("DashboardId");
+
+                    b.HasOne("Cafezinho.Models.Ativo", "Ativo")
+                        .WithMany()
+                        .HasForeignKey("Ticker");
 
                     b.Navigation("Ativo");
 
                     b.Navigation("Cliente");
                 });
 
+            modelBuilder.Entity("Cafezinho.Models.Venda", b =>
+                {
+                    b.HasOne("Cafezinho.Models.Registro", "Registro")
+                        .WithMany()
+                        .HasForeignKey("RegistroId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Registro");
+                });
+
             modelBuilder.Entity("Cafezinho.Models.Cliente", b =>
                 {
                     b.Navigation("Registros");
+                });
+
+            modelBuilder.Entity("Cafezinho.Models.Dashboard", b =>
+                {
+                    b.Navigation("Registros");
+
+                    b.Navigation("ativos");
                 });
 #pragma warning restore 612, 618
         }

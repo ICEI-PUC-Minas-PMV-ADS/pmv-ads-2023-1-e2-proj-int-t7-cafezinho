@@ -36,9 +36,9 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t7-cafezinh
 
 ## Caso de Teste 07 - Relatórios
 * Requisito Funcional relacionado: RF-11/12/13
-### **No momento do registro, os relatórios ainda estão sendo implementados.**
-![teste-relatorios](img/RegistroLista.png)
-![teste-relatorios2](img/Home.png)
+### **Relatório de ativos em carteira**
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t7-cafezinho/assets/82981072/1f386f1b-a55e-4585-aeb4-045992c6480c
 
 ## Caso de Teste 08 - Validar CEP
 * Requisito Funcional relacionado: RF-14

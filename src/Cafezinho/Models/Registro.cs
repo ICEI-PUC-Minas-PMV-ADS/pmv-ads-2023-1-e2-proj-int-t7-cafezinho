@@ -10,7 +10,6 @@ namespace Cafezinho.Models
         [Key]
         [Column(name: "registro_id")]
         public int RegistroId { get; set; }
-
        
         [Display(Name = "Preço")]
         [Required(ErrorMessage = "Campo Preço é obrigatorio")]
@@ -21,11 +20,6 @@ namespace Cafezinho.Models
         [Required(ErrorMessage = "Campo Quantidade é obrigatorio")]
         [Column(name: "quantidade")]
         public int Quantidade { get; set; }
-
-        [Column(name: "tipo_transacao")]
-        [Required(ErrorMessage = "Campo Transação é obrigatorio")]
-        [Display(Name = "Tipo de transação")]
-        public Transacao Transacao { get; set; }
 
         [Column(name: "data_transacao")]
         [DataType(DataType.Date)]
@@ -44,11 +38,5 @@ namespace Cafezinho.Models
         [ForeignKey("Cliente")]
         public string ClienteId;
         public Cliente Cliente { get; set; }
-    }
-
-    public enum Transacao
-    {
-        Compra,
-        Venda
     }
 }

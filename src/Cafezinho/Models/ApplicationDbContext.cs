@@ -12,13 +12,14 @@ namespace Cafezinho.Models
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-
+            Database.EnsureCreated();
         }
 
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Ativo> Ativos { get; set; }
         public DbSet<Registro> Registros { get; set; }
         public DbSet<Dashboard> Dashboard { get; set; }
+        public DbSet<Venda> Vendas { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Cafezinho.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230523232648_Dashboards")]
-    partial class Dashboards
+    [Migration("20230615010836_CreateDb")]
+    partial class CreateDb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -184,10 +184,6 @@ namespace Cafezinho.Migrations
                         .HasColumnType("nvarchar(450)")
                         .HasColumnName("ticker");
 
-                    b.Property<int>("Transacao")
-                        .HasColumnType("int")
-                        .HasColumnName("tipo_transacao");
-
                     b.Property<decimal>("ValorTotal")
                         .HasColumnType("decimal(18,2)")
                         .HasColumnName("valor_total");
@@ -201,6 +197,42 @@ namespace Cafezinho.Migrations
                     b.HasIndex("Ticker");
 
                     b.ToTable("Registros");
+                });
+
+            modelBuilder.Entity("Cafezinho.Models.Venda", b =>
+                {
+                    b.Property<int>("VendaId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("venda_id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("VendaId"));
+
+                    b.Property<DateTime>("DtTransacao")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("data_transacao");
+
+                    b.Property<decimal>("Preco")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("preco");
+
+                    b.Property<int>("Quantidade")
+                        .HasColumnType("int")
+                        .HasColumnName("quantidade");
+
+                    b.Property<int>("RegistroId")
+                        .HasColumnType("int")
+                        .HasColumnName("registro_id");
+
+                    b.Property<decimal>("ValorTotal")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("valor_total");
+
+                    b.HasKey("VendaId");
+
+                    b.HasIndex("RegistroId");
+
+                    b.ToTable("Vendas");
                 });
 
             modelBuilder.Entity("Cafezinho.Models.Ativo", b =>
@@ -227,6 +259,17 @@ namespace Cafezinho.Migrations
                     b.Navigation("Ativo");
 
                     b.Navigation("Cliente");
+                });
+
+            modelBuilder.Entity("Cafezinho.Models.Venda", b =>
+                {
+                    b.HasOne("Cafezinho.Models.Registro", "Registro")
+                        .WithMany()
+                        .HasForeignKey("RegistroId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Registro");
                 });
 
             modelBuilder.Entity("Cafezinho.Models.Cliente", b =>

@@ -70,15 +70,27 @@ namespace Cafezinho.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([FromForm] Registro registro)
         {
+            
+            
             if (ModelState.IsValid)
             {
                 string ClienteCPF = User.Claims
                     .Where((claim) => claim.Type == ClaimTypes.Sid)
                     .First()
                     .Value;
+
                 registro.ClienteId = ClienteCPF;
+
+                var ticker = Request.Form
+                .Where((item) => item.Key == "Ticker")
+                .Single()
+                .Value.ToString();
+
+                registro.Ticker = ticker;
+
                 _context.Add(registro);
                 await _context.SaveChangesAsync();
+                
                 return RedirectToAction(nameof(Index));
             }
             return View(registro);
@@ -97,8 +109,20 @@ namespace Cafezinho.Controllers
             {
                 return NotFound();
             }
-            return View(registro);
+
+            var viewModel = new CreateRegistroViewModel
+            {
+                Ticker = registro.Ticker,
+                Preco = registro.Preco,
+                Quantidade = registro.Quantidade,
+                DtTransacao = registro.DtTransacao,
+                ValorTotal = registro.ValorTotal,
+                Ativos = await _context.Ativos.ToListAsync()
+            };
+
+            return View(viewModel);
         }
+
 
         // POST: Registros/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
@@ -178,6 +202,21 @@ namespace Cafezinho.Controllers
         private bool RegistroExists(int id)
         {
             return _context.Registros.Any(e => e.RegistroId == id);
+        }
+        // GET: Registros/GetChartData
+         [HttpGet]
+        public IActionResult GetChartData()
+        {
+            var chart1Data = _context.Registros
+                .Select(registro => registro.ValorTotal)
+                .ToList();
+
+            var chartData = new
+            {
+                chart1Data
+            };
+
+            return Ok(chartData);
         }
     }
 }

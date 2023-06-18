@@ -41,13 +41,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais, 
 |RF-01| Permitir ao usuário gerenciar seu cadastro na plataforma. | ALTA |
 |RF-02| Permitir ao usuário realizar o login na plataforma. | ALTA |
 |RF-03| Realizar a validação de credenciais do usuário. | ALTA | 
-|RF-04| Permitir a busca por nomes e tipos de ativos. | ALTA |
+|RF-04| Permitir a busca por ativos através do TICKER. | ALTA |
 |RF-05| Permitir que o usuário gerencie sua carteira de investimentos. | ALTA |
 |RF-06| Registrar a compra de ativos. | ALTA |
 |RF-07| Registrar a venda de ativos. | ALTA |
 |RF-08| Realizar o processamento das informações solicitadas pelo usuário. | ALTA |
 |RF-09| Apresentar dashboard principal com recurso visual, identificando por tipos de ativos. | MÉDIA |
-|RF-10| Gerar relatório para acompanhamento dos ativos em carteira. | ALTA |
+|RF-10| Gerar relatório para acompanhamento dos ativos em carteira (comprados/vendidos). | ALTA |
 |RF-11| Gerar relatório para acompanhamento da variação percentual dos ativos em carteira. | BAIXA |
 |RF-12| Gerar relatório de patrimônio total, investido e/ou liquidado. | ALTA |
 |RF-13| Gerar relatório de preço médio e valorização/desvalorização médio, de um ativo da carteira do usuário. | BAIXA |
