@@ -21,11 +21,11 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1 me-5">
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: #f0f0f0" asp-area="" asp-controller="Home" asp-action="Index">Início</a>
-                        </li>
                         @if (User.Identity.IsAuthenticated)
                         {
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: #f0f0f0" asp-area="" asp-controller="Home" asp-action="Index">Início</a>
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link" style="color: #f0f0f0" asp-area="" asp-controller="Registros" asp-action="Index">Registros</a>
                             </li>
@@ -65,12 +65,12 @@
                     </li>
 
                 }
-                else
+                @* else
                 {
                     <li>
                         <a class="btn btn-success w-100" asp-area="" asp-controller="Clientes" asp-action="Login">Entrar</a>
                     </li>
-                }
+                } *@
             </ul>
         </nav>
     </header>
