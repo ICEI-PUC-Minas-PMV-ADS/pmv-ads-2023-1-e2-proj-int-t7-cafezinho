@@ -7,14 +7,14 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | :---: | :--- |
 | Requisito Associado | RF - 01 - Permitir ao usuário gerenciar seu cadastro na plataforma; <br> RF - 03 - Realizar a validação de credenciais do usuário. |
 | Objetivo do Teste | Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos | - Abrir o navegador, <br> - Acessar a aplicação; <br> - Clicar em "Entrar"; <br> - Clicar em "Cadastrar";  <br> - Preencher os campos obrigatórios (CPF, nome, e-mail, data de nascimento, CEP, logradouro, cidade, estado e senha); <br> - Clicar em "Salvar". |
+| Passos | - Abrir o navegador, <br> - Acessar a aplicação; <br> - Clicar em "Cadastrar";  <br> - Preencher os campos obrigatórios (CPF, nome, e-mail, data de nascimento, CEP, logradouro, cidade, estado e senha); <br> - Clicar em "Salvar". |
 |Critério de Êxito | - O cadastro foi realizado com sucesso. |
 |Critério de Falha | - O usuário não consegue concluir o cadastro, e aparece na tela mostrando algum campo com preenchimento obrigatório. |
 |  	|  	|
 | **Caso de Teste** | **CT-02 – Efetuar login** |
 | Requisito Associado | RF - 02 - Permitir ao usuário realizar o login na plataforma. |
 | Objetivo do Teste | - Verificar se o usuário consegue fazer o login. |
-| Passos | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Clicar em "Entrar";  <br> - Preencher os dados cadastrados (CPF e senha); <br> - Clicar em "Entrar". |
+| Passos | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Preencher os dados cadastrados (CPF e senha); <br> - Clicar em "Entrar". |
 |Critério de Êxito | - O usuário consegue fazer o login. |
 |Critério de Falha | - O usuário não consegue fazer o login, e a aplicação retorna uma mensagem de erro: "Email e/ou senha incorreta". |
 |  	|  	|
@@ -53,11 +53,11 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |  	|  	|
 | **Caso de Teste** | **CT-08 – Validar CEP** 	|
 | Requisito Associado | RF - 03 - Realizar a validação de credenciais do usuário; <br> RF - 14 - Realizar a validação de CEP ao gerenciar cadastro de usuário. |
-| Passos | - Abrir o navegador, <br> - Acessar a aplicação; <br> - Clicar em "Entrar"; <br> - Clicar em "Cadastrar";  <br> - Preencher o campo CEP; <br> - Clicar fora do campo CEP ou teclar "tab". |
+| Passos | - Abrir o navegador, <br> - Acessar a aplicação; <br> - Clicar em "Cadastrar";  <br> - Preencher o campo CEP; <br> - Clicar fora do campo CEP ou teclar "tab". |
 |Critério de Êxito | - Não retornar as mensagens "Formato de CEP inválido", ao inserir CEP em formato inválido ou "CEP não encontrado", quando o CEP não existir na base de dados da API ViaCEP. |
 |  	|  	|
 | **Caso de Teste** | **CT-09 – Preencher campos de endereço automaticamente** 	|
 | Requisito Associado | RF - 03 - Realizar a validação de credenciais do usuário; <br> RF - 15 - Preencher automaticamente os campos "Logradouro", "Bairro", "Cidade" e "Estado", após inserção de CEP válido, ao gerenciar cadastro de usuário. |
 | Objetivo do Teste | Preencher automaticamente os campos "Logradouro", "Bairro", "Cidade" e "Estado". |
-| Passos | - Abrir o navegador, <br> - Acessar a aplicação; <br> - Clicar em "Entrar"; <br> - Clicar em "Cadastrar";  <br> - Preencher o campo CEP; <br> - Clicar fora do campo CEP ou teclar "tab". |
+| Passos | - Abrir o navegador, <br> - Acessar a aplicação; <br> - Clicar em "Cadastrar";  <br> - Preencher o campo CEP; <br> - Clicar fora do campo CEP ou teclar "tab". |
 |Critério de Êxito | - Preencher automaticamente os campos "Logradouro", "Bairro", "Cidade" e "Estado". |
