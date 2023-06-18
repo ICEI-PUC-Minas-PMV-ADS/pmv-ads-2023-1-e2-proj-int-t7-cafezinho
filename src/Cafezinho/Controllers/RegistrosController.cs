@@ -115,7 +115,6 @@ namespace Cafezinho.Controllers
                 Ticker = registro.Ticker,
                 Preco = registro.Preco,
                 Quantidade = registro.Quantidade,
-                Transacao = registro.Transacao,
                 DtTransacao = registro.DtTransacao,
                 ValorTotal = registro.ValorTotal,
                 Ativos = await _context.Ativos.ToListAsync()

@@ -22,13 +22,13 @@ Aplicação para gerenciamento de carteira de investimentos em ações e criptom
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Acesse [https://cafezinhonet.azurewebsites.net](https://cafezinhonet.azurewebsites.net/)  
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
+É possível criar um novo usuário, ao clicar em `Cadastrar`, na página de login. Porém, esse usuário possuirá privilégios básicos, e não conseguirá acessar páginas de gerenciamento de clientes e de ativos.  
 
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
-
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+O usuário com privilégio de administrador, para teste completo da aplicação, é o seguinte:  
+* CPF: **12345678910** (inserir apenas números, visto que existe uma máscara para apresentá-lo no formato "123.456.789-10")  
+* Senha: **123456**
 
 # Documentação
 

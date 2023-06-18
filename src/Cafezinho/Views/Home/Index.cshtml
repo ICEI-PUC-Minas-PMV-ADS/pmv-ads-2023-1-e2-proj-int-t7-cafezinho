@@ -15,7 +15,11 @@
     }
     else
     {
-        <div id="carouselDarkVariant" class="carousel slide carousel-fade carousel-dark mx-auto" style="max-width:1000px;"
+        <script>
+            window.location.href = '@Url.Action("Login", "Clientes")';
+        </script>
+
+        @* <div id="carouselDarkVariant" class="carousel slide carousel-fade carousel-dark mx-auto" style="max-width:1000px;"
              data-mdb-ride="carousel" data-mdb-interval="2000">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -51,7 +55,7 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
-        </div>
+        </div> *@
     }
 }
 
