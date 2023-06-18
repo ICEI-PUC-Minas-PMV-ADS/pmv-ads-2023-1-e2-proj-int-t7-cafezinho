@@ -20,11 +20,10 @@
 
 # Instruções de acesso
 
-Para experimentar a aplicação, acesse [https://cafezinhonet.azurewebsites.net](https://cafezinhonet.azurewebsites.net/).  
+Acesse [https://cafezinhonet.azurewebsites.net](https://cafezinhonet.azurewebsites.net/)  
 
-É possível criar um novo usuário, ao clicar em "Entrar" na página inicial, e depois em "Cadastrar" na página de login.  
-Esse usuário possuirá privilégios básicos, não conseguindo acessar páginas de gerenciamento de clientes e de ativos.  
+É possível criar um novo usuário, ao clicar em `Cadastrar`, na página de login. Porém, esse usuário possuirá privilégios básicos, e não conseguirá acessar páginas de gerenciamento de clientes e de ativos.  
 
-O usuário com privilégio de administrador para teste completo da aplicação é:  
-CPF: 001
-Senha: 1234
+O usuário com privilégio de administrador, para teste completo da aplicação, é o seguinte:  
+* CPF: **12345678910** (inserir apenas números, visto que existe uma máscara para apresentá-lo no formato "123.456.789-10")  
+* Senha: **123456**
