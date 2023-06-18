@@ -21,21 +21,21 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | **Caso de Teste** | **CT - 03 – Busca de ativos** |
 | Requisito Associado | RF - 04 - Permitir a busca por nomes e tipos de ativos. |
 | Objetivo do Teste | - Verificar se o usuário consegue buscar os ativos filtrando pelo nome ou pelo tipo. |
-| Passos | - Clicar em "Registros"; <br> - Clicar em "Create New"; <br> - Buscar o Ticker do ativo.|
+| Passos | - Clicar em "Registros"; <br> - Buscar o Ticker do ativo. |
 |Critério de Êxito | - A aplicação vai retornar o ativo buscado pelo usuário. |
 |Critério de Falha | - A aplicação retorna uma mensagem de erro: " O ativo buscado não foi encontrado". |
 |  	|  	|
 | **Caso de Teste** | **CT-04 – Registrar compra** |
 | Requisito Associado | RF - 05 - 	Permitir que o usuário gerencie sua carteira de investimentos; <br> RF - 06 - Registrar a compra de ativos. |
 | Objetivo do Teste | - Verificar se o usuário consegue realizar o cadastramento dos ativos na sua carteira. |
-| Passos | - Clicar em "Registros"; <br> - Clicar em "Create New"; <br> - Preencher as informações de negociação; <br> - Escolher a opção de "Compra"; <br> - Clicar em "Create". |
+| Passos | - Clicar em "Registros"; <br> - Preencher as informações de negociação; <br> - Clicar em "Salvar". |
 |Critério de Êxito | - O ativo será registrado na carteira do usuário. |
 |Critério de Falha | - A aplicação não vai registrar o ativo e deve retornar uma mensagem de erro: "A ativo não foi registrado". |
 |  	|  	|
 | **Caso de Teste** | **CT-05 – Registrar venda** |
 | Requisito Associado | RF - 05 - 	Permitir que o usuário gerencie sua carteira de investimentos; <br> RF - 07 - Registrar a venda de ativos. |
 | Objetivo do Teste | - Verificar se o usuário consegue fazer a liquidação de um ativo da carteira. |
-| Passos | - Clicar em "Registros"; <br> - Clicar em "Create New"; <br> - Preencher as informações de negociação; <br> - Escolher a opção de "Venda"; <br> - Clicar em "Create". |
+| Passos | - Clicar em "Carteira"; <br> - Escolher o ativo e clicar em "vender"; <br> - Preencher as informações de negociação; <br> - Clicar em "Vender". |
 |Critério de Êxito | - O ativo é liquidado da carteira . |
 |Critério de Falha | - O ativo não é liquidado, e a aplicação retorna uma mensagem de erro. |
 |  	|  	|

@@ -35,11 +35,11 @@ As tarefas a serem executadas pelos voluntários estão descritas no quadro abai
 | **CTU-02** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
 |Fazer o login no sistema | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Clicar em "Entrar";  <br> - Preencher os dados cadastrados (CPF e senha); <br> - Clicar em "Entrar" | O usuário consegue fazer o login | Eficiênciação, erros, satisfação |
 | **CTU-03** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
-|Busca de ativos| - Clicar em "Registros"; <br> - Clicar em "Create New"; <br> - Buscar o Ticker do ativo. | A aplicação vai retornar o ativo buscado pelo usuário | Eficiência, erros, satisfação |
+|Busca de ativos| - Clicar em "Registros"; <br> - Buscar o Ticker do ativo. | A aplicação vai retornar o ativo buscado pelo usuário | Eficiência, erros, satisfação |
 | **CTU-04** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
-| Efetuar a compra de ativos | - Clicar em "Registros"; <br> - Clicar em "Create New"; <br> - Preencher as informações de negociação; <br> - Escolher a opção de "Compra"; <br> - Clicar em "Create" | O usuário consegue efetivar a compra do ativo | Eficiência, erros, satisfação |
+| Efetuar a compra de ativos | - Clicar em "Registros"; <br> - Preencher as informações de negociação; <br> - Clicar em "Salvar". | O usuário consegue efetivar a compra do ativo | Eficiência, erros, satisfação |
 | **CTU-05** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
-| Efetuar a venda de ativos | - Clicar em "Registros"; <br> - Clicar em "Create New"; <br> - Preencher as informações de negociação; <br> - Escolher a opção de "Venda"; <br> - Clicar em "Create" | O usuário consegue realizar a liquidação do ativo da sua carteira | Eficiência, erros, satisfação |
+| Efetuar a venda de ativos | - Clicar em "Carteira"; <br> - Escolher o ativo e clicar em "vender"; <br> - Preencher as informações de negociação; <br> - Clicar em "Vender". | O usuário consegue realizar a liquidação do ativo da sua carteira | Eficiência, erros, satisfação |
 | **CTU-06** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
 | Dashboard | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Realizar o login;  <br> - Acessar dashboard principal da carteira | O usuário consegue visualizar o dashboard. | Eficiência, erros, satisfação |
 | **CTU-07** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
