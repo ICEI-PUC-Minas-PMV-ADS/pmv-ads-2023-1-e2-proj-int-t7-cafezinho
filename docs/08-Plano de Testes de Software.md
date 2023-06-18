@@ -19,7 +19,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Critério de Falha | - O usuário não consegue fazer o login, e a aplicação retorna uma mensagem de erro: "Email e/ou senha incorreta". |
 |  	|  	|
 | **Caso de Teste** | **CT - 03 – Busca de ativos** |
-| Requisito Associado | RF - 04 - Permitir a busca por nomes e tipos de ativos. |
+| Requisito Associado | RF - 04 - Permitir a busca por ativos através do TICKER. |
 | Objetivo do Teste | - Verificar se o usuário consegue buscar os ativos filtrando pelo nome ou pelo tipo. |
 | Passos | - Clicar em "Registros"; <br> - Buscar o Ticker do ativo. |
 |Critério de Êxito | - A aplicação vai retornar o ativo buscado pelo usuário. |
