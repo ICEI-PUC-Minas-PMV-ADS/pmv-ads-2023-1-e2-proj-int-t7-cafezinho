@@ -31,9 +31,9 @@ As tarefas a serem executadas pelos voluntários estão descritas no quadro abai
 
 | **CTU-01** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
 | :---: | :---: | :---: | :---: |
-|Cadastro de novo usuário | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Clicar em "Entrar"; <br> - Clicar em "Cadastrar";  <br> - Preencher os campos obrigatórios (CPF; nome; e-mail, data de nascimento, CEP, logradouro, cidade, estado e senha); <br> - Clicar em "Salvar" | O cadastro é realizado com sucesso | Eficiência, erros, satisfação |
+|Cadastro de novo usuário | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Clicar em "Cadastrar";  <br> - Preencher os campos obrigatórios (CPF; nome; e-mail, data de nascimento, CEP, logradouro, cidade, estado e senha); <br> - Clicar em "Salvar" | O cadastro é realizado com sucesso | Eficiência, erros, satisfação |
 | **CTU-02** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
-|Fazer o login no sistema | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Clicar em "Entrar";  <br> - Preencher os dados cadastrados (CPF e senha); <br> - Clicar em "Entrar" | O usuário consegue fazer o login | Eficiênciação, erros, satisfação |
+|Fazer o login no sistema | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Preencher os dados cadastrados (CPF e senha); <br> - Clicar em "Entrar" | O usuário consegue fazer o login | Eficiênciação, erros, satisfação |
 | **CTU-03** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
 |Busca de ativos| - Clicar em "Registros"; <br> - Buscar o Ticker do ativo. | A aplicação vai retornar o ativo buscado pelo usuário | Eficiência, erros, satisfação |
 | **CTU-04** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
@@ -45,6 +45,6 @@ As tarefas a serem executadas pelos voluntários estão descritas no quadro abai
 | **CTU-07** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
 | Gerar relatórios da carteira | - Abrir o navegador; <br> - Acessar a aplicação; <br> - Realizar o login;  <br> - Clicar em "Gerar relatório" | O usuário consegue gerar o relatório solicitado | Eficiência, erros, satisfação |
 | **CTU-08** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
-| Validar CEP | - Abrir o navegador, <br> - Acessar a aplicação; <br> - Clicar em "Entrar"; <br> - Clicar em "Cadastrar";  <br> - Preencher o campo CEP; <br> - Clicar fora do campo CEP ou teclar "tab" | - Não retornar as mensagens "Formato de CEP inválido", ao inserir CEP em formato inválido ou "CEP não encontrado", quando o CEP não existir na base de dados da API ViaCEP | Eficiência, erros, satisfação |
+| Validar CEP | - Abrir o navegador, <br> - Acessar a aplicação; <br> - Clicar em "Cadastrar";  <br> - Preencher o campo CEP; <br> - Clicar fora do campo CEP ou teclar "tab" | - Não retornar as mensagens "Formato de CEP inválido", ao inserir CEP em formato inválido ou "CEP não encontrado", quando o CEP não existir na base de dados da API ViaCEP | Eficiência, erros, satisfação |
 | **CTU-09** | **Passos** | **Critério de Êxito** | **O que será avaliado** |
-| Preencher campos de endereço automaticamente | - Abrir o navegador, <br> - Acessar a aplicação; <br> - Clicar em "Entrar"; <br> - Clicar em "Cadastrar";  <br> - Preencher o campo CEP; <br> - Clicar fora do campo CEP ou teclar "tab" | - Preencher automaticamente os campos "Logradouro", "Bairro", "Cidade" e "Estado" | Eficiência, erros, satisfação |
+| Preencher campos de endereço automaticamente | - Abrir o navegador, <br> - Acessar a aplicação; <br> - Clicar em "Cadastrar";  <br> - Preencher o campo CEP; <br> - Clicar fora do campo CEP ou teclar "tab" | - Preencher automaticamente os campos "Logradouro", "Bairro", "Cidade" e "Estado" | Eficiência, erros, satisfação |
