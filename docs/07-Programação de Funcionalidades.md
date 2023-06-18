@@ -20,11 +20,11 @@
 
 # Instruções de acesso
 
-Projeto ainda não hospedado.
->Deverão apresentadas as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+Para experimentar a aplicação, acesse [https://cafezinhonet.azurewebsites.net](https://cafezinhonet.azurewebsites.net/).  
 
->Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
+É possível criar um novo usuário, ao clicar em "Entrar" na página inicial, e depois em "Cadastrar" na página de login.  
+Esse usuário possuirá privilégios básicos, não conseguindo acessar páginas de gerenciamento de clientes e de ativos.  
 
->Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
-
->O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+O usuário com privilégio de administrador para teste completo da aplicação é:  
+CPF: 001
+Senha: 1234
