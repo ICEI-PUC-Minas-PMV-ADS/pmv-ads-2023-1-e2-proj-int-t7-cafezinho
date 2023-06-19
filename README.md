@@ -50,7 +50,7 @@ O usuário com privilégio de administrador, para teste completo da aplicação,
 
 # Código
 
-<li><a href="src/README.md"> Código Fonte</a></li>
+<li><a href="src/"> Código Fonte</a></li>
 
 # Apresentação
 
