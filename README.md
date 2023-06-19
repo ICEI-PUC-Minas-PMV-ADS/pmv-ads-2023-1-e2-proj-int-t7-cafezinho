@@ -54,4 +54,4 @@ O usuário com privilégio de administrador, para teste completo da aplicação,
 
 # Apresentação
 
-<li><a href="presentation/README.md"> Apresentação da solução</a></li>
+<li><a href="docs/12-Apresentação do Projeto.md"> Apresentação da solução</a></li>
